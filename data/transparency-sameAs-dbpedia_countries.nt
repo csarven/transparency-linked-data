@@ -165,6 +165,7 @@
 <http://transparency.270a.info/classification/country/TO> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Tonga> .
 <http://transparency.270a.info/classification/country/TR> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Turkey> .
 <http://transparency.270a.info/classification/country/TT> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Trinidad_and_Tobago> .
+<http://transparency.270a.info/classification/country/TW> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Taiwan> .
 <http://transparency.270a.info/classification/country/TZ> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Tanzania> .
 <http://transparency.270a.info/classification/country/UA> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Ukraine> .
 <http://transparency.270a.info/classification/country/UG> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Uganda> .

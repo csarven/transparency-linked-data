@@ -165,6 +165,7 @@
 <http://transparency.270a.info/classification/country/TO> <http://www.w3.org/2002/07/owl#sameAs> <http://eurostat.linked-statistics.org/dic/geo#TO> .
 <http://transparency.270a.info/classification/country/TR> <http://www.w3.org/2002/07/owl#sameAs> <http://eurostat.linked-statistics.org/dic/geo#TR> .
 <http://transparency.270a.info/classification/country/TT> <http://www.w3.org/2002/07/owl#sameAs> <http://eurostat.linked-statistics.org/dic/geo#TT> .
+<http://transparency.270a.info/classification/country/TW> <http://www.w3.org/2002/07/owl#sameAs> <http://eurostat.linked-statistics.org/dic/geo#TW> .
 <http://transparency.270a.info/classification/country/TZ> <http://www.w3.org/2002/07/owl#sameAs> <http://eurostat.linked-statistics.org/dic/geo#TZ> .
 <http://transparency.270a.info/classification/country/UA> <http://www.w3.org/2002/07/owl#sameAs> <http://eurostat.linked-statistics.org/dic/geo#UA> .
 <http://transparency.270a.info/classification/country/UG> <http://www.w3.org/2002/07/owl#sameAs> <http://eurostat.linked-statistics.org/dic/geo#UG> .
