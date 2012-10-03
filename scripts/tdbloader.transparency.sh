@@ -14,6 +14,7 @@ tdbAssembler=/usr/lib/fuseki/tdb2.transparency.ttl;
 #java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/meta "$TLDData"country.nt;
 #java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/meta "$TLDData"transparency-sameAs-eurostat_countries.nt;
 #java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/meta "$TLDData"transparency-sameAs-dbpedia_countries.nt;
+#java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/meta "$TLDData"transparency-sameAs-geonames_countries.nt;
 #java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/meta "$TLDData"transparency-sameAs-worldbank_countries.nt;
 #java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/corruption-perceptions-index "$TLDData"CPI2009.ttl;
 #java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/corruption-perceptions-index "$TLDData"CPI2010.ttl;

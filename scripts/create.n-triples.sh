@@ -8,7 +8,7 @@ cat /var/www/lib/transparency-linked-data/data/transparency-sameAs-dbpedia_count
 
 cat /var/www/lib/transparency-linked-data/data/transparency-sameAs-eurostat_countries.nt >> /var/www/lib/transparency-linked-data/data/import/graph.meta.nt ;
 
-#cat /var/www/lib/transparency-linked-data/data/transparency-sameAs-geonames_countries.nt >> /var/www/lib/transparency-linked-data/data/import/graph.meta.nt ;
+cat /var/www/lib/transparency-linked-data/data/transparency-sameAs-geonames_countries.nt >> /var/www/lib/transparency-linked-data/data/import/graph.meta.nt ;
 
 cat /var/www/lib/transparency-linked-data/data/transparency-sameAs-worldbank_countries.nt >> /var/www/lib/transparency-linked-data/data/import/graph.meta.nt ;
 
