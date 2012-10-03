@@ -1,5 +1,7 @@
 #!/bin/bash
 
+rm /var/www/lib/transparency-linked-data/data/import/*.nt
+
 rapper -gq /var/www/lib/transparency-linked-data/data/meta.ttl >> /var/www/lib/transparency-linked-data/data/import/graph.meta.nt ;
 
 cat /var/www/lib/transparency-linked-data/data/country.nt >> /var/www/lib/transparency-linked-data/data/import/graph.meta.nt ;

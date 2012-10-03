@@ -2,8 +2,8 @@
 
 TLDData="/var/www/lib/transparency-linked-data/data/";
 TRANSPARENCY="http://transparency.270a.info/";
-DBtransparency="/usr/lib/fuseki/DB/DB.transparency/";
-Graphs="/home/csarven/Graphs/";
+DBtransparency="/SSD/data/fuseki/DB/DB.transparency/";
+Graphs="/home/sarcap/Graphs/";
 
 echo "Removing $DBtransparency";
 rm -rf "$DBtransparency";
