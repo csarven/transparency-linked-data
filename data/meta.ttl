@@ -69,7 +69,7 @@ transparency-dataset:corruption-perceptions-index
     qb:structure <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/structure> ;
     rdfs:label "Corruption Perceptions Index 2009"@en ;
     dcterms:isPartOf transparency-dataset:corruption-perceptions-index ;
-    dcterms:sources <http://archive.transparency.org/policy_research/surveys_indices/cpi/2009/cpi_2009_table> ;
+    dcterms:source <http://archive.transparency.org/policy_research/surveys_indices/cpi/2009/cpi_2009_table> ;
     foaf:page <http://www.transparency.org/research/cpi/cpi_2009> ;
     .
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2010>
@@ -77,7 +77,7 @@ transparency-dataset:corruption-perceptions-index
     qb:structure  <http://transparency.270a.info/dataset/corruption-perceptions-index/2010/structure> ;
     rdfs:label "Corruption Perceptions Index 2010"@en ;
     dcterms:isPartOf transparency-dataset:corruption-perceptions-index ;
-    dcterms:sources <http://archive.transparency.org/content/download/56231/898923/CPI+2010+results_pls_standardized_data.xls> ;
+    dcterms:source <http://archive.transparency.org/content/download/56231/898923/CPI+2010+results_pls_standardized_data.xls> ;
     foaf:page <http://www.transparency.org/cpi2010> ;
     .
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2011>
