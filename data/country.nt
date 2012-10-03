@@ -239,7 +239,7 @@
 <http://transparency.270a.info/classification/country/CD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://transparency.270a.info/classification/country/CD> <http://www.w3.org/2004/02/skos/core#inScheme> <http://transparency.270a.info/classification/country> .
 <http://transparency.270a.info/classification/country/CD> <http://www.w3.org/2004/02/skos/core#notation> "CD" .
-<http://transparency.270a.info/classification/country/CD> <http://www.w3.org/2004/02/skos/core#prefLabel> "Democratic Republic of the Congo "@en .
+<http://transparency.270a.info/classification/country/CD> <http://www.w3.org/2004/02/skos/core#prefLabel> "Democratic Republic of the Congo"@en .
 <http://transparency.270a.info/classification/country/CD> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://transparency.270a.info/classification/country> .
 <http://transparency.270a.info/classification/country/CF> <http://purl.org/dc/terms/created> "2012-09-24T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://transparency.270a.info/classification/country/CF> <http://purl.org/dc/terms/creator> <http://csarven.ca/#i> .
