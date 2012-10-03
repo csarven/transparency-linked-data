@@ -1,0 +1,563 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix sdmx: <http://purl.org/linked-data/sdmx#> .
+@prefix sdmx-attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix sdmx-code: <http://purl.org/linked-data/sdmx/2009/code#> .
+@prefix sdmx-concept: <http://purl.org/linked-data/sdmx/2009/concept#> .
+@prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix sdmx-metadata: <http://purl.org/linked-data/sdmx/2009/metadata#> .
+
+@prefix property: <http://transparency.270a.info/property/> .
+
+@prefix classification: <http://transparency.270a.info/classification/> .
+@prefix source: <http://transparency.270a.info/classification/source/> .
+@prefix attribute: <http://transparency.270a.info/classification/attribute/> .
+
+@prefix transparency: <http://transparency.270a.info/> .
+@prefix transparency-dataset: <http://transparency.270a.info/dataset/> .
+@prefix transparency-dataset-corruption-perceptions-index: <http://transparency.270a.info/dataset/corruption-perceptions-index/> .
+@prefix transparency-dataset-corruption-perceptions-index-2009: <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/> .
+@prefix transparency-dataset-corruption-perceptions-index-2010: <http://transparency.270a.info/dataset/corruption-perceptions-index/2010/> .
+@prefix transparency-dataset-corruption-perceptions-index-2011: <http://transparency.270a.info/dataset/corruption-perceptions-index/2011/> .
+
+<http://csarven.ca/#i>
+    rdfs:label "Sarven Capadisli"@en ;
+    .
+
+<http://creativecommons.org/publicdomain/zero/1.0/>
+    rdfs:label "CC0 1.0 Universal"@en ;
+    .
+
+
+transparency:dataset
+    rdfs:label "Transparency International datasets"@en ;
+    dcterms:hasPart
+        transparency-dataset:corruption-perceptions-index ,
+        transparency-dataset:sources ;
+    .        
+
+transparency-dataset:corruption-perceptions-index
+    rdfs:label "Transparency International Corruption Perceptions Index dataset"@en ;
+    foaf:page <http://www.transparency.org/research/cpi/> ;
+    dcterms:issued "2012-09-24T00:00:00Z"^^xsd:dateTime ;
+    dcterms:creator <http://csarven.ca/#i> ;
+    dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject
+        <http://purl.org/linked-data/sdmx/2009/subject#1.8> ,
+        <http://purl.org/linked-data/sdmx/2009/subject#1.10> ,
+        <http://purl.org/linked-data/sdmx/2009/subject#2.4.6> ,
+        <http://purl.org/linked-data/sdmx/2009/subject#2.5> ,
+        <http://purl.org/linked-data/sdmx/2009/subject#2.6> ,
+        <http://purl.org/linked-data/sdmx/2009/subject#3.3> ,
+        <http://purl.org/linked-data/sdmx/2009/subject#3.4> ;
+    dcterms:hasPart
+        <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ,
+        <http://transparency.270a.info/dataset/corruption-perceptions-index/2010> ,
+        <http://transparency.270a.info/dataset/corruption-perceptions-index/2011> ;
+    dcterms:isPartOf transparency:dataset;
+    .
+
+
+<http://transparency.270a.info/dataset/corruption-perceptions-index/2009>
+    a qb:DataSet ;
+    qb:structure <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/structure> ;
+    rdfs:label "Corruption Perceptions Index 2009"@en ;
+    dcterms:isPartOf transparency-dataset:corruption-perceptions-index ;
+    dcterms:sources <http://archive.transparency.org/policy_research/surveys_indices/cpi/2009/cpi_2009_table> ;
+    foaf:page <http://www.transparency.org/research/cpi/cpi_2009> ;
+    .
+<http://transparency.270a.info/dataset/corruption-perceptions-index/2010>
+    a qb:DataSet ;
+    qb:structure  <http://transparency.270a.info/dataset/corruption-perceptions-index/2010/structure> ;
+    rdfs:label "Corruption Perceptions Index 2010"@en ;
+    dcterms:isPartOf transparency-dataset:corruption-perceptions-index ;
+    dcterms:sources <http://archive.transparency.org/content/download/56231/898923/CPI+2010+results_pls_standardized_data.xls> ;
+    foaf:page <http://www.transparency.org/cpi2010> ;
+    .
+<http://transparency.270a.info/dataset/corruption-perceptions-index/2011>
+    a qb:DataSet ;
+    qb:structure  <http://transparency.270a.info/dataset/corruption-perceptions-index/2011/structure> ;
+    rdfs:label "Corruption Perceptions Index 2011"@en ;
+    dcterms:isPartOf transparency-dataset:corruption-perceptions-index ;
+    dcterms:source <http://files.transparency.org/content/download/313/1264/file/CPI2011_DataPackage.zip> ;
+    foaf:page <http://www.transparency.org/cpi2010> ;
+    .
+
+<http://transparency.270a.info/dataset/corruption-perceptions-index/2009/structure>
+    a qb:DataStructureDefinition ;
+    qb:component
+        _:qbcomponent_property_source ,
+        _:qbcomponent-sdmx-dimension-refArea ,
+        _:qbcomponent-sdmx-dimension-refPeriod ,
+        _:qbcomponent-property-rank ,
+        _:qbcomponent-property-score ,
+        _:qbcomponent-sdmx-attribute-recording
+    .
+<http://transparency.270a.info/dataset/corruption-perceptions-index/2010/structure>
+    a qb:DataStructureDefinition ;
+    qb:component
+        _:qbcomponent_property_source ,
+        _:qbcomponent-sdmx-dimension-refArea ,
+        _:qbcomponent-sdmx-dimension-refPeriod ,
+        _:qbcomponent-property-rank ,
+        _:qbcomponent-property-score ,
+        _:qbcomponent-sdmx-attribute-recording
+    .
+<http://transparency.270a.info/dataset/corruption-perceptions-index/2011/structure>
+    a qb:DataStructureDefinition ;
+    qb:component
+        _:qbcomponent_property_source ,
+        _:qbcomponent-sdmx-dimension-refArea ,
+        _:qbcomponent-sdmx-dimension-refPeriod ,
+        _:qbcomponent-property-rank ,
+        _:qbcomponent-property-score ,
+        _:qbcomponent-sdmx-attribute-recording
+    .
+_:qbcomponent_property_source
+    a qb:ComponentSpecification ;
+    qb:dimension property:source ;
+    .
+_:qbcomponent-sdmx-dimension-refArea
+    a qb:ComponentSpecification ;
+    qb:dimension sdmx-dimension:refArea ;
+    .
+_:qbcomponent-sdmx-dimension-refPeriod
+    a qb:ComponentSpecification ;
+    qb:dimension sdmx-dimension:refPeriod ;
+    .
+_:qbcomponent-property-rank
+    a qb:ComponentSpecification ;
+    qb:measure property:rank ;
+    .
+_:qbcomponent-property-score
+    a qb:ComponentSpecification ;
+    qb:measure property:score ;
+    .
+_:qbcomponent-sdmx-attribute-recording
+    a qb:ComponentSpecification ;
+    qb:attribute sdmx-attribute:recording ;
+    .
+_:qbcomponent-sdmx-attribute-adjustment
+    a qb:ComponentSpecification ;
+    qb:attribute sdmx-attribute:adjustment ;
+    .
+
+
+
+transparency-dataset:sources
+    a qb:DataSet ;
+    qb:structure <http://transparency.270a.info/dataset/sources/structure> ;
+    rdfs:label "Transparency International Sources dataset for Corruption Perceptions Index"@en ;
+    foaf:page <http://www.transparency.org/research/cpi/> ;
+    dcterms:issued "2012-09-24T00:00:00Z"^^xsd:dateTime ;
+    dcterms:modified "2012-10-03T00:00:00Z"^^xsd:dateTime ;
+    dcterms:creator <http://csarven.ca/#i> ;
+    dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject
+        <http://purl.org/linked-data/sdmx/2009/subject#1.8> ,
+        <http://purl.org/linked-data/sdmx/2009/subject#1.10> ,
+        <http://purl.org/linked-data/sdmx/2009/subject#2.4.6> ,
+        <http://purl.org/linked-data/sdmx/2009/subject#2.5> ,
+        <http://purl.org/linked-data/sdmx/2009/subject#2.6> ,
+        <http://purl.org/linked-data/sdmx/2009/subject#3.3> ,
+        <http://purl.org/linked-data/sdmx/2009/subject#3.4> ;
+    dcterms:isPartOf transparency:dataset;
+    .
+
+<http://transparency.270a.info/dataset/sources/structure>
+    a qb:DataStructureDefinition ;
+    qb:component
+        _:qbcomponent-property-source ,
+        _:qbcomponent-sdmx-dimension-refArea ,
+        _:qbcomponent-sdmx-dimension-refPeriod ,
+        _:qbcomponent-property-score ,
+        _:qbcomponent-sdmx-attribute-adjustment
+    .
+
+
+
+#TODO: Consider adding DSDs for the aggregated Observations
+
+
+#TODO: Map it w/ worldbank's property:percentile / concept:percentile or change this around
+#property:confidence-interval
+#    a rdf:Property ;
+#    rdfs:label "The confidence range - provides a range of possible values of the CPI score. This reflects how a country's score may vary, depending on measurement precision. Nominally, with 5 percent probability the score is above this range and with another 5 percent it is below."@en ;
+#    .
+property:percentile-90-lower
+    a rdf:Property ;
+#    rdfs:subPropertyOf property:confidence-interval ;
+    rdfs:label "90% confidence interval: Lower bound"@en ;
+    rdfs:range xsd:double ;
+    .
+property:percentile-90-upper
+    a rdf:Property ;
+#    rdfs:subPropertyOf property:confidence-interval ;
+    rdfs:label "90% confidence interval: Upper bound"@en ;
+    rdfs:range xsd:double ;
+    .
+
+property:rank
+    a rdf:Property , qb:MeasureProperty ;
+    rdfs:label "Rank"@en ;
+    rdfs:range xsd:int ;
+    .
+property:score
+    a rdf:Property , qb:MeasureProperty ;
+    rdfs:label "Score"@en ;
+    rdfs:range xsd:double ;
+    .
+property:source
+    a rdf:Property , qb:DimensionProperty ;
+    rdfs:label "Source"@en ;
+    .
+property:surveys-used
+    a rdf:Property ;
+    rdfs:label "Surveys Used"@en ;
+    rdfs:comment "The number of surveys/assessments included might vary from one year to another depending on their availability at the time of the development of the index."@en ;
+    rdfs:range xsd:int ;
+    .
+
+
+attribute:matching-percentiles
+    a skos:Concept;
+    skos:prefLabel "Matching Percentiles"@en ;
+    skos:altLabel "Percentile Matching"@en ;
+    skos:inScheme classification:attribute ;
+    skos:topConceptOf classification:attribute ;
+    skos:definition "In the matching percentiles process, values are matched across indicators based on country rankings. The ranks of successive indicators included in the index are used to assign equivalent values to countries based on their position on each additional measure. Variables are iteratively added to produce the index."@en ;
+    rdfs:isDefinedBy <http://www.transparency.lt/new/images/cpi2007_methodology.pdf> ;
+    rdfs:seeAlso <http://www.indsocdev.org/methodology.html> ;
+    .
+
+
+classification:source
+    a skos:ConceptScheme ;
+    skos:prefLabel "Sources"@en ;
+    skos:definition "All sources measure the overall extent of corruption (frequency and/or size of bribes) in the public and political sectors, and all sources provide a ranking of countries, i.e. include an assessment of multiple countries."@en ;
+    dcterms:creator <http://csarven.ca/#i> ;
+    rdfs:isDefinedBy <http://files.transparency.org/content/download/313/1264/file/CPI2011_DataPackage.zip> ;
+    skos:hasTopConcept
+        source:african-development-bank-country-policy-and-institutional-assessment-governance-ratings ,
+        source:asian-development-bank-country-performance-assessment ,
+        source:bertelsmann-foundation-sustainable-governance-indicators ,
+        source:bertelsmann-foundation-transformation-index ,
+        source:economist-intelligence-unit-country-risk-assessment ,
+        source:freedom-house-nations-in-transit ,
+        source:global-insight-country-risk-ratings ,
+        source:international-institute-for-management-development-world-competitiveness-yearbook ,
+        source:political-and-economic-risk-consultancy-asian-intelligence ,
+        source:political-risk-services-international-country-risk-guide ,
+        source:transparency-international-bribe-payers-survey ,
+        source:world-bank-country-performance-and-institutional-assessment ,
+        source:world-economic-forum-executive-opinion-survey ,
+        source:world-justice-project-rule-of-law-index ;
+    .
+
+source:african-development-bank-country-policy-and-institutional-assessment-governance-ratings
+    a skos:Concept ;
+    skos:prefLabel "African Development Bank Governance Ratings"@en ;
+    skos:altLabel "African Development Bank Country Policy and Institutional Assessment"@en ;
+    skos:inScheme classification:source ;
+    skos:topConceptOf classification:source ;
+    skos:narrower
+        <http://transparency.270a.info/classification/source/african-development-bank-country-policy-and-institutional-assessment-governance-ratings/2008> ,
+        <http://transparency.270a.info/classification/source/african-development-bank-country-policy-and-institutional-assessment-governance-ratings/2009> ,
+        <http://transparency.270a.info/classification/source/african-development-bank-country-policy-and-institutional-assessment-governance-ratings/2010> ;
+    .
+<http://transparency.270a.info/classification/source/african-development-bank-country-policy-and-institutional-assessment-governance-ratings/2008>
+    a skos:Concept ;
+    skos:broader source:african-development-bank-country-policy-and-institutional-assessment-governance-ratings ;
+    .
+<http://transparency.270a.info/classification/source/african-development-bank-country-policy-and-institutional-assessment-governance-ratings/2009>
+    a skos:Concept ;
+    skos:broader source:african-development-bank-country-policy-and-institutional-assessment-governance-ratings ;
+    .
+<http://transparency.270a.info/classification/source/african-development-bank-country-policy-and-institutional-assessment-governance-ratings/2010>
+    a skos:Concept ;
+    skos:broader source:african-development-bank-country-policy-and-institutional-assessment-governance-ratings ;
+    .
+
+
+source:asian-development-bank-country-performance-assessment
+    a skos:Concept ;
+    skos:prefLabel "Asian Development Bank Country Performance Assessment"@en ;
+    skos:inScheme classification:source ;
+    skos:topConceptOf classification:source ;
+    skos:narrower
+        <http://transparency.270a.info/classification/source/asian-development-bank-country-performance-assessment/2008> ,
+        <http://transparency.270a.info/classification/source/asian-development-bank-country-performance-assessment/2009> ,
+        <http://transparency.270a.info/classification/source/asian-development-bank-country-performance-assessment/2010> ;
+    .
+<http://transparency.270a.info/classification/source/asian-development-bank-country-performance-assessment/2008>
+    a skos:Concept ;
+    skos:broader source:asian-development-bank-country-performance-assessment ;
+    .
+<http://transparency.270a.info/classification/source/asian-development-bank-country-performance-assessment/2009>
+    a skos:Concept ;
+    skos:broader source:asian-development-bank-country-performance-assessment ;
+    .
+<http://transparency.270a.info/classification/source/asian-development-bank-country-performance-assessment/2010>
+    a skos:Concept ;
+    skos:broader source:asian-development-bank-country-performance-assessment ;
+    .
+
+
+source:bertelsmann-foundation-sustainable-governance-indicators
+    a skos:Concept ;
+    skos:prefLabel "Bertelsmann Foundation Sustainable Governance Indicators"@en ;
+    skos:inScheme classification:source ;
+    skos:topConceptOf classification:source ;
+    skos:narrower <http://transparency.270a.info/classification/source/bertelsmann-foundation-sustainable-governance-indicators/2011> ;
+    .
+<http://transparency.270a.info/classification/source/bertelsmann-foundation-sustainable-governance-indicators/2011>
+    a skos:Concept ;
+    skos:broader source:bertelsmann-foundation-sustainable-governance-indicators ;
+    .
+
+
+source:bertelsmann-foundation-transformation-index
+    a skos:Concept ;
+    skos:prefLabel "Bertelsmann Foundation Transformation Index"@en ;
+    skos:inScheme classification:source ;
+    skos:topConceptOf classification:source ;
+    skos:narrower
+        <http://transparency.270a.info/classification/source/bertelsmann-foundation-transformation-index/2009> ,
+        <http://transparency.270a.info/classification/source/bertelsmann-foundation-transformation-index/2012> ;
+    .
+<http://transparency.270a.info/classification/source/bertelsmann-foundation-transformation-index/2009>
+    a skos:Concept ;
+    skos:broader source:bertelsmann-foundation-transformation-index ;
+    .
+<http://transparency.270a.info/classification/source/bertelsmann-foundation-transformation-index/2012>
+    a skos:Concept ;
+    skos:broader source:bertelsmann-foundation-transformation-index ;
+    .
+
+source:economist-intelligence-unit-country-risk-assessment
+    a skos:Concept ;
+    skos:prefLabel "Economist Intelligence Unit Country Risk Assessment"@en ;
+    skos:inScheme classification:source ;
+    skos:topConceptOf classification:source ;
+    skos:narrower
+        <http://transparency.270a.info/classification/source/economist-intelligence-unit-country-risk-assessment/2009> ,
+        <http://transparency.270a.info/classification/source/economist-intelligence-unit-country-risk-assessment/2010> ,
+        <http://transparency.270a.info/classification/source/economist-intelligence-unit-country-risk-assessment/2011> ;
+    .
+<http://transparency.270a.info/classification/source/economist-intelligence-unit-country-risk-assessment/2009>
+    a skos:Concept ;
+    skos:broader source:economist-intelligence-unit-country-risk-assessment ;
+    .
+<http://transparency.270a.info/classification/source/economist-intelligence-unit-country-risk-assessment/2010>
+    a skos:Concept ;
+    skos:broader source:economist-intelligence-unit-country-risk-assessment ;
+    .
+<http://transparency.270a.info/classification/source/economist-intelligence-unit-country-risk-assessment/2011>
+    a skos:Concept ;
+    skos:broader source:economist-intelligence-unit-country-risk-assessment ;
+    .
+
+
+source:freedom-house-nations-in-transit
+    a skos:Concept ;
+    skos:prefLabel "Freedom House Nations In Transit"@en ;
+    skos:inScheme classification:source ;
+    skos:topConceptOf classification:source ;
+    skos:narrower
+        <http://transparency.270a.info/classification/source/freedom-house-nations-in-transit/2009> ,
+        <http://transparency.270a.info/classification/source/freedom-house-nations-in-transit/2010> ,
+        <http://transparency.270a.info/classification/source/freedom-house-nations-in-transit/2011> ;
+    .
+<http://transparency.270a.info/classification/source/freedom-house-nations-in-transit/2009>
+    a skos:Concept ;
+    skos:broader source:freedom-house-nations-in-transit ;
+    .
+<http://transparency.270a.info/classification/source/freedom-house-nations-in-transit/2010>
+    a skos:Concept ;
+    skos:broader source:freedom-house-nations-in-transit ;
+    .
+<http://transparency.270a.info/classification/source/freedom-house-nations-in-transit/2011>
+    a skos:Concept ;
+    skos:broader source:freedom-house-nations-in-transit ;
+    .
+
+
+source:global-insight-country-risk-ratings
+    a skos:Concept ;
+    skos:prefLabel "Global Insight Country Risk Ratings"@en ;
+    skos:inScheme classification:source ;
+    skos:topConceptOf classification:source ;
+    skos:narrower
+        <http://transparency.270a.info/classification/source/global-insight-country-risk-ratings/2009> ,
+        <http://transparency.270a.info/classification/source/global-insight-country-risk-ratings/2010> ,
+        <http://transparency.270a.info/classification/source/global-insight-country-risk-ratings/2011> ;
+    .
+<http://transparency.270a.info/classification/source/global-insight-country-risk-ratings/2009>
+    a skos:Concept ;
+    skos:broader source:global-insight-country-risk-ratings ;
+    .
+<http://transparency.270a.info/classification/source/global-insight-country-risk-ratings/2010>
+    a skos:Concept ;
+    skos:broader source:global-insight-country-risk-ratings ;
+    .
+<http://transparency.270a.info/classification/source/global-insight-country-risk-ratings/2011>
+    a skos:Concept ;
+    skos:broader source:global-insight-country-risk-ratings ;
+    .
+
+
+source:international-institute-for-management-development-world-competitiveness-yearbook
+    a skos:Concept ;
+    skos:prefLabel "IMD World Competitiveness Yearbook"@en ;
+    skos:altLabel "International Institute for Management Development World Competitiveness Yearbook"@en ;
+    skos:inScheme classification:source ;
+    skos:topConceptOf classification:source ;
+    skos:narrower
+        <http://transparency.270a.info/classification/source/international-institute-for-management-development-world-competitiveness-yearbook/2008> ,
+        <http://transparency.270a.info/classification/source/international-institute-for-management-development-world-competitiveness-yearbook/2009> ,
+        <http://transparency.270a.info/classification/source/international-institute-for-management-development-world-competitiveness-yearbook/2010> ,
+        <http://transparency.270a.info/classification/source/international-institute-for-management-development-world-competitiveness-yearbook/2011> ;
+    .
+<http://transparency.270a.info/classification/source/international-institute-for-management-development-world-competitiveness-yearbook/2008>
+    a skos:Concept ;
+    skos:broader source:international-institute-for-management-development-world-competitiveness-yearbook ;
+    .
+<http://transparency.270a.info/classification/source/international-institute-for-management-development-world-competitiveness-yearbook/2009>
+    a skos:Concept ;
+    skos:broader source:international-institute-for-management-development-world-competitiveness-yearbook ;
+    .
+<http://transparency.270a.info/classification/source/international-institute-for-management-development-world-competitiveness-yearbook/2010>
+    a skos:Concept ;
+    skos:broader source:international-institute-for-management-development-world-competitiveness-yearbook ;
+    .
+<http://transparency.270a.info/classification/source/international-institute-for-management-development-world-competitiveness-yearbook/2011>
+    a skos:Concept ;
+    skos:broader source:international-institute-for-management-development-world-competitiveness-yearbook ;
+    .
+
+
+source:political-and-economic-risk-consultancy-asian-intelligence
+    a skos:Concept ;
+    skos:prefLabel "Political and Economic Risk Consultancy Asian Intelligence"@en ;
+    skos:inScheme classification:source ;
+    skos:topConceptOf classification:source ;
+    skos:narrower
+        <http://transparency.270a.info/classification/source/political-and-economic-risk-consultancy-asian-intelligence/2008> ,
+        <http://transparency.270a.info/classification/source/political-and-economic-risk-consultancy-asian-intelligence/2009> ,
+        <http://transparency.270a.info/classification/source/political-and-economic-risk-consultancy-asian-intelligence/2010> ,
+        <http://transparency.270a.info/classification/source/political-and-economic-risk-consultancy-asian-intelligence/2011> ;
+    .
+<http://transparency.270a.info/classification/source/political-and-economic-risk-consultancy-asian-intelligence/2008>
+    a skos:Concept ;
+    skos:broader source:political-and-economic-risk-consultancy-asian-intelligence ;
+    .
+<http://transparency.270a.info/classification/source/political-and-economic-risk-consultancy-asian-intelligence/2009>
+    a skos:Concept ;
+    skos:broader source:political-and-economic-risk-consultancy-asian-intelligence ;
+    .
+<http://transparency.270a.info/classification/source/political-and-economic-risk-consultancy-asian-intelligence/2010>
+    a skos:Concept ;
+    skos:broader source:political-and-economic-risk-consultancy-asian-intelligence ;
+    .
+<http://transparency.270a.info/classification/source/political-and-economic-risk-consultancy-asian-intelligence/2011>
+    a skos:Concept ;
+    skos:broader source:political-and-economic-risk-consultancy-asian-intelligence ;
+    .
+
+
+source:political-risk-services-international-country-risk-guide
+    a skos:Concept ;
+    skos:prefLabel "Political Risk Services International Country Risk Guide"@en ;
+    skos:inScheme classification:source ;
+    skos:topConceptOf classification:source ;
+    skos:narrower <http://transparency.270a.info/classification/source/political-risk-services-international-country-risk-guide/2011> ;
+    .
+<http://transparency.270a.info/classification/source/political-risk-services-international-country-risk-guide/20101>
+    a skos:Concept ;
+    skos:broader source:political-risk-services-international-country-risk-guide ;
+    .
+
+
+source:transparency-international-bribe-payers-survey
+    a skos:Concept ;
+    skos:prefLabel "Transparency International Bribe Payers Survey"@en ;
+    skos:inScheme classification:source ;
+    skos:topConceptOf classification:source ;
+    skos:narrower <http://transparency.270a.info/classification/source/transparency-international-bribe-payers-survey/2011> ;
+    .
+<http://transparency.270a.info/classification/source/transparency-international-bribe-payers-survey/2011>
+    a skos:Concept ;
+    skos:broader source:transparency-international-bribe-payers-survey ;
+    .
+
+
+source:world-bank-country-performance-and-institutional-assessment
+    a skos:Concept ;
+    skos:prefLabel "World Bank Country Performance and Institutional Assessment"@en ;
+    skos:inScheme classification:source ;
+    skos:topConceptOf classification:source ;
+    skos:narrower
+        <http://transparency.270a.info/classification/source/world-bank-country-performance-and-institutional-assessment/2008> ,
+        <http://transparency.270a.info/classification/source/world-bank-country-performance-and-institutional-assessment/2009> ,
+        <http://transparency.270a.info/classification/source/world-bank-country-performance-and-institutional-assessment/2010> ;
+    .
+<http://transparency.270a.info/classification/source/world-bank-country-performance-and-institutional-assessment/2008>
+    a skos:Concept ;
+    skos:broader source:world-bank-country-performance-and-institutional-assessment ;
+    .
+<http://transparency.270a.info/classification/source/world-bank-country-performance-and-institutional-assessment/2009>
+    a skos:Concept ;
+    skos:broader source:world-bank-country-performance-and-institutional-assessment ;
+    .
+<http://transparency.270a.info/classification/source/world-bank-country-performance-and-institutional-assessment/2010>
+    a skos:Concept ;
+    skos:broader source:world-bank-country-performance-and-institutional-assessment ;
+    .
+
+
+source:world-economic-forum-executive-opinion-survey
+    a skos:Concept ;
+    skos:prefLabel "World Economic Forum Executive Opinion Survey"@en ;
+    skos:inScheme classification:source ;
+    skos:topConceptOf classification:source ;
+    skos:narrower
+        <http://transparency.270a.info/classification/source/world-economic-forum-executive-opinion-survey/2008> ,
+        <http://transparency.270a.info/classification/source/world-economic-forum-executive-opinion-survey/2009> ,
+        <http://transparency.270a.info/classification/source/world-economic-forum-executive-opinion-survey/2010> ,
+        <http://transparency.270a.info/classification/source/world-economic-forum-executive-opinion-survey/2011> ;
+    .
+<http://transparency.270a.info/classification/source/world-economic-forum-executive-opinion-survey/2008>
+    a skos:Concept ;
+    skos:broader source:world-economic-forum-executive-opinion-survey ;
+    .
+<http://transparency.270a.info/classification/source/world-economic-forum-executive-opinion-survey/2009>
+    a skos:Concept ;
+    skos:broader source:world-economic-forum-executive-opinion-survey ;
+    .
+<http://transparency.270a.info/classification/source/world-economic-forum-executive-opinion-survey/2010>
+    a skos:Concept ;
+    skos:broader source:world-economic-forum-executive-opinion-survey ;
+    .
+<http://transparency.270a.info/classification/source/world-economic-forum-executive-opinion-survey/2011>
+    a skos:Concept ;
+    skos:broader source:world-economic-forum-executive-opinion-survey ;
+    .
+
+
+source:world-justice-project-rule-of-law-index
+    a skos:Concept ;
+    skos:prefLabel "World Justice Project Rule of Law Index"@en ;
+    skos:inScheme classification:source ;
+    skos:topConceptOf classification:source ;
+    skos:narrower <http://transparency.270a.info/classification/source/world-justice-project-rule-of-law-index/2011> ;
+    .
+<http://transparency.270a.info/classification/source/world-justice-project-rule-of-law-index/2011>
+    a skos:Concept ;
+    skos:broader source:world-justice-project-rule-of-law-index ;
+    .
