@@ -245,7 +245,7 @@ classification:indicator
 
 indicator:corruption-perceptions-index
     a skos:Concept ;
-    skos:prefLabel ""@en ;
+    skos:prefLabel "Corruption Perceptions Index"@en ;
     skos:topConceptOf classification:indicator ;
     skos:inScheme classification:indicator ;
     skos:definition "The CPI ranks countries/territories based on how corrupt their public sector is perceived to be. It is a composite index, a combination of polls, drawing on corruption-related data collected by a variety of reputable institutions. The CPI reflects the views of observers from around the world, including experts living and working in the countries/territories evaluated."@en ;
