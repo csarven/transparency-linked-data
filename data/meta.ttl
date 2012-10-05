@@ -194,13 +194,13 @@ property:percentile-90-lower
     a rdf:Property ;
 #    rdfs:subPropertyOf property:confidence-interval ;
     rdfs:label "90% confidence interval: Lower bound"@en ;
-    rdfs:range xsd:double ;
+    rdfs:range xsd:decimal ;
     .
 property:percentile-90-upper
     a rdf:Property ;
 #    rdfs:subPropertyOf property:confidence-interval ;
     rdfs:label "90% confidence interval: Upper bound"@en ;
-    rdfs:range xsd:double ;
+    rdfs:range xsd:decimal ;
     .
 
 property:rank
@@ -211,7 +211,7 @@ property:rank
 property:score
     a rdf:Property , qb:MeasureProperty ;
     rdfs:label "Score"@en ;
-    rdfs:range xsd:double ;
+    rdfs:range xsd:decimal ;
     .
 property:source
     a rdf:Property , qb:DimensionProperty ;
@@ -224,9 +224,14 @@ property:surveys-used
     rdfs:range xsd:int ;
     .
 
+classification:attribute
+    a skos:ConceptScheme ;
+    skos:prefLabel "Attribute"@en ;
+    skos:hasTopConcept attribute:matching-percentiles ;
+    .
 
 attribute:matching-percentiles
-    a skos:Concept;
+    a skos:Concept ;
     skos:prefLabel "Matching Percentiles"@en ;
     skos:altLabel "Percentile Matching"@en ;
     skos:inScheme classification:attribute ;
