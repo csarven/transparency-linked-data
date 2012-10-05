@@ -92,7 +92,8 @@ transparency-dataset:corruption-perceptions-index
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/structure>
     a qb:DataStructureDefinition ;
     qb:component
-        _:qbcomponent_property_source ,
+        _:qbcomponent-property-indicator ,
+        _:qbcomponent-property-source ,
         _:qbcomponent-sdmx-dimension-refArea ,
         _:qbcomponent-sdmx-dimension-refPeriod ,
         _:qbcomponent-property-rank ,
@@ -102,7 +103,8 @@ transparency-dataset:corruption-perceptions-index
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2010/structure>
     a qb:DataStructureDefinition ;
     qb:component
-        _:qbcomponent_property_source ,
+        _:qbcomponent-property-indicator ,
+        _:qbcomponent-property-source ,
         _:qbcomponent-sdmx-dimension-refArea ,
         _:qbcomponent-sdmx-dimension-refPeriod ,
         _:qbcomponent-property-rank ,
@@ -112,14 +114,19 @@ transparency-dataset:corruption-perceptions-index
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2011/structure>
     a qb:DataStructureDefinition ;
     qb:component
-        _:qbcomponent_property_source ,
+        _:qbcomponent-property-indicator ,
+        _:qbcomponent-property-source ,
         _:qbcomponent-sdmx-dimension-refArea ,
         _:qbcomponent-sdmx-dimension-refPeriod ,
         _:qbcomponent-property-rank ,
         _:qbcomponent-property-score ,
         _:qbcomponent-sdmx-attribute-recording
     .
-_:qbcomponent_property_source
+_:qbcomponent-property-indicator
+    a qb:ComponentSpecification ;
+    qb:dimension property:indicator ;
+    .
+_:qbcomponent-property-source
     a qb:ComponentSpecification ;
     qb:dimension property:source ;
     .
