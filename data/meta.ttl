@@ -224,6 +224,25 @@ property:surveys-used
     rdfs:range xsd:int ;
     .
 
+property:indicator
+    a rdf:Property ; qb:DimensionProperty ;
+    rdfs:label "Indicator"@en ;
+    .
+
+classification:indicator
+    a skos:ConceptScheme ;
+    skos:prefLabel "Indicator Concept Scheme"@en ;
+    skos:hasTopConcept indicator:corruption-perceptions-index ;
+    .
+
+indicator:corruption-perceptions-index
+    a skos:Concept ;
+    skos:prefLabel ""@en ;
+    skos:topConceptOf classification:indicator ;
+    skos:inScheme classification:indicator ;
+    skos:definition "The CPI ranks countries/territories based on how corrupt their public sector is perceived to be. It is a composite index, a combination of polls, drawing on corruption-related data collected by a variety of reputable institutions. The CPI reflects the views of observers from around the world, including experts living and working in the countries/territories evaluated."@en ;
+    .
+
 classification:attribute
     a skos:ConceptScheme ;
     skos:prefLabel "Attribute"@en ;

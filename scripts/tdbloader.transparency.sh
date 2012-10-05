@@ -23,6 +23,7 @@ tdbAssembler=/usr/lib/fuseki/tdb2.transparency.ttl;
 java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/meta "$TLDData"import/graph.meta.nt;
 java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/corruption-perceptions-index "$TLDData"import/graph.transparency-international-corruption-perceptions-index.nt;
 
+#java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/void /var/www/transparency.270a.info/void.ttl;
 
 java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/meta "$Graphs"skos.rdf
 java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/meta "$Graphs"sdmx.ttl

@@ -16,7 +16,8 @@
 
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/NZ> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/NZ> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "9.4"^^xsd:decimal ;
@@ -88,7 +89,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/NZ> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/NZ> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/DK> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/DK> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "9.3"^^xsd:decimal ;
@@ -160,7 +162,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/DK> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/DK> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/SG> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/SG> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "9.2"^^xsd:decimal ;
@@ -262,7 +265,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/SG> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/SG> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/SE> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/SE> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "9.2"^^xsd:decimal ;
@@ -334,7 +338,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/SE> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/SE> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/CH> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/CH> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "9"^^xsd:decimal ;
@@ -406,7 +411,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/CH> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/CH> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/FI> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/FI> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "8.9"^^xsd:decimal ;
@@ -478,7 +484,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/FI> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/FI> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/NL> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/NL> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "8.9"^^xsd:decimal ;
@@ -550,7 +557,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/NL> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/NL> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/AU> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/AU> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "8.7"^^xsd:decimal ;
@@ -642,7 +650,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/AU> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/AU> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/CA> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/CA> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "8.7"^^xsd:decimal ;
@@ -714,7 +723,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/CA> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/CA> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/IS> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/IS> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "8.7"^^xsd:decimal ;
@@ -766,7 +776,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/IS> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/IS> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/NO> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/NO> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "8.6"^^xsd:decimal ;
@@ -838,7 +849,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/NO> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/NO> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/HK> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/HK> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "8.2"^^xsd:decimal ;
@@ -930,7 +942,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/HK> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/HK> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/LU> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/LU> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "8.2"^^xsd:decimal ;
@@ -1002,7 +1015,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/LU> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/LU> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/DE> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/DE> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "8"^^xsd:decimal ;
@@ -1074,7 +1088,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/DE> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/DE> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/IE> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/IE> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "8"^^xsd:decimal ;
@@ -1146,7 +1161,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/IE> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/IE> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/AT> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/AT> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "7.9"^^xsd:decimal ;
@@ -1218,7 +1234,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/AT> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/AT> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/JP> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/JP> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "7.7"^^xsd:decimal ;
@@ -1310,7 +1327,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/JP> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/JP> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/GB> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/GB> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "7.7"^^xsd:decimal ;
@@ -1382,7 +1400,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/GB> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/GB> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/US> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/US> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "7.5"^^xsd:decimal ;
@@ -1474,7 +1493,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/US> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/US> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/BB> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/BB> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "7.4"^^xsd:decimal ;
@@ -1526,7 +1546,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/BB> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/BB> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/BE> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/BE> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "7.1"^^xsd:decimal ;
@@ -1598,7 +1619,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/BE> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/BE> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/QA> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/QA> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "7"^^xsd:decimal ;
@@ -1670,7 +1692,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/QA> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/QA> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/LC> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/LC> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "7"^^xsd:decimal ;
@@ -1712,7 +1735,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/LC> dcterms:source <http://transparency.270a.info/dataset/sources/world-bank-country-performance-and-institutional-assessment/2008/LC> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/FR> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/FR> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "6.9"^^xsd:decimal ;
@@ -1784,7 +1808,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/FR> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/FR> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/CL> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/CL> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "6.7"^^xsd:decimal ;
@@ -1866,7 +1891,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/CL> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/CL> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/UY> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/UY> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "6.7"^^xsd:decimal ;
@@ -1928,7 +1954,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/UY> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/UY> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/CY> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/CY> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "6.6"^^xsd:decimal ;
@@ -1980,7 +2007,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/CY> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/CY> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/EE> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/EE> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "6.6"^^xsd:decimal ;
@@ -2072,7 +2100,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/EE> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/EE> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/SI> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/SI> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "6.6"^^xsd:decimal ;
@@ -2164,7 +2193,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/SI> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/SI> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/AE> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/AE> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "6.5"^^xsd:decimal ;
@@ -2226,7 +2256,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/AE> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/AE> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/VC> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/VC> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "6.4"^^xsd:decimal ;
@@ -2268,7 +2299,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/VC> dcterms:source <http://transparency.270a.info/dataset/sources/world-bank-country-performance-and-institutional-assessment/2008/VC> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/IL> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/IL> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "6.1"^^xsd:decimal ;
@@ -2340,7 +2372,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/IL> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/IL> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/ES> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/ES> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "6.1"^^xsd:decimal ;
@@ -2412,7 +2445,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/ES> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/ES> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/DM> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/DM> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "5.9"^^xsd:decimal ;
@@ -2454,7 +2488,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/DM> dcterms:source <http://transparency.270a.info/dataset/sources/world-bank-country-performance-and-institutional-assessment/2008/DM> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/PT> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/PT> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "5.8"^^xsd:decimal ;
@@ -2526,7 +2561,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/PT> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/PT> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/PR> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/PR> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "5.8"^^xsd:decimal ;
@@ -2578,7 +2614,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/PR> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/PR> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/BW> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/BW> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "5.6"^^xsd:decimal ;
@@ -2650,7 +2687,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/BW> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/BW> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/TW> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/TW> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "5.6"^^xsd:decimal ;
@@ -2752,7 +2790,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/TW> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/TW> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/BN> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/BN> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "5.5"^^xsd:decimal ;
@@ -2804,7 +2843,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/BN> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/BN> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/OM> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/OM> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "5.5"^^xsd:decimal ;
@@ -2866,7 +2906,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/OM> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/OM> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/KR> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/KR> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "5.5"^^xsd:decimal ;
@@ -2968,7 +3009,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/KR> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/KR> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/MU> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/MU> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "5.4"^^xsd:decimal ;
@@ -3040,7 +3082,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/MU> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/MU> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/CR> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/CR> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "5.3"^^xsd:decimal ;
@@ -3102,7 +3145,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/CR> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/CR> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/MO> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/MO> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "5.3"^^xsd:decimal ;
@@ -3144,7 +3188,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/MO> dcterms:source <http://transparency.270a.info/dataset/sources/political-and-economic-risk-consultancy-asian-intelligence/2009/MO> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/MT> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/MT> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "5.2"^^xsd:decimal ;
@@ -3196,7 +3241,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/MT> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/MT> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/BH> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/BH> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "5.1"^^xsd:decimal ;
@@ -3258,7 +3304,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/BH> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/BH> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/CV> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/CV> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "5.1"^^xsd:decimal ;
@@ -3300,7 +3347,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/CV> dcterms:source <http://transparency.270a.info/dataset/sources/world-bank-country-performance-and-institutional-assessment/2008/CV> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/HU> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/HU> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "5.1"^^xsd:decimal ;
@@ -3392,7 +3440,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/HU> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/HU> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/BT> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/BT> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "5"^^xsd:decimal ;
@@ -3444,7 +3493,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/BT> dcterms:source <http://transparency.270a.info/dataset/sources/world-bank-country-performance-and-institutional-assessment/2008/BT> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/JO> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/JO> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "5"^^xsd:decimal ;
@@ -3526,7 +3576,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/JO> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/JO> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/PL> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/PL> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "5"^^xsd:decimal ;
@@ -3618,7 +3669,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/PL> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/PL> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/CZ> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/CZ> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "4.9"^^xsd:decimal ;
@@ -3710,7 +3762,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/CZ> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/CZ> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/LT> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/LT> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "4.9"^^xsd:decimal ;
@@ -3802,7 +3855,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/LT> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/LT> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/SC> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/SC> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "4.8"^^xsd:decimal ;
@@ -3844,7 +3898,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/SC> dcterms:source <http://transparency.270a.info/dataset/sources/global-insight-country-risk-ratings/2009/SC> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/ZA> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/ZA> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "4.7"^^xsd:decimal ;
@@ -3936,7 +3991,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/ZA> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/ZA> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/LV> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/LV> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "4.5"^^xsd:decimal ;
@@ -4008,7 +4064,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/LV> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/LV> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/MY> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/MY> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "4.5"^^xsd:decimal ;
@@ -4110,7 +4167,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/MY> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/MY> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/NA> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/NA> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "4.5"^^xsd:decimal ;
@@ -4182,7 +4240,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/NA> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/NA> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/WS> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/WS> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "4.5"^^xsd:decimal ;
@@ -4224,7 +4283,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/WS> dcterms:source <http://transparency.270a.info/dataset/sources/world-bank-country-performance-and-institutional-assessment/2008/WS> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/SK> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/SK> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "4.5"^^xsd:decimal ;
@@ -4316,7 +4376,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/SK> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/SK> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/CU> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/CU> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "4.4"^^xsd:decimal ;
@@ -4358,7 +4419,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/CU> dcterms:source <http://transparency.270a.info/dataset/sources/global-insight-country-risk-ratings/2009/CU> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/TR> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/TR> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "4.4"^^xsd:decimal ;
@@ -4440,7 +4502,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/TR> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/TR> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/IT> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/IT> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "4.3"^^xsd:decimal ;
@@ -4512,7 +4575,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/IT> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/IT> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/SA> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/SA> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "4.3"^^xsd:decimal ;
@@ -4574,7 +4638,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/SA> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/SA> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/TN> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/TN> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "4.2"^^xsd:decimal ;
@@ -4646,7 +4711,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/TN> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/TN> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/HR> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/HR> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "4.1"^^xsd:decimal ;
@@ -4738,7 +4804,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/HR> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/HR> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/GE> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/GE> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "4.1"^^xsd:decimal ;
@@ -4820,7 +4887,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/GE> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/GE> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/KW> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/KW> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "4.1"^^xsd:decimal ;
@@ -4882,7 +4950,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/KW> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/KW> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/GH> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/GH> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3.9"^^xsd:decimal ;
@@ -4964,7 +5033,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/GH> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/GH> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/ME> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/ME> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3.9"^^xsd:decimal ;
@@ -5026,7 +5096,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/ME> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/ME> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/BG> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/BG> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3.8"^^xsd:decimal ;
@@ -5118,7 +5189,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/BG> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/BG> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/MK> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/MK> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3.8"^^xsd:decimal ;
@@ -5190,7 +5262,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/MK> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/MK> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/GR> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/GR> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3.8"^^xsd:decimal ;
@@ -5262,7 +5335,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/GR> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/GR> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/RO> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/RO> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3.8"^^xsd:decimal ;
@@ -5354,7 +5428,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/RO> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/RO> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/BR> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/BR> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3.7"^^xsd:decimal ;
@@ -5436,7 +5511,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/BR> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/BR> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/CO> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/CO> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3.7"^^xsd:decimal ;
@@ -5518,7 +5594,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/CO> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/CO> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/PE> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/PE> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3.7"^^xsd:decimal ;
@@ -5600,7 +5677,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/PE> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/PE> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/SR> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/SR> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3.7"^^xsd:decimal ;
@@ -5642,7 +5720,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/SR> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/SR> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/BF> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/BF> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3.6"^^xsd:decimal ;
@@ -5724,7 +5803,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/BF> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/BF> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/CN> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/CN> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3.6"^^xsd:decimal ;
@@ -5826,7 +5906,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/CN> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/CN> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/SZ> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/SZ> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3.6"^^xsd:decimal ;
@@ -5868,7 +5949,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/SZ> dcterms:source <http://transparency.270a.info/dataset/sources/global-insight-country-risk-ratings/2009/SZ> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/TT> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/TT> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3.6"^^xsd:decimal ;
@@ -5920,7 +6002,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/TT> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/TT> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/RS> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/RS> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3.5"^^xsd:decimal ;
@@ -5992,7 +6075,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/RS> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/RS> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/SV> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/SV> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3.4"^^xsd:decimal ;
@@ -6054,7 +6138,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/SV> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/SV> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/GT> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/GT> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3.4"^^xsd:decimal ;
@@ -6116,7 +6201,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/GT> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/GT> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/IN> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/IN> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3.4"^^xsd:decimal ;
@@ -6228,7 +6314,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/IN> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/IN> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/PA> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/PA> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3.4"^^xsd:decimal ;
@@ -6290,7 +6377,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/PA> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/PA> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/TH> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/TH> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3.4"^^xsd:decimal ;
@@ -6392,7 +6480,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/TH> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/TH> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/LS> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/LS> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3.3"^^xsd:decimal ;
@@ -6464,7 +6553,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/LS> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/LS> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/MW> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/MW> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3.3"^^xsd:decimal ;
@@ -6546,7 +6636,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/MW> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/MW> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/MX> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/MX> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3.3"^^xsd:decimal ;
@@ -6628,7 +6719,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/MX> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/MX> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/MD> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/MD> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3.3"^^xsd:decimal ;
@@ -6700,7 +6792,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/MD> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2008/MD> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/MA> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/MA> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3.3"^^xsd:decimal ;
@@ -6772,7 +6865,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/MA> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/MA> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/RW> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/RW> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3.3"^^xsd:decimal ;
@@ -6824,7 +6918,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/RW> dcterms:source <http://transparency.270a.info/dataset/sources/world-bank-country-performance-and-institutional-assessment/2008/RW> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/AL> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/AL> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3.2"^^xsd:decimal ;
@@ -6896,7 +6991,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/AL> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/AL> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/VU> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/VU> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3.2"^^xsd:decimal ;
@@ -6938,7 +7034,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/VU> dcterms:source <http://transparency.270a.info/dataset/sources/world-bank-country-performance-and-institutional-assessment/2008/VU> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/LR> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/LR> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3.1"^^xsd:decimal ;
@@ -6980,7 +7077,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/LR> dcterms:source <http://transparency.270a.info/dataset/sources/global-insight-country-risk-ratings/2009/LR> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/LK> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/LK> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3.1"^^xsd:decimal ;
@@ -7062,7 +7160,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/LK> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/LK> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/BA> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/BA> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3"^^xsd:decimal ;
@@ -7144,7 +7243,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/BA> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/BA> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/DO> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/DO> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3"^^xsd:decimal ;
@@ -7206,7 +7306,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/DO> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/DO> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/JM> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/JM> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3"^^xsd:decimal ;
@@ -7268,7 +7369,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/JM> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/JM> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/MG> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/MG> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3"^^xsd:decimal ;
@@ -7350,7 +7452,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/MG> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/MG> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/SN> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/SN> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3"^^xsd:decimal ;
@@ -7432,7 +7535,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/SN> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/SN> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/TO> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/TO> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3"^^xsd:decimal ;
@@ -7474,7 +7578,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/TO> dcterms:source <http://transparency.270a.info/dataset/sources/world-bank-country-performance-and-institutional-assessment/2008/TO> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/ZM> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/ZM> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "3"^^xsd:decimal ;
@@ -7556,7 +7661,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/ZM> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/ZM> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/AR> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/AR> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.9"^^xsd:decimal ;
@@ -7638,7 +7744,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/AR> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/AR> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/BJ> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/BJ> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.9"^^xsd:decimal ;
@@ -7710,7 +7817,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/BJ> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/BJ> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/GA> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/GA> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.9"^^xsd:decimal ;
@@ -7752,7 +7860,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/GA> dcterms:source <http://transparency.270a.info/dataset/sources/global-insight-country-risk-ratings/2009/GA> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/GM> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/GM> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.9"^^xsd:decimal ;
@@ -7814,7 +7923,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/GM> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/GM> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/NE> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/NE> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.9"^^xsd:decimal ;
@@ -7876,7 +7986,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/NE> dcterms:source <http://transparency.270a.info/dataset/sources/world-bank-country-performance-and-institutional-assessment/2008/NE> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/DZ> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/DZ> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.8"^^xsd:decimal ;
@@ -7948,7 +8059,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/DZ> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/DZ> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/DJ> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/DJ> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.8"^^xsd:decimal ;
@@ -8000,7 +8112,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/DJ> dcterms:source <http://transparency.270a.info/dataset/sources/world-bank-country-performance-and-institutional-assessment/2008/DJ> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/EG> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/EG> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.8"^^xsd:decimal ;
@@ -8072,7 +8185,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/EG> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/EG> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/ID> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/ID> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.8"^^xsd:decimal ;
@@ -8174,7 +8288,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/ID> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/ID> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/KI> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/KI> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.8"^^xsd:decimal ;
@@ -8216,7 +8331,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/KI> dcterms:source <http://transparency.270a.info/dataset/sources/world-bank-country-performance-and-institutional-assessment/2008/KI> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/ML> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/ML> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.8"^^xsd:decimal ;
@@ -8288,7 +8404,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/ML> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/ML> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/ST> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/ST> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.8"^^xsd:decimal ;
@@ -8330,7 +8447,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/ST> dcterms:source <http://transparency.270a.info/dataset/sources/world-bank-country-performance-and-institutional-assessment/2008/ST> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/SB> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/SB> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.8"^^xsd:decimal ;
@@ -8372,7 +8490,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/SB> dcterms:source <http://transparency.270a.info/dataset/sources/world-bank-country-performance-and-institutional-assessment/2008/SB> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/TG> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/TG> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.8"^^xsd:decimal ;
@@ -8434,7 +8553,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/TG> dcterms:source <http://transparency.270a.info/dataset/sources/world-bank-country-performance-and-institutional-assessment/2008/TG> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/AM> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/AM> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.7"^^xsd:decimal ;
@@ -8516,7 +8636,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/AM> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/AM> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/BO> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/BO> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.7"^^xsd:decimal ;
@@ -8588,7 +8709,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/BO> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/BO> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/ET> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/ET> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.7"^^xsd:decimal ;
@@ -8670,7 +8792,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/ET> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/ET> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/KZ> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/KZ> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.7"^^xsd:decimal ;
@@ -8752,7 +8875,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/KZ> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/KZ> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/MN> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/MN> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.7"^^xsd:decimal ;
@@ -8834,7 +8958,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/MN> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/MN> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/VN> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/VN> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.7"^^xsd:decimal ;
@@ -8936,7 +9061,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/VN> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/VN> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/ER> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/ER> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.6"^^xsd:decimal ;
@@ -8988,7 +9114,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/ER> dcterms:source <http://transparency.270a.info/dataset/sources/world-bank-country-performance-and-institutional-assessment/2008/ER> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/GY> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/GY> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.6"^^xsd:decimal ;
@@ -9040,7 +9167,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/GY> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/GY> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/SY> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/SY> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.6"^^xsd:decimal ;
@@ -9102,7 +9230,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/SY> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/SY> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/TZ> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/TZ> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.6"^^xsd:decimal ;
@@ -9184,7 +9313,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/TZ> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/TZ> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/HN> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/HN> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.5"^^xsd:decimal ;
@@ -9256,7 +9386,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/HN> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/HN> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/LB> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/LB> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.5"^^xsd:decimal ;
@@ -9298,7 +9429,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/LB> dcterms:source <http://transparency.270a.info/dataset/sources/global-insight-country-risk-ratings/2009/LB> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/LY> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/LY> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.5"^^xsd:decimal ;
@@ -9370,7 +9502,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/LY> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/LY> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/MV> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/MV> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.5"^^xsd:decimal ;
@@ -9422,7 +9555,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/MV> dcterms:source <http://transparency.270a.info/dataset/sources/world-bank-country-performance-and-institutional-assessment/2008/MV> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/MR> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/MR> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.5"^^xsd:decimal ;
@@ -9504,7 +9638,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/MR> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/MR> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/MZ> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/MZ> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.5"^^xsd:decimal ;
@@ -9586,7 +9721,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/MZ> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/MZ> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/NI> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/NI> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.5"^^xsd:decimal ;
@@ -9658,7 +9794,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/NI> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/NI> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/NG> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/NG> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.5"^^xsd:decimal ;
@@ -9740,7 +9877,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/NG> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/NG> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/UG> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/UG> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.5"^^xsd:decimal ;
@@ -9822,7 +9960,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/UG> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/UG> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/BD> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/BD> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.4"^^xsd:decimal ;
@@ -9904,7 +10043,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/BD> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/BD> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/BY> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/BY> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.4"^^xsd:decimal ;
@@ -9956,7 +10096,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/BY> dcterms:source <http://transparency.270a.info/dataset/sources/global-insight-country-risk-ratings/2009/BY> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/PK> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/PK> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.4"^^xsd:decimal ;
@@ -10038,7 +10179,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/PK> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/PK> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/PH> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/PH> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.4"^^xsd:decimal ;
@@ -10140,7 +10282,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/PH> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/PH> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/AZ> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/AZ> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.3"^^xsd:decimal ;
@@ -10222,7 +10365,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/AZ> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/AZ> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/KM> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/KM> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.3"^^xsd:decimal ;
@@ -10264,7 +10408,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/KM> dcterms:source <http://transparency.270a.info/dataset/sources/world-bank-country-performance-and-institutional-assessment/2008/KM> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/NP> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/NP> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.3"^^xsd:decimal ;
@@ -10336,7 +10481,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/NP> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/NP> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/CM> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/CM> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.2"^^xsd:decimal ;
@@ -10418,7 +10564,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/CM> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/CM> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/EC> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/EC> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.2"^^xsd:decimal ;
@@ -10480,7 +10627,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/EC> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/EC> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/KE> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/KE> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.2"^^xsd:decimal ;
@@ -10562,7 +10710,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/KE> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/KE> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/RU> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/RU> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.2"^^xsd:decimal ;
@@ -10654,7 +10803,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/RU> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/RU> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/SL> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/SL> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.2"^^xsd:decimal ;
@@ -10716,7 +10866,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/SL> dcterms:source <http://transparency.270a.info/dataset/sources/world-bank-country-performance-and-institutional-assessment/2008/SL> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/TL> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/TL> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.2"^^xsd:decimal ;
@@ -10778,7 +10929,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/TL> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/TL> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/UA> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/UA> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.2"^^xsd:decimal ;
@@ -10870,7 +11022,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/UA> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/UA> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/ZW> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/ZW> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.2"^^xsd:decimal ;
@@ -10952,7 +11105,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/ZW> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/ZW> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/CI> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/CI> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.1"^^xsd:decimal ;
@@ -11034,7 +11188,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/CI> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/CI> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/PG> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/PG> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.1"^^xsd:decimal ;
@@ -11096,7 +11251,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/PG> dcterms:source <http://transparency.270a.info/dataset/sources/world-bank-country-performance-and-institutional-assessment/2008/PG> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/PY> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/PY> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.1"^^xsd:decimal ;
@@ -11158,7 +11314,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/PY> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/PY> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/YE> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/YE> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2.1"^^xsd:decimal ;
@@ -11210,7 +11367,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/YE> dcterms:source <http://transparency.270a.info/dataset/sources/world-bank-country-performance-and-institutional-assessment/2008/YE> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/KH> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/KH> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2"^^xsd:decimal ;
@@ -11302,7 +11460,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/KH> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/KH> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/CF> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/CF> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2"^^xsd:decimal ;
@@ -11354,7 +11513,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/CF> dcterms:source <http://transparency.270a.info/dataset/sources/world-bank-country-performance-and-institutional-assessment/2008/CF> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/LA> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/LA> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2"^^xsd:decimal ;
@@ -11406,7 +11566,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/LA> dcterms:source <http://transparency.270a.info/dataset/sources/world-bank-country-performance-and-institutional-assessment/2008/LA> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/TJ> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/TJ> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "2"^^xsd:decimal ;
@@ -11498,7 +11659,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/TJ> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/TJ> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/AO> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/AO> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "1.9"^^xsd:decimal ;
@@ -11560,7 +11722,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/AO> dcterms:source <http://transparency.270a.info/dataset/sources/world-bank-country-performance-and-institutional-assessment/2008/AO> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/CG> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/CG> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "1.9"^^xsd:decimal ;
@@ -11622,7 +11785,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/CG> dcterms:source <http://transparency.270a.info/dataset/sources/world-bank-country-performance-and-institutional-assessment/2008/CG> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/CD> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/CD> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "1.9"^^xsd:decimal ;
@@ -11684,7 +11848,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/CD> dcterms:source <http://transparency.270a.info/dataset/sources/world-bank-country-performance-and-institutional-assessment/2008/CD> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/GW> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/GW> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "1.9"^^xsd:decimal ;
@@ -11726,7 +11891,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/GW> dcterms:source <http://transparency.270a.info/dataset/sources/world-bank-country-performance-and-institutional-assessment/2008/GW> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/KG> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/KG> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "1.9"^^xsd:decimal ;
@@ -11808,7 +11974,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/KG> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/KG> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/VE> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/VE> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "1.9"^^xsd:decimal ;
@@ -11890,7 +12057,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/VE> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/VE> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/BI> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/BI> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "1.8"^^xsd:decimal ;
@@ -11962,7 +12130,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/BI> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/BI> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/GQ> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/GQ> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "1.8"^^xsd:decimal ;
@@ -12004,7 +12173,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/GQ> dcterms:source <http://transparency.270a.info/dataset/sources/global-insight-country-risk-ratings/2009/GQ> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/GN> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/GN> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "1.8"^^xsd:decimal ;
@@ -12066,7 +12236,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/GN> dcterms:source <http://transparency.270a.info/dataset/sources/world-bank-country-performance-and-institutional-assessment/2008/GN> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/HT> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/HT> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "1.8"^^xsd:decimal ;
@@ -12108,7 +12279,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/HT> dcterms:source <http://transparency.270a.info/dataset/sources/world-bank-country-performance-and-institutional-assessment/2008/HT> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/IR> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/IR> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "1.8"^^xsd:decimal ;
@@ -12150,7 +12322,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/IR> dcterms:source <http://transparency.270a.info/dataset/sources/global-insight-country-risk-ratings/2009/IR> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/TM> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/TM> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "1.8"^^xsd:decimal ;
@@ -12202,7 +12375,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/TM> dcterms:source <http://transparency.270a.info/dataset/sources/global-insight-country-risk-ratings/2009/TM> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/UZ> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/UZ> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "1.7000000000000002"^^xsd:decimal ;
@@ -12274,7 +12448,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/UZ> dcterms:source <http://transparency.270a.info/dataset/sources/world-bank-country-performance-and-institutional-assessment/2008/UZ> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/TD> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/TD> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "1.6"^^xsd:decimal ;
@@ -12346,7 +12521,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/TD> dcterms:source <http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2009/TD> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/IQ> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/IQ> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "1.5"^^xsd:decimal ;
@@ -12388,7 +12564,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/IQ> dcterms:source <http://transparency.270a.info/dataset/sources/global-insight-country-risk-ratings/2009/IQ> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/SD> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/SD> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "1.5"^^xsd:decimal ;
@@ -12450,7 +12627,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/SD> dcterms:source <http://transparency.270a.info/dataset/sources/world-bank-country-performance-and-institutional-assessment/2008/SD> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/MM> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/MM> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "1.4"^^xsd:decimal ;
@@ -12492,7 +12670,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/MM> dcterms:source <http://transparency.270a.info/dataset/sources/global-insight-country-risk-ratings/2009/MM> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/AF> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/AF> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "1.3"^^xsd:decimal ;
@@ -12544,7 +12723,8 @@
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/AF> dcterms:source <http://transparency.270a.info/dataset/sources/world-bank-country-performance-and-institutional-assessment/2008/AF> .
 
 <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/SO> a qb:Observation ;
-	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index> ;
+	qb:dataSet <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+	property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index> ;
 	sdmx-dimension:refArea <http://transparency.270a.info/classification/country/SO> ;
 	sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2009> ;
 	property:score "1.1"^^xsd:decimal ;
