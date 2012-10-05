@@ -16,6 +16,7 @@
 @prefix property: <http://transparency.270a.info/property/> .
 
 @prefix classification: <http://transparency.270a.info/classification/> .
+@prefix indicator: <http://transparency.270a.info/classification/indicator/> .
 @prefix source: <http://transparency.270a.info/classification/source/> .
 @prefix attribute: <http://transparency.270a.info/classification/attribute/> .
 
@@ -232,7 +233,7 @@ property:surveys-used
     .
 
 property:indicator
-    a rdf:Property ; qb:DimensionProperty ;
+    a rdf:Property , qb:DimensionProperty ;
     rdfs:label "Indicator"@en ;
     .
 
