@@ -23,21 +23,6 @@ tdbAssembler=/usr/lib/fuseki/tdb2.transparency.ttl;
 java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/meta "$TLDData"import/graph.meta.nt;
 java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/corruption-perceptions-index "$TLDData"import/graph.transparency-international-corruption-perceptions-index.nt;
 
-#java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/void /var/www/transparency.270a.info/void.ttl;
-
-java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/meta "$Graphs"skos.rdf
-java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/meta "$Graphs"sdmx.ttl
-java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/meta "$Graphs"sdmx-attribute.ttl
-java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/meta "$Graphs"sdmx-dimension.ttl
-java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/meta "$Graphs"sdmx-code.ttl
-java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/meta "$Graphs"sdmx-concept.ttl
-java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/meta "$Graphs"sdmx-metadata.ttl
-java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/meta "$Graphs"sdmx-subject.ttl
-java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/meta "$Graphs"cube.ttl
-#java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/meta "$Graphs"reference.data.gov.uk.def.intervals.ttl
-java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/meta "$Graphs"reference.data.gov.uk.doc.year.ttl
-#java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/meta "$Graphs"reference.data.gov.uk.doc.gregorian-instant.ttl
-
 
 java tdb.tdbstats --loc="$DBtransparency" --graph=urn:x-arq:UnionGraph > "$DBtransparency"stats2.opt;
 
