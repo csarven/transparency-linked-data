@@ -27,6 +27,7 @@ java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/corruptio
 
 java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/meta "$Graphs"skos.rdf
 java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/meta "$Graphs"sdmx.ttl
+java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/meta "$Graphs"sdmx-attribute.ttl
 java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/meta "$Graphs"sdmx-dimension.ttl
 java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/meta "$Graphs"sdmx-code.ttl
 java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/meta "$Graphs"sdmx-concept.ttl
