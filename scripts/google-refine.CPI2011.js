@@ -305,7 +305,7 @@
               "curie": "dcterms:source",
               "target": {
                 "nodeType": "cell-as-resource",
-                "expression": "if(value != null, \"http://transparency.270a.info/dataset/sources/african-development-bank-country-policy-and-institutional-assessment-governance-ratings/2010/\"+substring(cells[\"reference-area\"].recon.match.id, 53, 55), null)",
+                "expression": "if(value != null, \"http://transparency.270a.info/dataset/corruption-perceptions-index/2011/sources/african-development-bank-country-policy-and-institutional-assessment-governance-ratings/2010/\"+substring(cells[\"reference-area\"].recon.match.id, 53, 55), null)",
                 "isRowNumberCell": false,
                 "columnName": "AFDB",
                 "rdfTypes": [
@@ -320,7 +320,7 @@
                     "curie": "qb:dataSet",
                     "target": {
                       "nodeType": "cell-as-resource",
-                      "expression": "\"http://transparency.270a.info/dataset/sources\"",
+                      "expression": "\"http://transparency.270a.info/dataset/corruption-perceptions-index/2011/sources\"",
                       "isRowNumberCell": true,
                       "rdfTypes": [],
                       "links": []
@@ -398,7 +398,7 @@
                     "curie": "rdfs:label",
                     "target": {
                       "nodeType": "cell-as-literal",
-                      "expression": "\"Assessment from African Development Bank Governance Ratings in 2010 for \" + value",
+                      "expression": "\"Corruption Perceptions Index 2011 for \" + value + \" from African Development Bank Governance Ratings in 2010\"",
                       "isRowNumberCell": false,
                       "lang": "en",
                       "columnName": "reference-area"
@@ -412,7 +412,7 @@
               "curie": "dcterms:source",
               "target": {
                 "nodeType": "cell-as-resource",
-                "expression": "if(value != null, \"http://transparency.270a.info/dataset/sources/asian-development-bank-country-performance-assessment/2010/\"+substring(cells[\"reference-area\"].recon.match.id, 53, 55), null)",
+                "expression": "if(value != null, \"http://transparency.270a.info/dataset/corruption-perceptions-index/2011/sources/asian-development-bank-country-performance-assessment/2010/\"+substring(cells[\"reference-area\"].recon.match.id, 53, 55), null)",
                 "isRowNumberCell": false,
                 "columnName": "ADB",
                 "rdfTypes": [
@@ -427,7 +427,7 @@
                     "curie": "qb:dataSet",
                     "target": {
                       "nodeType": "cell-as-resource",
-                      "expression": "\"http://transparency.270a.info/dataset/sources\"",
+                      "expression": "\"http://transparency.270a.info/dataset/corruption-perceptions-index/2011/sources\"",
                       "isRowNumberCell": true,
                       "rdfTypes": [],
                       "links": []
@@ -505,7 +505,7 @@
                     "curie": "rdfs:label",
                     "target": {
                       "nodeType": "cell-as-literal",
-                      "expression": "\"Assessment from Asian Development Bank Country Performance Assessment in 2010 for \" + value",
+                      "expression": "\"Corruption Perceptions Index 2011 for \" + value + \" from Asian Development Bank Country Performance Assessment in 2010\"",
                       "isRowNumberCell": false,
                       "lang": "en",
                       "columnName": "reference-area"
@@ -519,7 +519,7 @@
               "curie": "dcterms:source",
               "target": {
                 "nodeType": "cell-as-resource",
-                "expression": "if(value != null, \"http://transparency.270a.info/dataset/sources/bertelsmann-foundation-sustainable-governance-indicators/2011/\"+substring(cells[\"reference-area\"].recon.match.id, 53, 55), null)",
+                "expression": "if(value != null, \"http://transparency.270a.info/dataset/corruption-perceptions-index/2011/sources/bertelsmann-foundation-sustainable-governance-indicators/2011/\"+substring(cells[\"reference-area\"].recon.match.id, 53, 55), null)",
                 "isRowNumberCell": false,
                 "columnName": "BF_SGI",
                 "rdfTypes": [
@@ -534,7 +534,7 @@
                     "curie": "qb:dataSet",
                     "target": {
                       "nodeType": "cell-as-resource",
-                      "expression": "\"http://transparency.270a.info/dataset/sources\"",
+                      "expression": "\"http://transparency.270a.info/dataset/corruption-perceptions-index/2011/sources\"",
                       "isRowNumberCell": true,
                       "rdfTypes": [],
                       "links": []
@@ -612,7 +612,7 @@
                     "curie": "rdfs:label",
                     "target": {
                       "nodeType": "cell-as-literal",
-                      "expression": "\"Assessment from Bertelsmann Foundation Sustainable Governance Indicators in 2011 for \" + value",
+                      "expression": "\"Corruption Perceptions Index 2011 for \" + value + \" from Bertelsmann Foundation Sustainable Governance Indicators in 2011\"",
                       "isRowNumberCell": false,
                       "lang": "en",
                       "columnName": "reference-area"
@@ -626,7 +626,7 @@
               "curie": "dcterms:source",
               "target": {
                 "nodeType": "cell-as-resource",
-                "expression": "if(value != null, \"http://transparency.270a.info/dataset/sources/bertelsmann-foundation-transformation-index/2012/\"+substring(cells[\"reference-area\"].recon.match.id, 53, 55), null)",
+                "expression": "if(value != null, \"http://transparency.270a.info/dataset/corruption-perceptions-index/2011/sources/bertelsmann-foundation-transformation-index/2012/\"+substring(cells[\"reference-area\"].recon.match.id, 53, 55), null)",
                 "isRowNumberCell": false,
                 "columnName": "BF_TI",
                 "rdfTypes": [
@@ -641,7 +641,7 @@
                     "curie": "qb:dataSet",
                     "target": {
                       "nodeType": "cell-as-resource",
-                      "expression": "\"http://transparency.270a.info/dataset/sources\"",
+                      "expression": "\"http://transparency.270a.info/dataset/corruption-perceptions-index/2011/sources\"",
                       "isRowNumberCell": true,
                       "rdfTypes": [],
                       "links": []
@@ -719,7 +719,7 @@
                     "curie": "rdfs:label",
                     "target": {
                       "nodeType": "cell-as-literal",
-                      "expression": "\"Assessment from Bertelsmann Foundation Transformation Index in 2012 for \" + value",
+                      "expression": "\"Corruption Perceptions Index 2011 for \" + value + \" from Bertelsmann Foundation Transformation Index in 2012",
                       "isRowNumberCell": false,
                       "lang": "en",
                       "columnName": "reference-area"
@@ -733,7 +733,7 @@
               "curie": "dcterms:source",
               "target": {
                 "nodeType": "cell-as-resource",
-                "expression": "if(value != null, \"http://transparency.270a.info/dataset/sources/economist-intelligence-unit-country-risk-assessment/2011/\"+substring(cells[\"reference-area\"].recon.match.id, 53, 55), null)",
+                "expression": "if(value != null, \"http://transparency.270a.info/dataset/corruption-perceptions-index/2011/sources/economist-intelligence-unit-country-risk-assessment/2011/\"+substring(cells[\"reference-area\"].recon.match.id, 53, 55), null)",
                 "isRowNumberCell": false,
                 "columnName": "EIU_CRR",
                 "rdfTypes": [
@@ -748,7 +748,7 @@
                     "curie": "qb:dataSet",
                     "target": {
                       "nodeType": "cell-as-resource",
-                      "expression": "\"http://transparency.270a.info/dataset/sources\"",
+                      "expression": "\"http://transparency.270a.info/dataset/corruption-perceptions-index/2011/sources\"",
                       "isRowNumberCell": true,
                       "rdfTypes": [],
                       "links": []
@@ -826,7 +826,7 @@
                     "curie": "rdfs:label",
                     "target": {
                       "nodeType": "cell-as-literal",
-                      "expression": "\"Assessment from Economist Intelligence Unit Country Risk Assessment in 2011 for \" + value",
+                      "expression": "\"Corruption Perceptions Index 2011 for \" + value + \" from Economist Intelligence Unit Country Risk Assessment in 2011\"",
                       "isRowNumberCell": false,
                       "lang": "en",
                       "columnName": "reference-area"
@@ -840,7 +840,7 @@
               "curie": "dcterms:source",
               "target": {
                 "nodeType": "cell-as-resource",
-                "expression": "if(value != null, \"http://transparency.270a.info/dataset/sources/freedom-house-nations-in-transit/2011/\"+substring(cells[\"reference-area\"].recon.match.id, 53, 55), null)",
+                "expression": "if(value != null, \"http://transparency.270a.info/dataset/corruption-perceptions-index/2011/sources/freedom-house-nations-in-transit/2011/\"+substring(cells[\"reference-area\"].recon.match.id, 53, 55), null)",
                 "isRowNumberCell": false,
                 "columnName": "FH_NIT",
                 "rdfTypes": [
@@ -855,7 +855,7 @@
                     "curie": "qb:dataSet",
                     "target": {
                       "nodeType": "cell-as-resource",
-                      "expression": "\"http://transparency.270a.info/dataset/sources\"",
+                      "expression": "\"http://transparency.270a.info/dataset/corruption-perceptions-index/2011/sources\"",
                       "isRowNumberCell": true,
                       "rdfTypes": [],
                       "links": []
@@ -933,7 +933,7 @@
                     "curie": "rdfs:label",
                     "target": {
                       "nodeType": "cell-as-literal",
-                      "expression": "\"Assessment from Freedom House Nations In Transit in 2011 for \" + value",
+                      "expression": "\"Corruption Perceptions Index 2011 for \" + value + \" from Freedom House Nations In Transit in 2011\"",
                       "isRowNumberCell": false,
                       "lang": "en",
                       "columnName": "reference-area"
@@ -947,7 +947,7 @@
               "curie": "dcterms:source",
               "target": {
                 "nodeType": "cell-as-resource",
-                "expression": "if(value != null, \"http://transparency.270a.info/dataset/sources/global-insight-country-risk-ratings/2011/\"+substring(cells[\"reference-area\"].recon.match.id, 53, 55), null)",
+                "expression": "if(value != null, \"http://transparency.270a.info/dataset/corruption-perceptions-index/2011/sources/global-insight-country-risk-ratings/2011/\"+substring(cells[\"reference-area\"].recon.match.id, 53, 55), null)",
                 "isRowNumberCell": false,
                 "columnName": "GI_CRR",
                 "rdfTypes": [
@@ -962,7 +962,7 @@
                     "curie": "qb:dataSet",
                     "target": {
                       "nodeType": "cell-as-resource",
-                      "expression": "\"http://transparency.270a.info/dataset/sources\"",
+                      "expression": "\"http://transparency.270a.info/dataset/corruption-perceptions-index/2011/sources\"",
                       "isRowNumberCell": true,
                       "rdfTypes": [],
                       "links": []
@@ -1040,7 +1040,7 @@
                     "curie": "rdfs:label",
                     "target": {
                       "nodeType": "cell-as-literal",
-                      "expression": "\"Assessment from Global Insight Country Risk Ratings in 2011 for \" + value",
+                      "expression": "\"Corruption Perceptions Index 2011 for \" + value + \" from Global Insight Country Risk Ratings in 2011\"",
                       "isRowNumberCell": false,
                       "lang": "en",
                       "columnName": "reference-area"
@@ -1054,7 +1054,7 @@
               "curie": "dcterms:source",
               "target": {
                 "nodeType": "cell-as-resource",
-                "expression": "if(value != null, \"http://transparency.270a.info/dataset/sources/international-institute-for-management-development-world-competitiveness-yearbook/2010/\"+substring(cells[\"reference-area\"].recon.match.id, 53, 55), null)",
+                "expression": "if(value != null, \"http://transparency.270a.info/dataset/corruption-perceptions-index/2011/sources/international-institute-for-management-development-world-competitiveness-yearbook/2010/\"+substring(cells[\"reference-area\"].recon.match.id, 53, 55), null)",
                 "isRowNumberCell": false,
                 "columnName": "IMD2010",
                 "rdfTypes": [
@@ -1069,7 +1069,7 @@
                     "curie": "qb:dataSet",
                     "target": {
                       "nodeType": "cell-as-resource",
-                      "expression": "\"http://transparency.270a.info/dataset/sources\"",
+                      "expression": "\"http://transparency.270a.info/dataset/corruption-perceptions-index/2011/sources\"",
                       "isRowNumberCell": true,
                       "rdfTypes": [],
                       "links": []
@@ -1147,7 +1147,7 @@
                     "curie": "rdfs:label",
                     "target": {
                       "nodeType": "cell-as-literal",
-                      "expression": "\"Assessment from IMD World Competitiveness Yearbook in 2010 for \" + value",
+                      "expression": "\"Corruption Perceptions Index 2011 for \" + value + \" from IMD World Competitiveness Yearbook in 2010\"",
                       "isRowNumberCell": false,
                       "lang": "en",
                       "columnName": "reference-area"
@@ -1161,7 +1161,7 @@
               "curie": "dcterms:source",
               "target": {
                 "nodeType": "cell-as-resource",
-                "expression": "if(value != null, \"http://transparency.270a.info/dataset/sources/international-institute-for-management-development-world-competitiveness-yearbook/2011/\"+substring(cells[\"reference-area\"].recon.match.id, 53, 55), null)",
+                "expression": "if(value != null, \"http://transparency.270a.info/dataset/corruption-perceptions-index/2011/sources/international-institute-for-management-development-world-competitiveness-yearbook/2011/\"+substring(cells[\"reference-area\"].recon.match.id, 53, 55), null)",
                 "isRowNumberCell": false,
                 "columnName": "IMD2011",
                 "rdfTypes": [
@@ -1176,7 +1176,7 @@
                     "curie": "qb:dataSet",
                     "target": {
                       "nodeType": "cell-as-resource",
-                      "expression": "\"http://transparency.270a.info/dataset/sources\"",
+                      "expression": "\"http://transparency.270a.info/dataset/corruption-perceptions-index/2011/sources\"",
                       "isRowNumberCell": true,
                       "rdfTypes": [],
                       "links": []
@@ -1254,7 +1254,7 @@
                     "curie": "rdfs:label",
                     "target": {
                       "nodeType": "cell-as-literal",
-                      "expression": "\"Assessment from IMD World Competitiveness Yearbook in 2011 for \" + value",
+                      "expression": "\"Corruption Perceptions Index 2011 for \" + value + \" from IMD World Competitiveness Yearbook in 2011\"",
                       "isRowNumberCell": false,
                       "lang": "en",
                       "columnName": "reference-area"
@@ -1268,7 +1268,7 @@
               "curie": "dcterms:source",
               "target": {
                 "nodeType": "cell-as-resource",
-                "expression": "if(value != null, \"http://transparency.270a.info/dataset/sources/political-and-economic-risk-consultancy-asian-intelligence/2010/\"+substring(cells[\"reference-area\"].recon.match.id, 53, 55), null)",
+                "expression": "if(value != null, \"http://transparency.270a.info/dataset/corruption-perceptions-index/2011/sources/political-and-economic-risk-consultancy-asian-intelligence/2010/\"+substring(cells[\"reference-area\"].recon.match.id, 53, 55), null)",
                 "isRowNumberCell": false,
                 "columnName": "PERC2010",
                 "rdfTypes": [
@@ -1283,7 +1283,7 @@
                     "curie": "qb:dataSet",
                     "target": {
                       "nodeType": "cell-as-resource",
-                      "expression": "\"http://transparency.270a.info/dataset/sources\"",
+                      "expression": "\"http://transparency.270a.info/dataset/corruption-perceptions-index/2011/sources\"",
                       "isRowNumberCell": true,
                       "rdfTypes": [],
                       "links": []
@@ -1361,7 +1361,7 @@
                     "curie": "rdfs:label",
                     "target": {
                       "nodeType": "cell-as-literal",
-                      "expression": "\"Assessment from Political and Economic Risk Consultancy Asian Intelligence in 2010 for \" + value",
+                      "expression": "\"Corruption Perceptions Index 2011 for \" + value + \" from Political and Economic Risk Consultancy Asian Intelligence in 2010\"",
                       "isRowNumberCell": false,
                       "lang": "en",
                       "columnName": "reference-area"
@@ -1375,7 +1375,7 @@
               "curie": "dcterms:source",
               "target": {
                 "nodeType": "cell-as-resource",
-                "expression": "if(value != null, \"http://transparency.270a.info/dataset/sources/political-and-economic-risk-consultancy-asian-intelligence/2011/\"+substring(cells[\"reference-area\"].recon.match.id, 53, 55), null)",
+                "expression": "if(value != null, \"http://transparency.270a.info/dataset/corruption-perceptions-index/2011/sources/political-and-economic-risk-consultancy-asian-intelligence/2011/\"+substring(cells[\"reference-area\"].recon.match.id, 53, 55), null)",
                 "isRowNumberCell": false,
                 "columnName": "PERC2011",
                 "rdfTypes": [
@@ -1390,7 +1390,7 @@
                     "curie": "qb:dataSet",
                     "target": {
                       "nodeType": "cell-as-resource",
-                      "expression": "\"http://transparency.270a.info/dataset/sources\"",
+                      "expression": "\"http://transparency.270a.info/dataset/corruption-perceptions-index/2011/sources\"",
                       "isRowNumberCell": true,
                       "rdfTypes": [],
                       "links": []
@@ -1468,7 +1468,7 @@
                     "curie": "rdfs:label",
                     "target": {
                       "nodeType": "cell-as-literal",
-                      "expression": "\"Assessment from Political and Economic Risk Consultancy Asian Intelligence in 2011 for \" + value",
+                      "expression": "\"Corruption Perceptions Index 2011 for \" + value + \" from Political and Economic Risk Consultancy Asian Intelligence in 2011\"",
                       "isRowNumberCell": false,
                       "lang": "en",
                       "columnName": "reference-area"
@@ -1482,7 +1482,7 @@
               "curie": "dcterms:source",
               "target": {
                 "nodeType": "cell-as-resource",
-                "expression": "if(value != null, \"http://transparency.270a.info/dataset/sources/political-risk-services-international-country-risk-guide/2011/\"+substring(cells[\"reference-area\"].recon.match.id, 53, 55), null)",
+                "expression": "if(value != null, \"http://transparency.270a.info/dataset/corruption-perceptions-index/2011/sources/political-risk-services-international-country-risk-guide/2011/\"+substring(cells[\"reference-area\"].recon.match.id, 53, 55), null)",
                 "isRowNumberCell": false,
                 "columnName": "PRS_ICRG",
                 "rdfTypes": [
@@ -1497,7 +1497,7 @@
                     "curie": "qb:dataSet",
                     "target": {
                       "nodeType": "cell-as-resource",
-                      "expression": "\"http://transparency.270a.info/dataset/sources\"",
+                      "expression": "\"http://transparency.270a.info/dataset/corruption-perceptions-index/2011/sources\"",
                       "isRowNumberCell": true,
                       "rdfTypes": [],
                       "links": []
@@ -1575,7 +1575,7 @@
                     "curie": "rdfs:label",
                     "target": {
                       "nodeType": "cell-as-literal",
-                      "expression": "\"Assessment from Political Risk Services International Country Risk Guide in 2011 for \" + value",
+                      "expression": "\"Corruption Perceptions Index 2011 for \" + value + \" from Political Risk Services International Country Risk Guide in 2011\"",
                       "isRowNumberCell": false,
                       "lang": "en",
                       "columnName": "reference-area"
@@ -1589,7 +1589,7 @@
               "curie": "dcterms:source",
               "target": {
                 "nodeType": "cell-as-resource",
-                "expression": "if(value != null, \"http://transparency.270a.info/dataset/sources/transparency-international-bribe-payers-survey/2011/\"+substring(cells[\"reference-area\"].recon.match.id, 53, 55), null)",
+                "expression": "if(value != null, \"http://transparency.270a.info/dataset/corruption-perceptions-index/2011/sources/transparency-international-bribe-payers-survey/2011/\"+substring(cells[\"reference-area\"].recon.match.id, 53, 55), null)",
                 "isRowNumberCell": false,
                 "columnName": "TI_BPI",
                 "rdfTypes": [
@@ -1604,7 +1604,7 @@
                     "curie": "qb:dataSet",
                     "target": {
                       "nodeType": "cell-as-resource",
-                      "expression": "\"http://transparency.270a.info/dataset/sources\"",
+                      "expression": "\"http://transparency.270a.info/dataset/corruption-perceptions-index/2011/sources\"",
                       "isRowNumberCell": true,
                       "rdfTypes": [],
                       "links": []
@@ -1682,7 +1682,7 @@
                     "curie": "rdfs:label",
                     "target": {
                       "nodeType": "cell-as-literal",
-                      "expression": "\"Assessment from Transparency International Bribe Payers Survey in 2011 for \" + value",
+                      "expression": "\"Corruption Perceptions Index 2011 for \" + value + \" from Transparency International Bribe Payers Survey in 2011\"",
                       "isRowNumberCell": false,
                       "lang": "en",
                       "columnName": "reference-area"
@@ -1696,7 +1696,7 @@
               "curie": "dcterms:source",
               "target": {
                 "nodeType": "cell-as-resource",
-                "expression": "if(value != null, \"http://transparency.270a.info/dataset/sources/world-bank-country-performance-and-institutional-assessment/2010/\"+substring(cells[\"reference-area\"].recon.match.id, 53, 55), null)",
+                "expression": "if(value != null, \"http://transparency.270a.info/dataset/corruption-perceptions-index/2011/sources/world-bank-country-performance-and-institutional-assessment/2010/\"+substring(cells[\"reference-area\"].recon.match.id, 53, 55), null)",
                 "isRowNumberCell": false,
                 "columnName": "WB_CPIA",
                 "rdfTypes": [
@@ -1711,7 +1711,7 @@
                     "curie": "qb:dataSet",
                     "target": {
                       "nodeType": "cell-as-resource",
-                      "expression": "\"http://transparency.270a.info/dataset/sources\"",
+                      "expression": "\"http://transparency.270a.info/dataset/corruption-perceptions-index/2011/sources\"",
                       "isRowNumberCell": true,
                       "rdfTypes": [],
                       "links": []
@@ -1789,7 +1789,7 @@
                     "curie": "rdfs:label",
                     "target": {
                       "nodeType": "cell-as-literal",
-                      "expression": "\"Assessment from World Bank Country Performance and Institutional Assessment in 2010 for \" + value",
+                      "expression": "\"Corruption Perceptions Index 2011 for \" + value + \" from World Bank Country Performance and Institutional Assessment in 2010\"",
                       "isRowNumberCell": false,
                       "lang": "en",
                       "columnName": "reference-area"
@@ -1803,7 +1803,7 @@
               "curie": "dcterms:source",
               "target": {
                 "nodeType": "cell-as-resource",
-                "expression": "if(value != null, \"http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2010/\"+substring(cells[\"reference-area\"].recon.match.id, 53, 55), null)",
+                "expression": "if(value != null, \"http://transparency.270a.info/dataset/corruption-perceptions-index/2011/sources/world-economic-forum-executive-opinion-survey/2010/\"+substring(cells[\"reference-area\"].recon.match.id, 53, 55), null)",
                 "isRowNumberCell": false,
                 "columnName": "WEF2010",
                 "rdfTypes": [
@@ -1818,7 +1818,7 @@
                     "curie": "qb:dataSet",
                     "target": {
                       "nodeType": "cell-as-resource",
-                      "expression": "\"http://transparency.270a.info/dataset/sources\"",
+                      "expression": "\"http://transparency.270a.info/dataset/corruption-perceptions-index/2011/sources\"",
                       "isRowNumberCell": true,
                       "rdfTypes": [],
                       "links": []
@@ -1896,7 +1896,7 @@
                     "curie": "rdfs:label",
                     "target": {
                       "nodeType": "cell-as-literal",
-                      "expression": "\"Assessment from World Economic Forum Executive Opinion Survey in 2010 for \" + value",
+                      "expression": "\"Corruption Perceptions Index 2011 for \" + value + \" from World Economic Forum Executive Opinion Survey in 2010\"",
                       "isRowNumberCell": false,
                       "lang": "en",
                       "columnName": "reference-area"
@@ -1910,7 +1910,7 @@
               "curie": "dcterms:source",
               "target": {
                 "nodeType": "cell-as-resource",
-                "expression": "if(value != null, \"http://transparency.270a.info/dataset/sources/world-economic-forum-executive-opinion-survey/2011/\"+substring(cells[\"reference-area\"].recon.match.id, 53, 55), null)",
+                "expression": "if(value != null, \"http://transparency.270a.info/dataset/corruption-perceptions-index/2011/sources/world-economic-forum-executive-opinion-survey/2011/\"+substring(cells[\"reference-area\"].recon.match.id, 53, 55), null)",
                 "isRowNumberCell": false,
                 "columnName": "WEF2011",
                 "rdfTypes": [
@@ -1925,7 +1925,7 @@
                     "curie": "qb:dataSet",
                     "target": {
                       "nodeType": "cell-as-resource",
-                      "expression": "\"http://transparency.270a.info/dataset/sources\"",
+                      "expression": "\"http://transparency.270a.info/dataset/corruption-perceptions-index/2011/sources\"",
                       "isRowNumberCell": true,
                       "rdfTypes": [],
                       "links": []
@@ -2003,7 +2003,7 @@
                     "curie": "rdfs:label",
                     "target": {
                       "nodeType": "cell-as-literal",
-                      "expression": "\"Assessment from World Economic Forum Executive Opinion Survey in 2011 for \" + value",
+                      "expression": "\"Corruption Perceptions Index 2011 for \" + value + \" from World Economic Forum Executive Opinion Survey in 2011\"",
                       "isRowNumberCell": false,
                       "lang": "en",
                       "columnName": "reference-area"
@@ -2017,7 +2017,7 @@
               "curie": "dcterms:source",
               "target": {
                 "nodeType": "cell-as-resource",
-                "expression": "if(value != null, \"http://transparency.270a.info/dataset/sources/world-justice-project-rule-of-law-index/2011/\"+substring(cells[\"reference-area\"].recon.match.id, 53, 55), null)",
+                "expression": "if(value != null, \"http://transparency.270a.info/dataset/corruption-perceptions-index/2011/sources/world-justice-project-rule-of-law-index/2011/\"+substring(cells[\"reference-area\"].recon.match.id, 53, 55), null)",
                 "isRowNumberCell": false,
                 "columnName": "WJP_ROL",
                 "rdfTypes": [
@@ -2032,7 +2032,7 @@
                     "curie": "qb:dataSet",
                     "target": {
                       "nodeType": "cell-as-resource",
-                      "expression": "\"http://transparency.270a.info/dataset/sources\"",
+                      "expression": "\"http://transparency.270a.info/dataset/corruption-perceptions-index/2011/sources\"",
                       "isRowNumberCell": true,
                       "rdfTypes": [],
                       "links": []
@@ -2110,7 +2110,7 @@
                     "curie": "rdfs:label",
                     "target": {
                       "nodeType": "cell-as-literal",
-                      "expression": "\"Assessment from World Justice Project Rule of Law Index in 2011 for \" + value",
+                      "expression": "\"Corruption Perceptions Index 2011 for \" + value + \" from World Justice Project Rule of Law Index in 2011\"",
                       "isRowNumberCell": false,
                       "lang": "en",
                       "columnName": "reference-area"
