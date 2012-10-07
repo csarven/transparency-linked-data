@@ -42,9 +42,7 @@
 
 transparency:dataset
     rdfs:label "Transparency International datasets"@en ;
-    dcterms:hasPart
-        transparency-dataset:corruption-perceptions-index ,
-        transparency-dataset:sources ;
+    dcterms:hasPart transparency-dataset:corruption-perceptions-index ;
     .        
 
 transparency-dataset:corruption-perceptions-index
@@ -65,7 +63,7 @@ transparency-dataset:corruption-perceptions-index
         <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ,
         <http://transparency.270a.info/dataset/corruption-perceptions-index/2010> ,
         <http://transparency.270a.info/dataset/corruption-perceptions-index/2011> ;
-    dcterms:isPartOf transparency:dataset;
+    dcterms:isPartOf transparency:dataset ;
     .
 
 
