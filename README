@@ -1,0 +1,25 @@
+= Transparency International Linked Data =
+
+== What is this? ==
+Contains Google Refine + RDF Extension, and Bash scripts that:
+* transforms original data in tabular format from Transparency International 
+http://transparency.270a.info/ to RDF Turtle format.
+* helps to deploy the RDF data:
+** tranforms all data under same graph into single N-Triples file
+** generates LODStats for the data
+** creates datadumps
+** loads to RDF store
+
+== Purpose ==
+For fun and profit.
+
+== Website ==
+http://transparency.270a.info/
+
+== License ==
+* Code (scripts): Apache License, Version 2.0 (See also LICENSE file)
+* Data (RDF triples): CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+
+== Creator ==
+Sarven Capadisli http://csarven.ca/#i
+
