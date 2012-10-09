@@ -3,7 +3,7 @@
 == What is this? ==
 Contains Google Refine + RDF Extension, and Bash scripts that:
 * transforms original data in tabular format from Transparency International 
-http://transparency.270a.info/ to RDF Turtle format.
+http://transparency.org/ to RDF Turtle format.
 * helps to deploy the RDF data:
 ** tranforms all data under same graph into single N-Triples file
 ** generates LODStats for the data
