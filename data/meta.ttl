@@ -245,7 +245,7 @@ property:percentile-90-upper
     .
 
 property:rank
-    a rdf:Property , qb:MeasureProperty ;
+    a rdf:Property ;
     rdfs:label "Rank"@en ;
     rdfs:range xsd:int ;
     .
