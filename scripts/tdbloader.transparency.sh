@@ -1,30 +1,20 @@
 #!/bin/bash
 
-TLDData="/var/www/lib/transparency-linked-data/data/";
-TRANSPARENCY="http://transparency.270a.info/";
-DBtransparency="/SSD/data/fuseki/DB/DB.transparency/";
-Graphs="/home/sarcap/Graphs/";
+data="/var/www/lib/transparency-linked-data/data/";
+namespace="http://transparency.270a.info/";
+db="/SSD/data/fuseki/DB/DB.transparency/";
+graphs="/home/sarcap/Graphs/";
 
-echo "Removing $DBtransparency";
-rm -rf "$DBtransparency";
+echo "Removing $db";
+rm -rf "$db";
 
 tdbAssembler=/usr/lib/fuseki/tdb2.transparency.ttl;
 
-#java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/meta "$TLDData"meta.ttl;
-#java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/meta "$TLDData"country.nt;
-#java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/meta "$TLDData"transparency-sameAs-eurostat_countries.nt;
-#java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/meta "$TLDData"transparency-sameAs-dbpedia_countries.nt;
-#java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/meta "$TLDData"transparency-sameAs-geonames_countries.nt;
-#java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/meta "$TLDData"transparency-sameAs-worldbank_countries.nt;
-#java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/corruption-perceptions-index "$TLDData"CPI2009.ttl;
-#java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/corruption-perceptions-index "$TLDData"CPI2010.ttl;
-#java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/corruption-perceptions-index "$TLDData"CPI2011.ttl;
-
-java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/meta "$TLDData"import/graph.meta.nt;
-java tdb.tdbloader --desc="$tdbAssembler" --graph="$TRANSPARENCY"graph/corruption-perceptions-index "$TLDData"import/graph.transparency-international-corruption-perceptions-index.nt;
+java tdb.tdbloader --desc="$tdbAssembler" --graph="$namespace"graph/meta "$data"import/graph.meta.nt;
+java tdb.tdbloader --desc="$tdbAssembler" --graph="$namespace"graph/corruption-perceptions-index "$data"import/graph.transparency-international-corruption-perceptions-index.nt;
 
 
-java tdb.tdbstats --loc="$DBtransparency" --graph=urn:x-arq:UnionGraph > "$DBtransparency"stats2.opt;
+java tdb.tdbstats --loc="$db" --graph=urn:x-arq:UnionGraph > "$db"stats2.opt;
 
-mv "$DBtransparency"stats.opt "$DBtransparency"stats.bak;
-mv "$DBtransparency"stats2.opt "$DBtransparency"stats.opt;
+mv "$db"stats.opt "$db"stats.bak;
+mv "$db"stats2.opt "$db"stats.opt;
