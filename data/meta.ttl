@@ -102,7 +102,7 @@ cpi-2009:structure
         _:qbcomponent-property-source ,
         _:qbcomponent-sdmx-dimension-refArea ,
         _:qbcomponent-sdmx-dimension-refPeriod ,
-        _:qbcomponent-property-rank ,
+#        _:qbcomponent-property-rank ,
         _:qbcomponent-property-score ,
         _:qbcomponent-sdmx-attribute-recording
     .
@@ -113,7 +113,7 @@ cpi-2010:structure
         _:qbcomponent-property-source ,
         _:qbcomponent-sdmx-dimension-refArea ,
         _:qbcomponent-sdmx-dimension-refPeriod ,
-        _:qbcomponent-property-rank ,
+#        _:qbcomponent-property-rank ,
         _:qbcomponent-property-score ,
         _:qbcomponent-sdmx-attribute-recording
     .
@@ -124,7 +124,7 @@ cpi-2011:structure
         _:qbcomponent-property-source ,
         _:qbcomponent-sdmx-dimension-refArea ,
         _:qbcomponent-sdmx-dimension-refPeriod ,
-        _:qbcomponent-property-rank ,
+#        _:qbcomponent-property-rank ,
         _:qbcomponent-property-score ,
         _:qbcomponent-sdmx-attribute-recording
     .
@@ -144,10 +144,10 @@ _:qbcomponent-sdmx-dimension-refPeriod
     a qb:ComponentSpecification ;
     qb:dimension sdmx-dimension:refPeriod ;
     .
-_:qbcomponent-property-rank
-    a qb:ComponentSpecification ;
-    qb:measure property:rank ;
-    .
+#_:qbcomponent-property-rank
+#    a qb:ComponentSpecification ;
+#    qb:measure property:rank ;
+#    .
 _:qbcomponent-property-score
     a qb:ComponentSpecification ;
     qb:measure property:score ;
