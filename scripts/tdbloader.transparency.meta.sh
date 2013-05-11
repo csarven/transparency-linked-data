@@ -4,7 +4,7 @@ data="/var/www/lib/transparency-linked-data/data/";
 namespace="http://transparency.270a.info/";
 db="/SSD/data/fuseki/DB/DB.transparency/";
 graphs="/home/sarcap/Graphs/";
-tdbAssembler="/usr/lib/fuseki/tdb2.transparency.ttl";
+tdbAssembler="/usr/lib/fuseki/tdb.transparency.ttl";
 JVM_ARGS="-Xmx16000M";
 
 java "$JVM_ARGS" tdb.tdbloader --desc="$tdbAssembler" --graph="$namespace"graph/void /var/www/transparency.270a.info/void.ttl;
