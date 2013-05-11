@@ -251,6 +251,7 @@ property:rank
     .
 property:score
     a rdf:Property , qb:MeasureProperty ;
+    rdfs:subPropertyOf sdmx-measure:obsValue ;
     rdfs:label "Score"@en ;
     rdfs:range xsd:decimal ;
     .
