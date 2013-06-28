@@ -9,6 +9,7 @@ cp "$libdata"/transparency-sameAs-dbpedia_countries.nt "$data"/meta/
 cp "$libdata"/transparency-sameAs-eurostat_countries.nt "$data"/meta/
 cp "$libdata"/transparency-sameAs-geonames_countries.nt "$data"/meta/
 cp "$libdata"/transparency-exactMatch-worldbank_countries.nt "$data"/meta/
+cp "$libdata"/transparency-exactMatch-fao_countries.nt "$data"/meta/
 
 cp "$libdata"/CPI*.ttl "$data"/corruption-perceptions-index/
 
