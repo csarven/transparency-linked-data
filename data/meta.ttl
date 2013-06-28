@@ -269,6 +269,7 @@ property:surveys-used
 property:indicator
     a rdf:Property , qb:DimensionProperty ;
     rdfs:label "Indicator"@en ;
+    qb:concept indicator:corruption-perceptions-index ;
     .
 
 classification:indicator
@@ -278,7 +279,7 @@ classification:indicator
     .
 
 indicator:corruption-perceptions-index
-    a skos:Concept ;
+    a skos:Concept , sdmx:ConceptRole , sdmx:IdentityRole ;
     skos:prefLabel "Corruption Perceptions Index"@en ;
     skos:topConceptOf classification:indicator ;
     skos:inScheme classification:indicator ;
