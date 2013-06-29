@@ -15,6 +15,7 @@
 
 @prefix property: <http://transparency.270a.info/property/> .
 
+@prefix concept: <http://transparency.270a.info/concept/> .
 @prefix classification: <http://transparency.270a.info/classification/> .
 @prefix indicator: <http://transparency.270a.info/classification/indicator/> .
 @prefix source: <http://transparency.270a.info/classification/source/> .
@@ -269,7 +270,13 @@ property:surveys-used
 property:indicator
     a rdf:Property , qb:DimensionProperty ;
     rdfs:label "Indicator"@en ;
-    qb:concept indicator:corruption-perceptions-index ;
+    qb:concept concept:indicator
+    qb:codeList classification:indicator ;
+    .
+
+concept:indicator
+    a skos:Concept , sdmx:Concept , sdmx:ConceptRole , sdmx:IdentityRole ;
+    skos:prefLabel "Indicator"@en ;
     .
 
 classification:indicator
@@ -279,7 +286,7 @@ classification:indicator
     .
 
 indicator:corruption-perceptions-index
-    a skos:Concept , sdmx:ConceptRole , sdmx:IdentityRole ;
+    a skos:Concept ;
     skos:prefLabel "Corruption Perceptions Index"@en ;
     skos:notation "CPI" ;
     skos:topConceptOf classification:indicator ;
