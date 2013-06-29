@@ -270,7 +270,7 @@ property:surveys-used
 property:indicator
     a rdf:Property , qb:DimensionProperty ;
     rdfs:label "Indicator"@en ;
-    qb:concept concept:indicator
+    qb:concept concept:indicator ;
     qb:codeList classification:indicator ;
     .
 
