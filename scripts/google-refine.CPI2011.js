@@ -173,7 +173,7 @@
               "curie": "qb:dataSet",
               "target": {
                 "nodeType": "cell-as-resource",
-                "expression": "\"http://transparency.270a.info/dataset/corruption-perceptions-index/2011\"",
+                "expression": "\"http://transparency.270a.info/dataset/CPI2011\"",
                 "isRowNumberCell": true,
                 "rdfTypes": [],
                 "links": []

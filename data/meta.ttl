@@ -23,7 +23,7 @@
 
 @prefix transparency: <http://transparency.270a.info/> .
 @prefix transparency-dataset: <http://transparency.270a.info/dataset/> .
-@prefix cpi: <http://transparency.270a.info/dataset/corruption-perceptions-index/> .
+@prefix transparency-structure: <http://transparency.270a.info/structure/> .
 @prefix cpi-2009: <http://transparency.270a.info/dataset/corruption-perceptions-index/2009/> .
 @prefix cpi-2010: <http://transparency.270a.info/dataset/corruption-perceptions-index/2010/> .
 @prefix cpi-2011: <http://transparency.270a.info/dataset/corruption-perceptions-index/2011/> .
@@ -43,10 +43,10 @@
 
 transparency:dataset
     rdfs:label "Transparency International datasets"@en ;
-    dcterms:hasPart transparency-dataset:corruption-perceptions-index ;
+    dcterms:hasPart transparency-dataset:CPI ;
     .        
 
-transparency-dataset:corruption-perceptions-index
+transparency-dataset:CPI
     rdfs:label "Transparency International Corruption Perceptions Index dataset"@en ;
     foaf:page <http://www.transparency.org/research/cpi/> ;
     dcterms:issued "2012-09-24T00:00:00Z"^^xsd:dateTime ;
@@ -61,42 +61,42 @@ transparency-dataset:corruption-perceptions-index
         <http://purl.org/linked-data/sdmx/2009/subject#3.3> ,
         <http://purl.org/linked-data/sdmx/2009/subject#3.4> ;
     dcterms:hasPart
-        <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ,
-        <http://transparency.270a.info/dataset/corruption-perceptions-index/2010> ,
-        <http://transparency.270a.info/dataset/corruption-perceptions-index/2011> ;
+        <http://transparency.270a.info/dataset/CPI2009> ,
+        <http://transparency.270a.info/dataset/CPI2010> ,
+        <http://transparency.270a.info/dataset/CPI2011> ;
     dcterms:isPartOf transparency:dataset ;
     .
 
 
-<http://transparency.270a.info/dataset/corruption-perceptions-index/2009>
+<http://transparency.270a.info/dataset/CPI2009>
     a qb:DataSet ;
-    qb:structure cpi-2009:structure ;
+    qb:structure transparency-structure:CPI2009 ;
     rdfs:label "Corruption Perceptions Index 2009"@en ;
-    dcterms:isPartOf transparency-dataset:corruption-perceptions-index ;
+    dcterms:isPartOf transparency-dataset:CPI ;
     dcterms:hasPart cpi-2009:sources ;
     dcterms:source <http://archive.transparency.org/policy_research/surveys_indices/cpi/2009/cpi_2009_table> ;
     foaf:page <http://www.transparency.org/research/cpi/cpi_2009> ;
     .
-<http://transparency.270a.info/dataset/corruption-perceptions-index/2010>
+<http://transparency.270a.info/dataset/CPI2010>
     a qb:DataSet ;
-    qb:structure  cpi-2010:structure ;
+    qb:structure transparency-structure:CPI2010 ;
     rdfs:label "Corruption Perceptions Index 2010"@en ;
-    dcterms:isPartOf transparency-dataset:corruption-perceptions-index ;
+    dcterms:isPartOf transparency-dataset:CPI ;
     dcterms:hasPart cpi-2010:sources ;
     dcterms:source <http://archive.transparency.org/content/download/56231/898923/CPI+2010+results_pls_standardized_data.xls> ;
     foaf:page <http://www.transparency.org/cpi2010> ;
     .
-<http://transparency.270a.info/dataset/corruption-perceptions-index/2011>
+<http://transparency.270a.info/dataset/CPI2011>
     a qb:DataSet ;
-    qb:structure  cpi-2011:structure ;
+    qb:structure transparency-structure:CPI2011 ;
     rdfs:label "Corruption Perceptions Index 2011"@en ;
-    dcterms:isPartOf transparency-dataset:corruption-perceptions-index ;
+    dcterms:isPartOf transparency-dataset:CPI ;
     dcterms:hasPart cpi-2011:sources ;
     dcterms:source <http://files.transparency.org/content/download/313/1264/file/CPI2011_DataPackage.zip> ;
     foaf:page <http://www.transparency.org/cpi2010> ;
     .
 
-cpi-2009:structure
+transparency-structure:CPI2009
     a qb:DataStructureDefinition ;
     qb:component
         _:qbcomponent-property-indicator ,
@@ -107,7 +107,7 @@ cpi-2009:structure
         _:qbcomponent-property-score ,
         _:qbcomponent-sdmx-attribute-recording
     .
-cpi-2010:structure
+transparency-structure:CPI2010
     a qb:DataStructureDefinition ;
     qb:component
         _:qbcomponent-property-indicator ,
@@ -118,7 +118,7 @@ cpi-2010:structure
         _:qbcomponent-property-score ,
         _:qbcomponent-sdmx-attribute-recording
     .
-cpi-2011:structure
+transparency-structure:CPI2011
     a qb:DataStructureDefinition ;
     qb:component
         _:qbcomponent-property-indicator ,
@@ -167,7 +167,7 @@ cpi-2009:sources
     a qb:DataSet ;
     qb:structure cpi-2009-sources:structure ;
     rdfs:label "Transparency International Sources dataset for Corruption Perceptions Index 2009"@en ;
-    dcterms:isPartOf <http://transparency.270a.info/dataset/corruption-perceptions-index/2009> ;
+    dcterms:isPartOf <http://transparency.270a.info/dataset/CPI2009> ;
     foaf:page <http://www.transparency.org/research/cpi/> ;
     dcterms:issued "2012-09-24T00:00:00Z"^^xsd:dateTime ;
     dcterms:modified "2012-10-07T00:00:00Z"^^xsd:dateTime ;
@@ -178,7 +178,7 @@ cpi-2010:sources
     a qb:DataSet ;
     qb:structure cpi-2010-sources:structure ;
     rdfs:label "Transparency International Sources dataset for Corruption Perceptions Index 2010"@en ;
-    dcterms:isPartOf <http://transparency.270a.info/dataset/corruption-perceptions-index/2010> ;
+    dcterms:isPartOf <http://transparency.270a.info/dataset/CPI2010> ;
     foaf:page <http://www.transparency.org/research/cpi/> ;
     dcterms:issued "2012-09-24T00:00:00Z"^^xsd:dateTime ;
     dcterms:modified "2012-10-07T00:00:00Z"^^xsd:dateTime ;
@@ -189,7 +189,7 @@ cpi-2011:sources
     a qb:DataSet ;
     qb:structure cpi-2011-sources:structure ;
     rdfs:label "Transparency International Sources dataset for Corruption Perceptions Index 2011"@en ;
-    dcterms:isPartOf <http://transparency.270a.info/dataset/corruption-perceptions-index/2011> ;
+    dcterms:isPartOf <http://transparency.270a.info/dataset/CPI2011> ;
     foaf:page <http://www.transparency.org/research/cpi/> ;
     dcterms:issued "2012-09-24T00:00:00Z"^^xsd:dateTime ;
     dcterms:modified "2012-10-07T00:00:00Z"^^xsd:dateTime ;
