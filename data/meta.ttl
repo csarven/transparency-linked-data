@@ -43,10 +43,10 @@
 
 transparency:dataset
     rdfs:label "Transparency International datasets"@en ;
-    dcterms:hasPart transparency-dataset:CPI ;
+    dcterms:hasPart transparency-dataset:corruption-perceptions-index ;
     .        
 
-transparency-dataset:CPI
+transparency-dataset:corruption-perceptions-index
     rdfs:label "Transparency International Corruption Perceptions Index dataset"@en ;
     foaf:page <http://www.transparency.org/research/cpi/> ;
     dcterms:issued "2012-09-24T00:00:00Z"^^xsd:dateTime ;
@@ -72,7 +72,7 @@ transparency-dataset:CPI
     a qb:DataSet ;
     qb:structure transparency-structure:CPI2009 ;
     rdfs:label "Corruption Perceptions Index 2009"@en ;
-    dcterms:isPartOf transparency-dataset:CPI ;
+    dcterms:isPartOf transparency-dataset:corruption-perceptions-index ;
     dcterms:hasPart cpi-2009:sources ;
     dcterms:source <http://archive.transparency.org/policy_research/surveys_indices/cpi/2009/cpi_2009_table> ;
     foaf:page <http://www.transparency.org/research/cpi/cpi_2009> ;
@@ -81,7 +81,7 @@ transparency-dataset:CPI
     a qb:DataSet ;
     qb:structure transparency-structure:CPI2010 ;
     rdfs:label "Corruption Perceptions Index 2010"@en ;
-    dcterms:isPartOf transparency-dataset:CPI ;
+    dcterms:isPartOf transparency-dataset:corruption-perceptions-index ;
     dcterms:hasPart cpi-2010:sources ;
     dcterms:source <http://archive.transparency.org/content/download/56231/898923/CPI+2010+results_pls_standardized_data.xls> ;
     foaf:page <http://www.transparency.org/cpi2010> ;
@@ -90,7 +90,7 @@ transparency-dataset:CPI
     a qb:DataSet ;
     qb:structure transparency-structure:CPI2011 ;
     rdfs:label "Corruption Perceptions Index 2011"@en ;
-    dcterms:isPartOf transparency-dataset:CPI ;
+    dcterms:isPartOf transparency-dataset:corruption-perceptions-index ;
     dcterms:hasPart cpi-2011:sources ;
     dcterms:source <http://files.transparency.org/content/download/313/1264/file/CPI2011_DataPackage.zip> ;
     foaf:page <http://www.transparency.org/cpi2010> ;
