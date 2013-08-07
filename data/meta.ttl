@@ -99,65 +99,65 @@ transparency-dataset:corruption-perceptions-index
 transparency-structure:CPI2009
     a qb:DataStructureDefinition ;
     qb:component
-        _:qbcomponent-property-indicator ,
-        _:qbcomponent-property-source ,
-        _:qbcomponent-sdmx-dimension-refArea ,
-        _:qbcomponent-sdmx-dimension-refPeriod ,
-#        _:qbcomponent-property-rank ,
-        _:qbcomponent-property-score ,
-        _:qbcomponent-sdmx-attribute-recording
+        _:qbcomponentpropertyindicator ,
+        _:qbcomponentpropertysource ,
+        _:qbcomponentsdmxdimensionrefArea ,
+        _:qbcomponentsdmxdimensionrefPeriod ,
+#        _:qbcomponentpropertyrank ,
+        _:qbcomponentpropertyscore ,
+        _:qbcomponentsdmxattributerecording
     .
 transparency-structure:CPI2010
     a qb:DataStructureDefinition ;
     qb:component
-        _:qbcomponent-property-indicator ,
-        _:qbcomponent-property-source ,
-        _:qbcomponent-sdmx-dimension-refArea ,
-        _:qbcomponent-sdmx-dimension-refPeriod ,
-#        _:qbcomponent-property-rank ,
-        _:qbcomponent-property-score ,
-        _:qbcomponent-sdmx-attribute-recording
+        _:qbcomponentpropertyindicator ,
+        _:qbcomponentpropertysource ,
+        _:qbcomponentsdmxdimensionrefArea ,
+        _:qbcomponentsdmxdimensionrefPeriod ,
+#        _:qbcomponentpropertyrank ,
+        _:qbcomponentpropertyscore ,
+        _:qbcomponentsdmxattributerecording
     .
 transparency-structure:CPI2011
     a qb:DataStructureDefinition ;
     qb:component
-        _:qbcomponent-property-indicator ,
-        _:qbcomponent-property-source ,
-        _:qbcomponent-sdmx-dimension-refArea ,
-        _:qbcomponent-sdmx-dimension-refPeriod ,
-#        _:qbcomponent-property-rank ,
-        _:qbcomponent-property-score ,
-        _:qbcomponent-sdmx-attribute-recording
+        _:qbcomponentpropertyindicator ,
+        _:qbcomponentpropertysource ,
+        _:qbcomponentsdmxdimensionrefArea ,
+        _:qbcomponentsdmxdimensionrefPeriod ,
+#        _:qbcomponentpropertyrank ,
+        _:qbcomponentpropertyscore ,
+        _:qbcomponentsdmxattributerecording
     .
-_:qbcomponent-property-indicator
+_:qbcomponentpropertyindicator
     a qb:ComponentSpecification ;
     qb:dimension property:indicator ;
     .
-_:qbcomponent-property-source
+_:qbcomponentpropertysource
     a qb:ComponentSpecification ;
     qb:dimension property:source ;
     .
-_:qbcomponent-sdmx-dimension-refArea
+_:qbcomponentsdmxdimensionrefArea
     a qb:ComponentSpecification ;
     qb:dimension sdmx-dimension:refArea ;
     .
-_:qbcomponent-sdmx-dimension-refPeriod
+_:qbcomponentsdmxdimensionrefPeriod
     a qb:ComponentSpecification ;
     qb:dimension sdmx-dimension:refPeriod ;
     .
-#_:qbcomponent-property-rank
+#_:qbcomponentpropertyrank
 #    a qb:ComponentSpecification ;
 #    qb:measure property:rank ;
 #    .
-_:qbcomponent-property-score
+_:qbcomponentpropertyscore
     a qb:ComponentSpecification ;
     qb:measure property:score ;
     .
-_:qbcomponent-sdmx-attribute-recording
+_:qbcomponentsdmxattributerecording
     a qb:ComponentSpecification ;
     qb:attribute sdmx-attribute:recording ;
     .
-_:qbcomponent-sdmx-attribute-adjustment
+_:qbcomponentsdmxattributeadjustment
     a qb:ComponentSpecification ;
     qb:attribute sdmx-attribute:adjustment ;
     .
@@ -200,28 +200,28 @@ cpi-2011:sources
 cpi-2009-sources:structure
     a qb:DataStructureDefinition ;
     qb:component
-        _:qbcomponent-property-source ,
-        _:qbcomponent-sdmx-dimension-refArea ,
-        _:qbcomponent-sdmx-dimension-refPeriod ,
-        _:qbcomponent-sdmx-attribute-adjustment
+        _:qbcomponentpropertysource ,
+        _:qbcomponentsdmxdimensionrefArea ,
+        _:qbcomponentsdmxdimensionrefPeriod ,
+        _:qbcomponentsdmxattributeadjustment
     .
 cpi-2010-sources:structure
     a qb:DataStructureDefinition ;
     qb:component
-        _:qbcomponent-property-source ,
-        _:qbcomponent-sdmx-dimension-refArea ,
-        _:qbcomponent-sdmx-dimension-refPeriod ,
-        _:qbcomponent-property-score ,
-        _:qbcomponent-sdmx-attribute-adjustment
+        _:qbcomponentpropertysource ,
+        _:qbcomponentsdmxdimensionrefArea ,
+        _:qbcomponentsdmxdimensionrefPeriod ,
+        _:qbcomponentpropertyscore ,
+        _:qbcomponentsdmxattributeadjustment
     .
 cpi-2011-sources:structure
     a qb:DataStructureDefinition ;
     qb:component
-        _:qbcomponent-property-source ,
-        _:qbcomponent-sdmx-dimension-refArea ,
-        _:qbcomponent-sdmx-dimension-refPeriod ,
-        _:qbcomponent-property-score ,
-        _:qbcomponent-sdmx-attribute-adjustment
+        _:qbcomponentpropertysource ,
+        _:qbcomponentsdmxdimensionrefArea ,
+        _:qbcomponentsdmxdimensionrefPeriod ,
+        _:qbcomponentpropertyscore ,
+        _:qbcomponentsdmxattributeadjustment
     .
 
 #TODO: Consider adding DSDs for the aggregated Observations
