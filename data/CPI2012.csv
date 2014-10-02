@@ -1,4 +1,4 @@
-rank,reference-area,region,score,surveys-used,standard-deviation,percentile-90-lower,percentile-90-upper,min,max,african-development-bank-country-policy-and-institutional-assessment-governance-ratings,bertelsmann-foundation-sustainable-governance-indicators,bertelsmann-foundation-transformation-index,international-institute-for-management-development-world-competitiveness-yearbook,political-risk-services-international-country-risk-guide,world-bank-country-performance-and-institutional-assessment,world-economic-forum-executive-opinion-survey,world-justice-project-rule-of-law-index,economist-intelligence-unit-country-risk-assessment,global-insight-country-risk-ratings,political-and-economic-risk-consultancy-asian-intelligence,transparency-international-bribe-payers-survey,freedom-house-nations-in-transit
+rank,refArea,region,score,surveysXXXused,standardXXXdeviation,percentileXXX90XXXlower,percentileXXX90XXXupper,min,max,africanXXXdevelopmentXXXbankXXXcountryXXXpolicyXXXandXXXinstitutionalXXXassessmentXXXgovernanceXXXratings,bertelsmannXXXfoundationXXXsustainableXXXgovernanceXXXindicators,bertelsmannXXXfoundationXXXtransformationXXXindex,internationalXXXinstituteXXXforXXXmanagementXXXdevelopmentXXXworldXXXcompetitivenessXXXyearbook,politicalXXXriskXXXservicesXXXinternationalXXXcountryXXXriskXXXguide,worldXXXbankXXXcountryXXXperformanceXXXandXXXinstitutionalXXXassessment,worldXXXeconomicXXXforumXXXexecutiveXXXopinionXXXsurvey,worldXXXjusticeXXXprojectXXXruleXXXofXXXlawXXXindex,economistXXXintelligenceXXXunitXXXcountryXXXriskXXXassessment,globalXXXinsightXXXcountryXXXriskXXXratings,politicalXXXandXXXeconomicXXXriskXXXconsultancyXXXasianXXXintelligence,transparencyXXXinternationalXXXbribeXXXpayersXXXsurvey,freedomXXXhouseXXXnationsXXXinXXXtransit
 1,Denmark,EU,90,7,2,87,93,83,98,0,89,0,95,98,0,86,89,88,83,0,0,0
 1,Finland,EU,90,7,3,85,95,83,100,0,89,0,90,100,0,91,87,88,83,0,0,0
 1,New Zealand,AP,90,7,2.2,87,94,83,98,0,97,0,88,98,0,92,86,88,83,0,0,0
@@ -115,7 +115,7 @@ rank,reference-area,region,score,surveys-used,standard-deviation,percentile-90-l
 113,Ethiopia,AF,33,8,1.6,30,36,23,38,32,0,23,0,31,35,36,36,38,32,0,0,0
 113,Guatemala,AM,33,6,2.7,28,37,21,40,0,0,40,0,31,0,34,21,38,32,0,0,0
 113,Niger,AF,33,5,3.1,28,38,21,40,40,0,36,0,21,35,0,0,0,32,0,0,0
-113,Timor-Leste,AP,33,3,5.6,23,42,23,43,0,0,0,0,0,23,43,0,0,32,0,0,0
+113,TimorXXXLeste,AP,33,3,5.6,23,42,23,43,0,0,0,0,0,23,43,0,0,32,0,0,0
 118,Dominican Republic,AM,32,6,2.7,28,37,23,42,0,0,32,0,31,0,23,28,38,42,0,0,0
 118,Ecuador,AM,32,6,2.9,28,37,21,41,0,0,32,0,41,0,31,38,21,32,0,0,0
 118,Egypt,ME,32,7,3.1,27,37,17,44,17,0,32,0,31,0,28,44,38,32,0,0,0
@@ -149,7 +149,7 @@ rank,reference-area,region,score,surveys-used,standard-deviation,percentile-90-l
 144,Syria,ME,26,5,2.7,22,31,19,32,0,0,19,0,31,0,29,0,21,32,0,0,0
 144,Ukraine,EE,26,8,1.8,24,29,18,32,0,0,28,25,31,0,29,18,21,32,0,0,29
 150,Eritrea,AF,25,4,9.2,10,40,12,52,17,0,19,0,0,12,0,0,0,52,0,0,0
-150,Guinea-Bissau,AF,25,4,2.1,22,29,22,31,25,0,0,0,31,23,0,0,0,22,0,0,0
+150,GuineaXXXBissau,AF,25,4,2.1,22,29,22,31,25,0,0,0,31,23,0,0,0,22,0,0,0
 150,Papua New Guinea,AP,25,5,4.2,18,32,11,35,0,0,28,0,31,35,0,0,21,11,0,0,0
 150,Paraguay,AM,25,5,2.9,20,29,21,36,0,0,36,0,21,0,23,0,21,22,0,0,0
 154,Guinea,AF,24,7,2.7,19,28,12,32,32,0,32,0,21,12,25,0,21,22,0,0,0
