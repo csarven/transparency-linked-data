@@ -207,7 +207,7 @@ CONSTRUCT {
 
         ?observationURI dcterms:source ?observationFH.
 }
-FROM <refined.csv>
+FROM <../data/CPI2012.csv>
 WHERE {
 	BIND (STR("2012") AS ?refPeriod)
 	BIND (REPLACE(?refArea, "^ +| +$", '') AS ?rArea)
