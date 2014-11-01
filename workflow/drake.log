@@ -1,0 +1,95 @@
+2014-11-01 13:01:23,311 ERROR drake: illegal syntax starting with "EOF" for workflow
+2014-11-01 13:02:24,510 ERROR drake: illegal syntax starting with "EOF" for workflow
+2014-11-01 13:03:18,818 INFO Aborted.
+2014-11-01 13:03:39,878 INFO Running 17 steps with concurrence of 1...
+2014-11-01 13:03:39,915 INFO 
+2014-11-01 13:03:39,916 INFO --- 0. Running (forced): %wfSetup, ../data/wfDesc/transparency.ttl <- 
+2014-11-01 13:03:39,976 INFO --- 0: %wfSetup, ../data/wfDesc/transparency.ttl <-  -> done in 0.05s
+2014-11-01 13:03:39,983 INFO 
+2014-11-01 13:03:39,983 INFO --- 1. Running (forced): %wfInspection, ../data/wfDesc/wfDescInspection/inspection-transparency.ttl <- 
+2014-11-01 13:03:40,015 INFO --- 1: %wfInspection, ../data/wfDesc/wfDescInspection/inspection-transparency.ttl <-  -> done in 0.03s
+2014-11-01 13:03:40,021 INFO 
+2014-11-01 13:03:40,022 INFO --- 2. Running (forced): %1StepInspection <- 
+2014-11-01 13:03:40,058 INFO --- 2: %1StepInspection <-  -> done in 0.04s
+2014-11-01 13:03:40,060 INFO 
+2014-11-01 13:03:40,060 INFO --- 3. Running (forced): %wfExtraction, ../data/wfDesc/wfDescExtraction/extraction-transparency.ttl <- 
+2014-11-01 13:03:40,095 INFO --- 3: %wfExtraction, ../data/wfDesc/wfDescExtraction/extraction-transparency.ttl <-  -> done in 0.03s
+2014-11-01 13:03:40,097 INFO 
+2014-11-01 13:03:40,097 INFO --- 4. Running (forced): %1StepExtraction, transparency.zip <- 
+2014-11-01 13:03:41,188 INFO --- 4: %1StepExtraction, transparency.zip <-  -> done in 1.09s
+2014-11-01 13:03:41,193 INFO 
+2014-11-01 13:03:41,194 INFO --- 5. Running (forced): %2StepExtraction, countryCodes.csv <- 
+2014-11-01 13:03:41,228 INFO --- 5: %2StepExtraction, countryCodes.csv <-  -> done in 0.03s
+2014-11-01 13:03:41,230 INFO 
+2014-11-01 13:03:41,230 INFO --- 6. Running (forced): %wfPreprocessing, preprocessing/wfPreprocessing.d <- 
+2014-11-01 13:03:41,264 INFO --- 6: %wfPreprocessing, preprocessing/wfPreprocessing.d <-  -> done in 0.03s
+2014-11-01 13:03:41,265 INFO 
+2014-11-01 13:03:41,266 INFO --- 7. Running (forced): %1StepPreprocessing, CPI2012_Results.xls <- transparency.zip
+2014-11-01 13:03:41,416 ERROR caught exception step 7:  throw+: {:msg "shell command failed with exit code 9", :args ("/bin/bash" ".drake/shell-bbb67547b4642c99e79beb641709b985.bat" :env {"wfPreprocessingSteps" "preprocessing/wfPreprocessing.d", "JAVA_MAIN_CLASS_69355" "drake.core", "wfDesc" "../data/wfDesc/", "OUTPUT" "/Users/renatostauffer/Desktop/FakeRetrieval_Transparency/tarql-0.9/bin/transparency-linked-data-test/workflow/CPI2012_Results.xls", "DISPLAY" "/tmp/launch-2Weeqm/org.macosforge.xquartz:0", "INPUTN" 1, "SSH_AUTH_SOCK" "/tmp/launch-B4rDY3/Listeners", "wfInspectionSteps" "inspection/wfInspection.d", "agency" "transparency", "PATH" "/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin", "agent" "Renato Stauffer", "INPUT0" "/Users/renatostauffer/Desktop/FakeRetrieval_Transparency/tarql-0.9/bin/transparency-linked-data-test/workflow/transparency.zip", "__CHECKFIX1436934" "1", "wfDescExtraction" "../data/wfDesc/wfDescExtraction/extraction-transparency.ttl", "wfMappingSteps" "mapping/wfMapping.d", "INPUTS" "/Users/renatostauffer/Desktop/FakeRetrieval_Transparency/tarql-0.9/bin/transparency-linked-data-test/workflow/transparency.zip", "TERM_PROGRAM_VERSION" "326", "agencyURL" "http://www.transparency.org/", "INPUT" "/Users/renatostauffer/Desktop/FakeRetrieval_Transparency/tarql-0.9/bin/transparency-linked-data-test/workflow/transparency.zip", "data" "../data", "Apple_PubSub_Socket_Render" "/tmp/launch-7BZ7Fv/Render", "USER" "renatostauffer", "TERM" "xterm-256color", "__CF_USER_TEXT_ENCODING" "0x1F5:0:3", "SHLVL" "2", "OUTPUTN" 1, "LANG" "de_CH.UTF-8", "wfDescMapping" "../data/wfDesc/wfDescMapping/mapping-transparency.ttl", "agencyLabel" "Transparency International", "OUTPUT0" "/Users/renatostauffer/Desktop/FakeRetrieval_Transparency/tarql-0.9/bin/transparency-linked-data-test/workflow/CPI2012_Results.xls", "LOGNAME" "renatostauffer", "SHELL" "/bin/bash", "wfExtractionSteps" "extraction/wfExtraction.d", "TERM_PROGRAM" "Apple_Terminal", "SECURITYSESSIONID" "186a4", "BASE" "", "OUTPUTS" "/Users/renatostauffer/Desktop/FakeRetrieval_Transparency/tarql-0.9/bin/transparency-linked-data-test/workflow/CPI2012_Results.xls", "JAVA_ARCH" "x86_64", "wfDescInspection" "../data/wfDesc/wfDescInspection/inspection-transparency.ttl", "temp" "../temp/", "TMPDIR" "/var/folders/tc/qcyhp2mx35d3vq4f3b6hkzbr0000gn/T/", "wfDescMainProcess" "../data/wfDesc/transparency.ttl", "wfDescPreprocessing" "../data/wfDesc/wfDescPreprocessing/preprocessing-transparency.ttl", "TERM_SESSION_ID" "28ED34CC-120E-4C1F-9E82-302175FC0A37", "namespace" "http://$agency.270a.info/", "com.apple.java.jvmTask" "CommandLine", "PWD" "/Users/renatostauffer/Desktop/FakeRetrieval_Transparency/tarql-0.9/bin/transparency-linked-data-test/workflow", "_" "/usr/bin/java", "HOME" "/Users/renatostauffer"} :die true :no-stdin nil :out [#<PrintStream java.io.PrintStream@14d84fa1> #<BufferedWriter java.io.BufferedWriter@7e201050>] :err [#<PrintStream java.io.PrintStream@67144bff> #<BufferedWriter java.io.BufferedWriter@56cded73>]), :exit 9} nil
+2014-11-01 13:03:41,433 INFO 
+2014-11-01 13:03:41,434 INFO --- 12. Running (forced): %6StepPreprocessing, firstquery.txt, secondquery.txt <- 
+2014-11-01 13:03:41,457 INFO --- 12: %6StepPreprocessing, firstquery.txt, secondquery.txt <-  -> done in 0.02s
+2014-11-01 13:03:41,458 INFO 
+2014-11-01 13:03:41,459 INFO --- 13. Running (forced): %wfMapping, ../data/wfDesc/wfDescMapping/mapping-transparency.ttl <- 
+2014-11-01 13:03:41,488 INFO --- 13: %wfMapping, ../data/wfDesc/wfDescMapping/mapping-transparency.ttl <-  -> done in 0.03s
+2014-11-01 13:03:41,491 INFO 
+2014-11-01 13:03:41,492 INFO --- 15. Running (forced): %2StepMapping, turtleTransparency_final.ttl <- firstQuery.txt, secondQuery.txt
+2014-11-01 13:03:41,516 INFO --- 15: %2StepMapping, turtleTransparency_final.ttl <- firstQuery.txt, secondQuery.txt -> done in 0.02s
+2014-11-01 13:03:41,517 INFO 
+2014-11-01 13:03:41,518 INFO --- 16. Running (forced): %wfCleanup <- 
+2014-11-01 13:03:41,575 INFO --- 16: %wfCleanup <-  -> done in 0.05s
+2014-11-01 13:03:41,576 INFO Done (11 steps run).
+2014-11-01 13:03:41,580 ERROR drake: shell command failed with exit code 9
+2014-11-01 13:05:11,460 INFO Running 17 steps with concurrence of 1...
+2014-11-01 13:05:11,500 INFO 
+2014-11-01 13:05:11,501 INFO --- 0. Running (forced): %wfSetup, ../data/wfDesc/transparency.ttl <- 
+2014-11-01 13:05:11,600 INFO --- 0: %wfSetup, ../data/wfDesc/transparency.ttl <-  -> done in 0.09s
+2014-11-01 13:05:11,607 INFO 
+2014-11-01 13:05:11,608 INFO --- 1. Running (forced): %wfInspection, ../data/wfDesc/wfDescInspection/inspection-transparency.ttl <- 
+2014-11-01 13:05:11,725 INFO --- 1: %wfInspection, ../data/wfDesc/wfDescInspection/inspection-transparency.ttl <-  -> done in 0.11s
+2014-11-01 13:05:11,736 INFO 
+2014-11-01 13:05:11,737 INFO --- 2. Running (forced): %1StepInspection <- 
+2014-11-01 13:05:11,989 INFO --- 2: %1StepInspection <-  -> done in 0.25s
+2014-11-01 13:05:11,991 INFO 
+2014-11-01 13:05:11,991 INFO --- 3. Running (forced): %wfExtraction, ../data/wfDesc/wfDescExtraction/extraction-transparency.ttl <- 
+2014-11-01 13:05:12,030 INFO --- 3: %wfExtraction, ../data/wfDesc/wfDescExtraction/extraction-transparency.ttl <-  -> done in 0.03s
+2014-11-01 13:05:12,032 INFO 
+2014-11-01 13:05:12,033 INFO --- 4. Running (forced): %1StepExtraction, transparency.zip <- 
+2014-11-01 13:05:16,846 INFO --- 4: %1StepExtraction, transparency.zip <-  -> done in 4.81s
+2014-11-01 13:05:16,849 INFO 
+2014-11-01 13:05:16,849 INFO --- 5. Running (forced): %2StepExtraction, countryCodes.csv <- 
+2014-11-01 13:05:16,883 INFO --- 5: %2StepExtraction, countryCodes.csv <-  -> done in 0.03s
+2014-11-01 13:05:16,888 INFO 
+2014-11-01 13:05:16,890 INFO --- 6. Running (forced): %wfPreprocessing, preprocessing/wfPreprocessing.d <- 
+2014-11-01 13:05:16,923 INFO --- 6: %wfPreprocessing, preprocessing/wfPreprocessing.d <-  -> done in 0.03s
+2014-11-01 13:05:16,925 INFO 
+2014-11-01 13:05:16,925 INFO --- 7. Running (forced): %1StepPreprocessing, CPI2012_Results.xls <- transparency.zip
+2014-11-01 13:05:17,050 INFO --- 7: %1StepPreprocessing, CPI2012_Results.xls <- transparency.zip -> done in 0.12s
+2014-11-01 13:05:17,052 INFO 
+2014-11-01 13:05:17,052 INFO --- 8. Running (forced): %2StepPreprocessing, CPI2012_Results.csv <- CPI2012_Results.xls
+2014-11-01 13:05:17,103 INFO --- 8: %2StepPreprocessing, CPI2012_Results.csv <- CPI2012_Results.xls -> done in 0.05s
+2014-11-01 13:05:17,106 INFO 
+2014-11-01 13:05:17,106 INFO --- 9. Running (forced): %3StepPreprocessing, CPI2012.csv <- CPI2012_Results.csv, countryCodes.csv
+2014-11-01 13:05:17,131 INFO --- 9: %3StepPreprocessing, CPI2012.csv <- CPI2012_Results.csv, countryCodes.csv -> done in 0.02s
+2014-11-01 13:05:17,133 INFO 
+2014-11-01 13:05:17,133 INFO --- 10. Running (forced): %4StepPreprocessing, CPI2012_refined.csv <- CPI2012.csv
+2014-11-01 13:05:17,299 INFO --- 10: %4StepPreprocessing, CPI2012_refined.csv <- CPI2012.csv -> done in 0.16s
+2014-11-01 13:05:17,301 INFO 
+2014-11-01 13:05:17,301 INFO --- 11. Running (forced): %5StepPreprocessing, transparency.tarql <- CPI2012_refined.csv
+2014-11-01 13:05:17,338 INFO --- 11: %5StepPreprocessing, transparency.tarql <- CPI2012_refined.csv -> done in 0.04s
+2014-11-01 13:05:17,339 INFO 
+2014-11-01 13:05:17,340 INFO --- 12. Running (forced): %6StepPreprocessing, firstquery.txt, secondquery.txt <- 
+2014-11-01 13:05:17,391 INFO --- 12: %6StepPreprocessing, firstquery.txt, secondquery.txt <-  -> done in 0.05s
+2014-11-01 13:05:17,392 INFO 
+2014-11-01 13:05:17,392 INFO --- 13. Running (forced): %wfMapping, ../data/wfDesc/wfDescMapping/mapping-transparency.ttl <- 
+2014-11-01 13:05:17,428 INFO --- 13: %wfMapping, ../data/wfDesc/wfDescMapping/mapping-transparency.ttl <-  -> done in 0.03s
+2014-11-01 13:05:17,430 INFO 
+2014-11-01 13:05:17,430 INFO --- 14. Running (forced): %1StepMapping, turtleTransparency.ttl <- CPI2012_refined.csv, transparency.tarql
+2014-11-01 13:05:24,219 INFO --- 14: %1StepMapping, turtleTransparency.ttl <- CPI2012_refined.csv, transparency.tarql -> done in 6.78s
+2014-11-01 13:05:24,227 INFO 
+2014-11-01 13:05:24,228 INFO --- 15. Running (forced): %2StepMapping, turtleTransparency_final.ttl <- firstQuery.txt, secondQuery.txt
+2014-11-01 13:05:24,301 INFO --- 15: %2StepMapping, turtleTransparency_final.ttl <- firstQuery.txt, secondQuery.txt -> done in 0.07s
+2014-11-01 13:05:24,303 INFO 
+2014-11-01 13:05:24,303 INFO --- 16. Running (forced): %wfCleanup <- 
+2014-11-01 13:05:24,354 INFO --- 16: %wfCleanup <-  -> done in 0.05s
+2014-11-01 13:05:24,357 INFO Done (17 steps run).

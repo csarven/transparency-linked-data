@@ -1,0 +1,6 @@
+  End-of-central-directory signature not found.  Either this file is not
+  a zipfile, or it constitutes one disk of a multi-part archive.  In the
+  latter case the central directory and zipfile comment will be found on
+  the last disk(s) of this archive.
+unzip:  cannot find zipfile directory in one of /Users/renatostauffer/Desktop/FakeRetrieval_Transparency/tarql-0.9/bin/transparency-linked-data-test/workflow/transparency.zip or
+        /Users/renatostauffer/Desktop/FakeRetrieval_Transparency/tarql-0.9/bin/transparency-linked-data-test/workflow/transparency.zip.zip, and cannot find /Users/renatostauffer/Desktop/FakeRetrieval_Transparency/tarql-0.9/bin/transparency-linked-data-test/workflow/transparency.zip.ZIP, period.

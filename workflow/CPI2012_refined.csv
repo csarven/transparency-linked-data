@@ -1,0 +1,177 @@
+rank,refArea,region,score,surveysused,standardU,percentile90lower,percentile90upper,min,max,africanDevelopmentBankcountryPolicyAndInstitutionalAssessmentGovernanceRatings,bertelsmannFoundationSustainableGovernanceIndicators,bertelsmannFoundationTransformationIndex,internationalInstituteForManagementDevelopmentWorldCompetitivenessYearbook,politicalRiskServicesInternationalCountryRiskGuide,worldBankCountryPerformanceAndInstitutionalAssessment,worldEconomicForumExecutiveOpinionSurvey,worldJusticeProjectRuleOfLawIndex,economistIntelligenceUnitCountryRiskAssessment,globalInsightCountryRiskRatings,politicalAndEconomicRiskConsultancyAsianIntelligence,transparencyInternationalBribePayersSurvey,freedomHouseNationsInTransit
+1,Denmark,DK,90,7,2,87,93,83,98,null,89,null,95,98,null,86,89,88,83,null,null,null
+1,Finland,FI,90,7,3,85,95,83,100,null,89,null,90,100,null,91,87,88,83,null,null,null
+1,New Zealand,NZ,90,7,2.2,87,94,83,98,null,97,null,88,98,null,92,86,88,83,null,null,null
+4,Sweden,SE,88,7,1.9,85,91,82,97,null,97,null,85,89,null,82,89,88,83,null,null,null
+5,Singapore,SG,87,9,2.1,83,90,79,99,null,null,79,91,79,null,88,84,88,83,87,99,null
+6,Switzerland,CH,86,6,2.6,81,90,73,90,null,89,null,90,89,null,85,null,88,73,null,null,null
+7,Australia,AU,85,8,1.1,83,86,80,89,null,81,null,87,89,null,80,83,88,83,86,null,null
+7,Norway,NO,85,7,1.6,82,87,78,89,null,81,null,78,89,null,85,88,88,83,null,null,null
+9,Canada,CA,84,7,2.2,80,87,74,89,null,89,null,83,89,null,79,74,88,83,null,null,null
+9,Netherlands,NL,84,7,2,81,88,73,89,null,73,null,86,89,null,84,87,88,83,null,null,null
+11,Iceland,IS,82,6,4.1,75,89,71,98,null,89,null,80,98,null,81,null,71,73,null,null,null
+12,Luxembourg,LU,80,6,2.8,75,85,71,89,null,81,null,81,89,null,86,null,71,73,null,null,null
+13,Germany,DE,79,8,2.3,75,83,73,89,null,73,null,81,89,null,78,75,88,73,null,74,null
+14,Hong Kong,HK,77,8,1.9,74,80,69,83,null,null,null,80,79,null,82,83,71,73,69,82,null
+15,Barbados,BB,76,3,6.7,65,87,66,88,null,null,null,null,null,null,66,null,88,73,null,null,null
+16,Belgium,BE,75,7,2.4,71,78,71,89,null,73,null,73,89,null,71,72,71,73,null,null,null
+17,Japan,JP,74,9,2.3,70,78,57,79,null,57,null,78,79,null,79,78,71,73,78,73,null
+17,United Kingdom,GB,74,8,1.3,72,77,69,81,null,73,null,76,69,null,81,73,71,73,null,77,null
+19,United States,US,73,9,4.1,66,79,50,89,null,89,null,77,69,null,64,69,88,73,76,50,null
+20,Chile,CL,72,9,2.1,69,76,63,82,null,65,75,82,79,null,73,67,71,73,null,63,null
+20,Uruguay,UY,72,6,1.5,70,75,69,79,null,null,79,null,69,null,69,71,71,73,null,null,null
+22,Bahamas,BS,71,3,1,70,73,69,73,null,null,null,null,69,null,null,null,71,73,null,null,null
+22,France,FR,71,8,2.4,67,75,57,79,null,57,null,73,79,null,67,74,71,73,null,77,null
+22,Saint Lucia,LC,71,3,0.8,70,73,70,73,null,null,null,null,null,70,null,null,71,73,null,null,null
+25,Austria,AT,69,8,2.4,65,73,59,79,null,73,null,59,79,null,63,71,71,63,null,74,null
+25,Ireland,IE,69,6,3.5,64,75,54,78,null,65,null,76,69,null,78,null,54,73,null,null,null
+27,Qatar,QA,68,6,6.4,58,79,49,89,null,null,49,77,50,null,89,null,71,73,null,null,null
+27,United Arab Emirates,AE,68,7,4.3,61,75,54,86,null,null,58,75,60,null,86,68,54,73,null,null,null
+29,Cyprus,CY,66,4,2.4,63,70,62,71,null,null,null,null,69,null,62,null,71,63,null,null,null
+30,Botswana,BW,65,7,1.9,62,68,60,72,62,null,66,null,60,null,60,72,71,63,null,null,null
+30,Spain,ES,65,7,2.9,60,69,52,73,null,65,null,58,69,null,52,73,71,63,null,null,null
+32,Estonia,EE,64,8,3,59,69,50,75,null,null,75,70,50,null,64,71,54,63,null,null,68
+33,Bhutan,BT,63,3,3.6,57,69,58,70,null,null,58,null,null,70,null,null,null,63,null,null,null
+33,Portugal,PT,63,7,2.5,59,67,54,73,null,65,null,58,69,null,59,61,54,73,null,null,null
+33,Puerto Rico,PR,63,3,4.9,55,71,54,71,null,null,null,null,null,null,54,null,71,63,null,null,null
+36,Saint Vincent and the Grenadines,VC,62,3,5.6,53,71,54,73,null,null,null,null,null,58,null,null,54,73,null,null,null
+37,Slovenia,SI,61,8,3.9,55,67,45,73,null,null,71,45,50,null,54,55,71,73,null,null,68
+37,Taiwan,TW,61,7,3.9,54,67,50,79,null,null,79,66,50,null,64,null,54,63,50,null,null
+39,Cape Verde,CV,60,4,3.8,54,67,52,70,62,null,null,null,null,70,57,null,null,52,null,null,null
+39,Israel,IL,60,5,2.9,55,64,52,68,null,null,null,64,60,null,68,null,54,52,null,null,null
+41,Dominica,DM,58,3,2.3,55,62,54,63,null,null,null,null,null,58,null,null,54,63,null,null,null
+41,Poland,PL,58,10,2,55,62,47,65,null,65,62,47,50,null,55,65,54,63,null,63,58
+43,Malta,MT,57,4,2.4,53,61,52,63,null,null,null,null,60,null,52,null,54,63,null,null,null
+43,Mauritius,MU,57,5,3.5,51,63,52,71,55,null,53,null,null,null,55,null,71,52,null,null,null
+45,Korea (South),KR,56,10,2.4,52,60,47,67,null,57,66,55,50,null,48,67,54,52,47,66,null
+46,Brunei,BN,55,3,9.1,40,70,41,72,null,null,null,null,41,null,72,null,null,52,null,null,null
+46,Hungary,HU,55,10,3.5,49,61,37,71,null,49,62,37,50,null,40,65,71,63,null,57,55
+48,Costa Rica,CR,54,5,7,43,66,31,71,null,null,66,null,31,null,51,null,71,52,null,null,null
+48,Lithuania,LT,54,7,5.3,45,63,31,71,null,null,66,45,31,null,47,null,71,63,null,null,55
+50,Rwanda,RW,53,5,6.3,42,63,40,77,47,null,40,null,null,47,77,null,null,52,null,null,null
+51,Georgia,GE,52,6,6,42,62,32,70,null,null,49,null,null,47,68,70,null,32,null,null,44
+51,Seychelles,SC,52,4,8,38,65,32,71,32,null,null,null,null,null,50,null,71,52,null,null,null
+53,Bahrain,BH,51,5,4.1,44,58,36,61,null,null,36,null,50,null,61,null,54,52,null,null,null
+54,Czech Republic,CZ,49,10,2.9,44,53,34,62,null,49,62,40,41,null,34,55,54,52,null,41,58
+54,Latvia,LV,49,6,4,42,55,31,58,null,null,53,null,31,null,44,null,54,52,null,null,58
+54,Malaysia,MY,49,9,3.4,44,55,31,62,null,null,53,62,41,null,53,62,54,42,46,31,null
+54,Turkey,TR,49,9,2.1,45,52,38,57,null,49,53,54,41,null,50,46,38,52,null,57,null
+58,Cuba,CU,48,4,4.1,41,55,36,54,null,null,36,null,50,null,null,null,54,52,null,null,null
+58,Jordan,JO,48,7,3.1,43,54,36,57,null,null,36,56,50,null,57,50,38,52,null,null,null
+58,Namibia,NA,48,6,3.5,42,54,38,63,47,null,49,null,50,null,41,null,38,63,null,null,null
+61,Oman,OM,47,5,7.6,35,60,32,75,null,null,32,null,41,null,75,null,38,52,null,null,null
+62,Croatia,HR,46,8,3.1,41,51,32,54,null,null,53,35,41,null,32,47,54,52,null,null,50
+62,Slovakia,SK,46,8,4.3,39,53,30,62,null,41,62,30,41,null,30,null,54,52,null,null,55
+64,Ghana,GH,45,9,3.8,39,51,28,58,55,null,49,null,41,58,29,37,54,52,null,28,null
+64,Lesotho,LS,45,5,4.6,38,53,37,63,40,null,40,null,null,47,37,null,null,63,null,null,null
+66,Kuwait,KW,44,5,3.9,37,50,32,52,null,null,32,null,50,null,46,null,38,52,null,null,null
+66,Romania,RO,44,8,3.7,38,50,32,60,null,null,58,32,60,null,34,43,38,42,null,null,50
+66,Saudi Arabia,SA,44,5,6.4,34,55,32,69,null,null,32,null,41,null,69,null,38,42,null,null,null
+69,Brazil,BR,43,8,3.3,38,49,31,58,null,null,58,31,50,null,35,45,38,52,null,37,null
+69,Macedonia,,43,6,4.7,35,51,21,50,null,null,49,null,null,null,50,48,21,42,null,null,50
+69,South Africa,ZA,43,9,2.5,39,48,32,55,55,null,45,32,41,null,43,43,54,42,null,36,null
+72,Bosnia and Herzegovina,BA,42,7,2.3,38,46,35,54,null,null,40,null,null,35,54,39,38,42,null,null,44
+72,Italy,IT,42,7,2.4,38,46,37,55,null,41,null,39,41,null,37,55,38,42,null,null,null
+72,Sao Tome and Principe,,42,3,5,34,50,32,47,47,null,null,null,null,47,null,null,null,32,null,null,null
+75,Bulgaria,BG,41,8,3.8,35,47,29,62,null,null,62,29,31,null,38,38,38,42,null,null,50
+75,Liberia,LR,41,7,3.9,35,47,28,55,55,null,45,null,41,35,52,28,null,32,null,null,null
+75,Montenegro,ME,41,4,4.5,34,49,32,53,null,null,40,null,null,null,53,null,null,32,null,null,39
+75,Tunisia,TN,41,7,2.8,36,45,28,50,40,null,28,null,50,null,42,47,38,42,null,null,null
+79,Sri Lanka,LK,40,7,1.3,38,42,35,44,null,null,36,null,41,35,43,44,38,42,null,null,null
+80,China,CN,39,9,2.9,34,43,28,55,null,null,28,34,31,null,47,45,38,32,39,55,null
+80,Serbia,RS,39,7,2.6,35,44,31,49,null,null,49,null,31,null,35,35,38,42,null,null,47
+80,Trinidad and Tobago,TT,39,4,4.5,32,47,31,52,null,null,null,null,31,null,37,null,38,52,null,null,null
+83,Burkina Faso,BF,38,7,4.4,31,45,23,55,55,null,23,null,31,47,26,42,null,42,null,null,null
+83,El Salvador,SV,38,6,2.8,33,43,25,45,null,null,45,null,41,null,25,38,38,42,null,null,null
+83,Jamaica,JM,38,6,2.2,35,42,31,47,null,null,36,null,31,null,37,47,38,42,null,null,null
+83,Panama,PA,38,6,3.1,33,44,31,52,null,null,36,null,31,null,41,32,38,52,null,null,null
+83,Peru,PE,38,7,2.1,35,42,29,45,null,null,45,41,41,null,32,29,38,42,null,null,null
+88,Malawi,MW,37,8,1.5,34,39,31,45,40,null,45,null,31,35,36,38,38,32,null,null,null
+88,Morocco,MA,37,8,3.2,32,43,25,54,40,null,28,null,41,null,54,25,38,42,null,32,null
+88,Suriname,SR,37,3,3.2,31,42,31,42,null,null,null,null,31,null,37,null,null,42,null,null,null
+88,Swaziland,SZ,37,4,2.1,33,40,32,42,32,null,null,null,null,null,35,null,38,42,null,null,null
+88,Thailand,TH,37,8,1.6,34,40,31,45,null,null,45,38,31,null,35,33,38,42,35,null,null
+88,Zambia,ZM,37,8,3.1,32,42,23,50,47,null,32,null,50,23,35,36,38,32,null,null,null
+94,Benin,BJ,36,6,4.3,29,44,18,47,47,null,36,null,null,47,18,null,38,32,null,null,null
+94,Colombia,CO,36,7,2.6,32,40,29,50,null,null,36,32,50,null,29,36,38,32,null,null,null
+94,Djibouti,DJ,36,3,8.6,22,50,23,52,32,null,null,null,null,23,null,null,null,52,null,null,null
+94,Greece,GR,36,7,3.6,30,42,21,49,null,41,null,35,31,null,30,49,21,42,null,null,null
+94,India,IN,36,10,2.1,33,40,24,47,null,null,45,34,41,47,37,24,38,32,31,36,null
+94,Moldova,MD,36,8,2.6,31,40,25,47,null,null,40,null,31,47,34,25,38,42,null,null,29
+94,Mongolia,MN,36,7,2.6,32,40,26,47,null,null,32,null,31,47,26,37,38,42,null,null,null
+94,Senegal,SN,36,9,1.8,33,39,32,47,40,null,32,null,33,47,32,43,38,32,null,33,null
+102,Argentina,AR,35,8,2.6,31,39,19,41,null,null,40,31,41,null,19,41,38,32,null,38,null
+102,Gabon,GA,35,5,2.1,32,38,31,42,32,null,null,null,31,null,42,null,38,32,null,null,null
+102,Tanzania,TZ,35,8,2.1,31,38,22,41,40,null,36,null,41,35,32,33,38,22,null,null,null
+105,Algeria,DZ,34,6,3.3,29,40,20,42,40,null,36,null,31,null,20,null,38,42,null,null,null
+105,Armenia,AM,34,6,2.7,29,38,21,40,null,null,40,null,21,35,38,null,null,32,null,null,37
+105,Bolivia,BO,34,7,3.7,28,40,17,47,null,null,36,null,31,47,29,17,38,42,null,null,null
+105,Gambia,GM,34,5,7,22,45,17,57,17,null,null,null,41,23,57,null,null,32,null,null,null
+105,Kosovo,KV,34,3,1.5,32,37,31,36,null,null,36,null,null,35,null,null,null,null,null,null,31
+105,Mali,ML,34,6,4,27,40,18,47,40,null,36,null,31,47,18,null,null,32,null,null,null
+105,Mexico,MX,34,9,1.7,31,37,27,42,null,33,32,40,31,null,36,28,38,42,null,27,null
+105,Philippines,PH,34,9,2.2,30,37,21,42,null,null,36,36,31,null,37,34,21,42,26,38,null
+113,Albania,AL,33,7,2,30,36,23,39,null,null,36,null,31,null,32,23,38,32,null,null,39
+113,Ethiopia,ET,33,8,1.6,30,36,23,38,32,null,23,null,31,35,36,36,38,32,null,null,null
+113,Guatemala,GT,33,6,2.7,28,37,21,40,null,null,40,null,31,null,34,21,38,32,null,null,null
+113,Niger,NE,33,5,3.1,28,38,21,40,40,null,36,null,21,35,null,null,null,32,null,null,null
+113,Timor-Leste,TL,33,3,5.6,23,42,23,43,null,null,null,null,null,23,43,null,null,32,null,null,null
+118,Dominican Republic,DO,32,6,2.7,28,37,23,42,null,null,32,null,31,null,23,28,38,42,null,null,null
+118,Ecuador,EC,32,6,2.9,28,37,21,41,null,null,32,null,41,null,31,38,21,32,null,null,null
+118,Egypt,EG,32,7,3.1,27,37,17,44,17,null,32,null,31,null,28,44,38,32,null,null,null
+118,Indonesia,ID,32,9,2.9,27,37,21,50,null,null,32,36,50,null,36,23,21,32,25,33,null
+118,Madagascar,MG,32,8,3.2,26,37,17,42,17,null,36,null,41,23,24,31,38,42,null,null,null
+123,Belarus,BY,31,5,3.6,25,37,22,43,null,null,32,null,31,null,null,43,null,22,null,null,26
+123,Mauritania,MR,31,5,3.5,25,36,23,42,32,null,32,null,null,23,23,null,null,42,null,null,null
+123,Mozambique,MZ,31,7,1.6,29,34,25,38,25,null,28,null,31,35,31,null,38,32,null,null,null
+123,Sierra Leone,SL,31,8,1.9,28,34,21,40,40,null,32,null,31,35,31,28,21,32,null,null,null
+123,Vietnam,VN,31,8,2.5,27,35,21,41,null,null,28,null,41,35,32,35,21,22,33,null,null
+128,Lebanon,LB,30,6,2.3,27,34,23,38,null,null,23,null,31,null,24,35,38,32,null,null,null
+128,Togo,TG,30,5,3.4,24,35,23,42,25,null,28,null,31,23,null,null,null,42,null,null,null
+130,CÙte d¥Ivoire,,29,8,2.4,25,33,19,38,32,null,19,null,31,23,36,32,38,22,null,null,null
+130,Nicaragua,NI,29,7,2.1,26,32,21,37,null,null,28,null,31,23,37,32,21,32,null,null,null
+130,Uganda,UG,29,8,2.2,25,32,22,38,32,null,36,null,31,23,24,24,38,22,null,null,null
+133,Comoros,KM,28,3,7.5,15,40,17,42,17,null,null,null,null,23,null,null,null,42,null,null,null
+133,Guyana,GY,28,4,2.1,25,31,23,32,null,null,null,null,31,23,26,null,null,32,null,null,null
+133,Honduras,HN,28,6,2.4,24,32,21,35,null,null,32,null,31,35,28,null,21,22,null,null,null
+133,Iran,IR,28,6,4.6,20,35,19,43,null,null,19,null,21,null,43,41,21,22,null,null,null
+133,Kazakhstan,KZ,28,8,4.1,21,35,11,48,null,null,28,40,21,null,48,30,21,11,null,null,23
+133,Russia,RU,28,9,2.2,25,32,21,43,null,null,28,27,31,null,29,31,21,22,null,43,23
+139,Azerbaijan,AZ,27,6,2.5,23,31,21,38,null,null,28,null,21,null,30,null,38,22,null,null,23
+139,Kenya,KE,27,8,2.2,24,31,19,35,32,null,32,null,31,35,27,19,21,22,null,null,null
+139,Nepal,NP,27,5,2.4,23,31,22,35,null,null,23,null,null,35,27,31,null,22,null,null,null
+139,Nigeria,NG,27,9,2.7,22,31,17,38,32,null,36,null,21,35,23,17,38,22,null,19,null
+139,Pakistan,PK,27,8,2.3,23,31,19,38,null,null,19,null,31,23,30,20,38,32,null,23,null
+144,Bangladesh,BD,26,7,4.1,20,33,21,50,null,null,28,null,50,23,21,21,21,22,null,null,null
+144,Cameroon,CM,26,8,3.5,20,32,12,41,40,null,28,null,41,23,21,12,21,22,null,null,null
+144,Central African Republic,CF,26,4,2.4,22,30,22,32,32,null,28,null,null,23,null,null,null,22,null,null,null
+144,Congo Republic,CG,26,6,3.3,20,31,19,40,40,null,19,null,31,23,null,null,21,22,null,null,null
+144,Syria,SY,26,5,2.7,22,31,19,32,null,null,19,null,31,null,29,null,21,32,null,null,null
+144,Ukraine,UA,26,8,1.8,24,29,18,32,null,null,28,25,31,null,29,18,21,32,null,null,29
+150,Eritrea,ER,25,4,9.2,10,40,12,52,17,null,19,null,null,12,null,null,null,52,null,null,null
+150,Guinea-Bissau,GW,25,4,2.1,22,29,22,31,25,null,null,null,31,23,null,null,null,22,null,null,null
+150,Papua New Guinea,PG,25,5,4.2,18,32,11,35,null,null,28,null,31,35,null,null,21,11,null,null,null
+150,Paraguay,PY,25,5,2.9,20,29,21,36,null,null,36,null,21,null,23,null,21,22,null,null,null
+154,Guinea,GN,24,7,2.7,19,28,12,32,32,null,32,null,21,12,25,null,21,22,null,null,null
+154,Kyrgyzstan,KG,24,6,1.8,21,27,18,32,null,null,23,null,null,23,23,18,null,32,null,null,26
+156,Yemen,YE,23,6,2.2,20,27,16,31,null,null,28,null,31,23,16,null,21,22,null,null,null
+157,Angola,AO,22,7,1.8,20,25,17,31,25,null,19,null,31,23,17,null,21,22,null,null,null
+157,Cambodia,KH,22,7,3.1,17,27,12,37,null,null,15,null,null,12,37,23,21,22,25,null,null
+157,Tajikistan,TJ,22,5,3.8,15,28,11,32,null,null,15,null,null,23,32,null,null,11,null,null,26
+160,Democratic Republic of the Congo,CD,21,5,3.3,16,27,12,32,32,null,19,null,21,12,null,null,null,22,null,null,null
+160,Laos,LA,21,3,1.3,19,23,19,23,null,null,19,null,null,23,null,null,null,22,null,null,null
+160,Libya,LY,21,6,4,14,27,2,31,2,null,28,null,21,null,31,null,21,22,null,null,null
+163,Equatorial Guinea,GQ,20,3,1.3,18,22,17,22,17,null,null,null,null,null,null,null,21,22,null,null,null
+163,Zimbabwe,ZW,20,8,4.3,12,27,null,38,17,null,15,null,12,null,36,18,38,22,null,null,null
+165,Burundi,BI,19,5,2.8,14,23,12,28,17,null,28,null,null,12,15,null,null,22,null,null,null
+165,Chad,TD,19,5,2.5,15,23,12,25,25,null,23,null,null,12,16,null,null,22,null,null,null
+165,Haiti,HT,19,5,2.8,14,23,11,23,null,null,23,null,12,23,23,null,null,11,null,null,null
+165,Venezuela,VE,19,7,2.1,15,22,12,25,null,null,15,25,12,null,14,25,21,22,null,null,null
+169,Iraq,IQ,18,4,2.3,14,22,11,21,null,null,19,null,21,null,null,null,21,11,null,null,null
+170,Turkmenistan,TM,17,3,2.9,12,22,11,21,null,null,19,null,null,null,null,null,null,11,null,null,21
+170,Uzbekistan,UZ,17,6,2,14,20,11,22,null,null,15,null,null,12,null,22,21,11,null,null,21
+172,Myanmar,MM,15,4,3.7,9,21,6,21,null,null,6,null,21,null,null,null,21,11,null,null,null
+173,Sudan,SD,13,6,2.9,8,17,null,21,17,null,15,null,12,null,null,null,21,11,null,null,null
+174,Afghanistan,AF,8,3,3.3,2,13,1,12,null,null,10,null,null,12,null,null,null,1,null,null,null
+174,Korea (North),KP,8,3,3.4,2,13,1,12,null,null,10,null,12,null,null,null,null,1,null,null,null
+174,Somalia,SO,8,4,2.3,4,12,2,12,2,null,6,null,12,null,null,null,null,11,null,null,null
