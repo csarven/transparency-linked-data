@@ -1,0 +1,14 @@
+<http://transparency.270a.info/workflow/transparency/preprocessing a p-plan:MultiStep;>
+p-plan:isDecomposedAsPlan <http://transparency.270a.info/workflow/transparency>.
+<http://transparency.270a.info/workflow/transparency/preprocessing/1StepPreprocessing> a p-plan:Step;
+p-plan:isStepOfPlan <http://transparency.270a.info/workflow/transparency/preprocessing>.
+<http://transparency.270a.info/workflow/transparency/preprocessing/2StepPreprocessing> a p-plan:Step;
+p-plan:isStepOfPlan <http://transparency.270a.info/workflow/transparency/preprocessing>.
+<http://transparency.270a.info/workflow/transparency/preprocessing/3StepPreprocessing> a p-plan:Step;
+p-plan:isStepOfPlan <http://transparency.270a.info/workflow/transparency/preprocessing>.
+<http://transparency.270a.info/workflow/transparency/preprocessing/4StepPreprocessing> a p-plan:Step;
+p-plan:isStepOfPlan <http://transparency.270a.info/workflow/transparency/preprocessing>.
+<http://transparency.270a.info/workflow/transparency/preprocessing/5StepPreprocessing> a p-plan:Step;
+p-plan:isStepOfPlan <http://transparency.270a.info/workflow/transparency/preprocessing>.
+<http://transparency.270a.info/workflow/transparency/preprocessing/6StepPreprocessing> a p-plan:Step;
+p-plan:isStepOfPlan <http://transparency.270a.info/workflow/transparency/preprocessing>.

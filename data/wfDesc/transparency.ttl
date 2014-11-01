@@ -1,0 +1,45 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix ao: <http://purl.org/ao/> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfg: <http://www.w3.org/2004/03/trix/rdfg-1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+<http://transparency.270a.info/workflow/transparency> a p-plan:Plan;
+rdfs:label "Workflow Transparency International".
+<http://transparency.270a.info/workflow/transparency/inspection> a p-plan:MultiStep;
+p-plan:isDecomposedAsPlan <http://transparency.270a.info/workflow/transparency>.
+<http://transparency.270a.info/workflow/transparency/inspection/1StepInspection> a p-plan:Step;
+p-plan:isStepOfPlan <http://transparency.270a.info/workflow/transparency/inspection>.
+
+<http://transparency.270a.info/workflow/transparency/extraction a p-plan:MultiStep;>
+p-plan:isDecomposedAsPlan <http://transparency.270a.info/workflow/transparency>.
+<http://transparency.270a.info/workflow/transparency/extraction/1StepExtraction> a p-plan:Step;
+p-plan:isStepOfPlan <http://transparency.270a.info/workflow/transparency/extraction>.
+<http://transparency.270a.info/workflow/transparency/extraction/2StepExtraction> a p-plan:Step;
+p-plan:isStepOfPlan <http://transparency.270a.info/workflow/transparency/extraction>.
+
+<http://transparency.270a.info/workflow/transparency/preprocessing a p-plan:MultiStep;>
+p-plan:isDecomposedAsPlan <http://transparency.270a.info/workflow/transparency>.
+<http://transparency.270a.info/workflow/transparency/preprocessing/1StepPreprocessing> a p-plan:Step;
+p-plan:isStepOfPlan <http://transparency.270a.info/workflow/transparency/preprocessing>.
+<http://transparency.270a.info/workflow/transparency/preprocessing/2StepPreprocessing> a p-plan:Step;
+p-plan:isStepOfPlan <http://transparency.270a.info/workflow/transparency/preprocessing>.
+<http://transparency.270a.info/workflow/transparency/preprocessing/3StepPreprocessing> a p-plan:Step;
+p-plan:isStepOfPlan <http://transparency.270a.info/workflow/transparency/preprocessing>.
+<http://transparency.270a.info/workflow/transparency/preprocessing/4StepPreprocessing> a p-plan:Step;
+p-plan:isStepOfPlan <http://transparency.270a.info/workflow/transparency/preprocessing>.
+<http://transparency.270a.info/workflow/transparency/preprocessing/5StepPreprocessing> a p-plan:Step;
+p-plan:isStepOfPlan <http://transparency.270a.info/workflow/transparency/preprocessing>.
+<http://transparency.270a.info/workflow/transparency/preprocessing/6StepPreprocessing> a p-plan:Step;
+p-plan:isStepOfPlan <http://transparency.270a.info/workflow/transparency/preprocessing>.
+
+<http://transparency.270a.info/workflow/transparency/mapping a p-plan:MultiStep;>
+p-plan:isDecomposedAsPlan <http://transparency.270a.info/workflow/transparency>.
+<http://transparency.270a.info/workflow/transparency/mapping/1StepMapping> a p-plan:Step;
+p-plan:isStepOfPlan <http://transparency.270a.info/workflow/transparency/mapping>.
+<http://transparency.270a.info/workflow/transparency/mapping/2StepMapping> a p-plan:Step;
+p-plan:isStepOfPlan <http://transparency.270a.info/workflow/transparency/mapping>.
