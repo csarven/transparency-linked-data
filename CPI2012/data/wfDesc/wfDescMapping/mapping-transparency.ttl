@@ -1,6 +1,0 @@
-<http://transparency.270a.info/workflow/transparency/mapping> a p-plan:MultiStep;
-p-plan:isDecomposedAsPlan <http://transparency.270a.info/workflow/transparency>.
-<http://transparency.270a.info/workflow/transparency/mapping/1StepMapping> a p-plan:Step;
-p-plan:isStepOfPlan <http://transparency.270a.info/workflow/transparency/mapping>.
-<http://transparency.270a.info/workflow/transparency/mapping/2StepMapping> a p-plan:Step;
-p-plan:isStepOfPlan <http://transparency.270a.info/workflow/transparency/mapping>.

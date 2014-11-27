@@ -1,6 +1,0 @@
-<http://transparency.270a.info/workflow/transparency/extraction> a p-plan:MultiStep;
-p-plan:isDecomposedAsPlan <http://transparency.270a.info/workflow/transparency>.
-<http://transparency.270a.info/workflow/transparency/extraction/1StepExtraction> a p-plan:Step;
-p-plan:isStepOfPlan <http://transparency.270a.info/workflow/transparency/extraction>.
-<http://transparency.270a.info/workflow/transparency/extraction/2StepExtraction> a p-plan:Step;
-p-plan:isStepOfPlan <http://transparency.270a.info/workflow/transparency/extraction>.

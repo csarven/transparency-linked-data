@@ -1,0 +1,9 @@
+<http://transparency.270a.info/workflow/transparency/mapping> a opmw:WorkflowTemplateProcess;
+opmw:isStepOfTemplate <http://transparency.270a.info/workflow/transparency>;
+opmv:wasTriggeredBy <http://transparency.270a.info/workflow/transparency/preprocessing>.
+<http://transparency.270a.info/workflow/transparency/mapping/1StepMapping> a opmv:Process, prov:Activity, opmw:WorkflowExecutionProcess;
+opmw:correspondsToTemplateProcess <http://transparency.270a.info/workflow/transparency/mapping>.
+<http://transparency.270a.info/workflow/transparency/mapping/2StepMapping> a opmv:Process, prov:Activity, opmw:WorkflowExecutionProcess;
+opmw:correspondsToTemplateProcess <http://transparency.270a.info/workflow/transparency/mapping>.
+<http://transparency.270a.info/workflow/transparency/mapping/3StepMapping> a opmv:Process, prov:Activity, opmw:WorkflowExecutionProcess;
+opmw:correspondsToTemplateProcess <http://transparency.270a.info/workflow/transparency/mapping>.

@@ -1,0 +1,5 @@
+<http://transparency.270a.info/workflow/transparency/inspection> a opmw:WorkflowTemplateProcess;
+opmw:isStepOfTemplate <http://transparency.270a.info/workflow/transparency>;
+opmv:wasTriggeredBy <http://transparency.270a.info/workflow/transparency>.
+<http://transparency.270a.info/workflow/transparency/inspection/1StepInspection> a opmv:Process, prov:Activity, opmw:WorkflowExecutionProcess;
+opmw:correspondsToTemplateProcess <http://transparency.270a.info/workflow/transparency/inspection>.

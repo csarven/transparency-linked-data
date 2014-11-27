@@ -19,7 +19,7 @@ CONSTRUCT {
         property:rank ?propertyRank ;
         property:surveys-used ?propertySurveys;
         rdfs:label ?labelCPI;
-        sdmx-attribute:recording <http://dbpedia.org/resource/Arithmetic_mean>;
+        sdmx-attribute:recording <http://transparency.270a.info/classification/attribute/cpi-calculation-methology>;
         property:indicator <http://transparency.270a.info/classification/indicator/corruption-perceptions-index>;
         property:percentile-90-lower ?percentil90low;
         property:percentile-90-upper ?percentil90up.
@@ -193,7 +193,7 @@ CONSTRUCT {
 
         ?observationURI dcterms:source ?observationFH.
 }
-FROM <CPI2012_refined.csv>
+FROM <../data/CPI2012_refined.csv>
 WHERE {
 	BIND (STR("2012") AS ?refPeriod)
 	BIND (REPLACE(?refArea, "^ +| +$", '') AS ?rArea)
@@ -202,79 +202,79 @@ WHERE {
 	?refPeriod, "/", ?reg)) AS ?observationURI)
  	BIND (URI(CONCAT("http://transparency.270a.info/classification/country/", ?reg)) AS ?referenceArea)
  	BIND (URI(CONCAT("http://reference.data.gov.uk/id/year/", ?refPeriod)) AS ?referencePeriod)
- 	BIND (STRDT(REPLACE(?score, " +", ''), xsd:decimal) AS ?propertyScore)
- 	BIND (STRDT(REPLACE(?surveysused, " +", ''), xsd:int) AS ?propertySurveys)
-    BIND (STRDT(REPLACE(?rank, " +", ''), xsd:int) AS ?propertyRank)
-    BIND (STRDT(REPLACE(?percentile90lower, " +", ''), xsd:decimal) AS ?percentil90low)
+ 	BIND (STRDT(REPLACE(?score, " +", ''), xsd:integer) AS ?propertyScore)
+ 	BIND (STRDT(REPLACE(?surveysused, " +", ''), xsd:integer) AS ?propertySurveys)
+    BIND (STRDT(REPLACE(?rank, " +", ''), xsd:integer) AS ?propertyRank)
+    BIND (STRDT(REPLACE(?percentile90lower, " +", ''), xsd:integer) AS ?percentil90low)
     BIND (STRDT(REPLACE(?standardU, " +", ''), xsd:decimal) AS ?stdUncertainty)
-    BIND (STRDT(REPLACE(?percentile90upper, " +", ''), xsd:decimal) AS ?percentil90up)
-    BIND (CONCAT("Corruption Perception Index of ", ?rArea, " in ", ?refPeriod) AS ?labelCPI)
+    BIND (STRDT(REPLACE(?percentile90upper, " +", ''), xsd:integer) AS ?percentil90up)
+    BIND (STRLANG(CONCAT("Corruption Perception Index of ", ?rArea, " in ", ?refPeriod),"en") AS ?labelCPI)
 
     BIND (URI(CONCAT("http://transparency.270a.info/dataset/corruption-perceptions-index/", ?refPeriod, "/sources/bertelsmann-foundation-sustainable-governance-indicators/", ?refPeriod, "/", ?reg)) AS ?observationBertelsmann)
-    BIND (STRDT(REPLACE(?bertelsmannFoundationSustainableGovernanceIndicators, " +", ''), xsd:decimal) AS ?scoreBertelsmann)
-    BIND (CONCAT("Corruption Perception Index ", ?refPeriod, " for ", ?rArea, " from Bertelsmann Foundation Sustainable Governance Indicators in "@en, ?refPeriod) AS ?labelBertelsmann)
+    BIND (STRDT(REPLACE(?bertelsmannFoundationSustainableGovernanceIndicators, " +", ''), xsd:integer) AS ?scoreBertelsmann)
+    BIND (STRLANG(CONCAT("Corruption Perception Index ", ?refPeriod, " for ", ?rArea, " from Bertelsmann Foundation Sustainable Governance Indicators in "@en, ?refPeriod),"en") AS ?labelBertelsmann)
+
     BIND (URI(CONCAT("http://transparency.270a.info/classification/source/bertelsmann-foundation-sustainable-governance-indicators/", ?refPeriod)) AS ?propSourceBertelsmann)
-    BIND (STR(CONCAT("http://transparency.270a.info/dataset/corruption-perceptions-index/", ?refPeriod,"/sources")) AS ?dataSetSources)
+    BIND (URI(CONCAT("http://transparency.270a.info/dataset/corruption-perceptions-index/", ?refPeriod,"/sources")) AS ?dataSetSources)
 
     BIND (URI(CONCAT("http://transparency.270a.info/dataset/corruption-perceptions-index/", ?refPeriod, "/sources/economist-intelligence-unit-country-risk-assessment/", ?refPeriod, "/", ?reg)) AS ?observationEIU)
-    BIND (STRDT(REPLACE(?economistIntelligenceUnitCountryRiskAssessment, " +", ''), xsd:decimal) AS ?scoreEIU)
-    BIND (CONCAT("Corruption Perception Index ", ?refPeriod, " for ", ?rArea, " from Economist Intelligence Unit Country Risk Assessment in "@en, ?refPeriod) AS ?labelEIU)
+    BIND (STRDT(REPLACE(?economistIntelligenceUnitCountryRiskAssessment, " +", ''), xsd:integer) AS ?scoreEIU)
+    BIND (STRLANG(CONCAT("Corruption Perception Index ", ?refPeriod, " for ", ?rArea, " from Economist Intelligence Unit Country Risk Assessment in "@en, ?refPeriod),"en") AS ?labelEIU)
     BIND (URI(CONCAT("http://transparency.270a.info/classification/source/economist-intelligence-unit-country-risk-assessment/", ?refPeriod)) AS ?propSourceEIU)
 
     BIND (URI(CONCAT("http://transparency.270a.info/dataset/corruption-perceptions-index/", ?refPeriod, "/sources/global-insight-country-risk-ratings/", ?refPeriod, "/", ?reg)) AS ?observationGI)
-    BIND (STRDT(REPLACE(?globalInsightCountryRiskRatings, " +", ''), xsd:decimal) AS ?scoreGI)
-    BIND (CONCAT("Corruption Perception Index ", ?refPeriod, " for ", ?rArea, " from Global Insight Country Risk Ratings in "@en, ?refPeriod) AS ?labelGI)
+    BIND (STRDT(REPLACE(?globalInsightCountryRiskRatings, " +", ''), xsd:integer) AS ?scoreGI)
+    BIND (STRLANG(CONCAT("Corruption Perception Index ", ?refPeriod, " for ", ?rArea, " from Global Insight Country Risk Ratings in ", ?refPeriod),"en") AS ?labelGI)
     BIND (URI(CONCAT("http://transparency.270a.info/classification/source/global-insight-country-risk-ratings/", ?refPeriod)) AS ?propSourceGI)
 
     BIND (URI(CONCAT("http://transparency.270a.info/dataset/corruption-perceptions-index/", ?refPeriod, "/sources/international-institute-for-management-development-world-competitiveness-yearbook/", ?refPeriod, "/", ?reg)) AS ?observationIMD)
-    BIND (STRDT(REPLACE(?internationalInstituteForManagementDevelopmentWorldCompetitivenessYearbook, " +", ''), xsd:decimal) AS ?scoreIMD)
-    BIND (CONCAT("Corruption Perception Index ", ?refPeriod, " for ", ?rArea, " from IMD World Competitiveness Yearbook in "@en, ?refPeriod) AS ?labelIMD)
+    BIND (STRDT(REPLACE(?internationalInstituteForManagementDevelopmentWorldCompetitivenessYearbook, " +", ''), xsd:integer) AS ?scoreIMD)
+    BIND (STRLANG(CONCAT("Corruption Perception Index ", ?refPeriod, " for ", ?rArea, " from IMD World Competitiveness Yearbook in ", ?refPeriod),"en") AS ?labelIMD)
     BIND (URI(CONCAT("http://transparency.270a.info/classification/source/international-institute-for-management-development-world-competitiveness-yearbook/", ?refPeriod)) AS ?propSourceIMD)
 
     BIND (URI(CONCAT("http://transparency.270a.info/dataset/corruption-perceptions-index/", ?refPeriod, "/sources/african-development-bank-country-policy-and-institutional-assessment-governance-ratings/", ?refPeriod, "/", ?reg)) AS ?observationAFDB)
-    BIND (STRDT(REPLACE(?africanDevelopmentBankcountryPolicyAndInstitutionalAssessmentGovernanceRatings, " +", ''), xsd:decimal) AS ?scoreAFDB)
-    BIND (CONCAT("Corruption Perception Index ", ?refPeriod, " for ", ?rArea, " from African Development Bank Governance Ratings in "@en, ?refPeriod) AS ?labelAFDB)
+    BIND (STRDT(REPLACE(?africanDevelopmentBankcountryPolicyAndInstitutionalAssessmentGovernanceRatings, " +", ''), xsd:integer) AS ?scoreAFDB)
+    BIND (STRLANG(CONCAT("Corruption Perception Index ", ?refPeriod, " for ", ?rArea, " from African Development Bank Governance Ratings in ", ?refPeriod),"en") AS ?labelAFDB)
     BIND (URI(CONCAT("http://transparency.270a.info/classification/source/african-development-bank-country-policy-and-institutional-assessment-governance-ratings/", ?refPeriod)) AS ?propSourceAFDB)
-    MINUS{?observationAFDB property:score "0"^^xsd:decimal}
 
     BIND (URI(CONCAT("http://transparency.270a.info/dataset/corruption-perceptions-index/", ?refPeriod, "/sources/bertelsmann-foundation-transformation-index/", ?refPeriod, "/", ?reg)) AS ?observationBF_BTI)
-    BIND (STRDT(REPLACE(?bertelsmannFoundationTransformationIndex, " +", ''), xsd:decimal) AS ?scoreBF_BTI)
-    BIND (CONCAT("Corruption Perception Index ", ?refPeriod, " for ", ?rArea, " from Bertelsmann Foundation Transformation Index in "@en, ?refPeriod) AS ?labelBF_BIT)
+    BIND (STRDT(REPLACE(?bertelsmannFoundationTransformationIndex, " +", ''), xsd:integer) AS ?scoreBF_BTI)
+    BIND (STRLANG(CONCAT("Corruption Perception Index ", ?refPeriod, " for ", ?rArea, " from Bertelsmann Foundation Transformation Index in ", ?refPeriod),"en") AS ?labelBF_BIT)
     BIND (URI(CONCAT("http://transparency.270a.info/classification/source/bertelsmann-foundation-transformation-index/", ?refPeriod)) AS ?propSourceBF_BTI)
 
  	BIND (URI(CONCAT("http://transparency.270a.info/dataset/corruption-perceptions-index/", ?refPeriod, "/sources/political-risk-services-international-country-risk-guide/", ?refPeriod, "/", ?reg)) AS ?observationICRG)
-    BIND (STRDT(REPLACE(?politicalRiskServicesInternationalCountryRiskGuide, " +", ''), xsd:decimal) AS ?scoreICRG)
-    BIND (CONCAT("Corruption Perception Index ", ?refPeriod, " for ", ?rArea, " from Political Risk Services International Country Risk Guide in "@en, ?refPeriod) AS ?labelICRG)
+    BIND (STRDT(REPLACE(?politicalRiskServicesInternationalCountryRiskGuide, " +", ''), xsd:integer) AS ?scoreICRG)
+    BIND (STRLANG(CONCAT("Corruption Perception Index ", ?refPeriod, " for ", ?rArea, " from Political Risk Services International Country Risk Guide in ", ?refPeriod),"en") AS ?labelICRG)
     BIND (URI(CONCAT("http://transparency.270a.info/classification/source/political-risk-services-international-country-risk-guide/", ?refPeriod)) AS ?propSourceICRG)
 
     BIND (URI(CONCAT("http://transparency.270a.info/dataset/corruption-perceptions-index/", ?refPeriod, "/sources/world-bank-country-performance-and-institutional-assessment/", ?refPeriod, "/", ?reg)) AS ?observationWB)
-    BIND (STRDT(REPLACE(?worldBankCountryPerformanceAndInstitutionalAssessment, " +", ''), xsd:decimal) AS ?scoreWB)
-    BIND (CONCAT("Corruption Perception Index ", ?refPeriod, " for ", ?rArea, " from World Bank Country Performance and Institutional Assessment in "@en, ?refPeriod) AS ?labelWB)
+    BIND (STRDT(REPLACE(?worldBankCountryPerformanceAndInstitutionalAssessment, " +", ''), xsd:integer) AS ?scoreWB)
+    BIND (STRLANG(CONCAT("Corruption Perception Index ", ?refPeriod, " for ", ?rArea, " from World Bank Country Performance and Institutional Assessment in ", ?refPeriod),"en") AS ?labelWB)
     BIND (URI(CONCAT("http://transparency.270a.info/classification/source/world-bank-country-performance-and-institutional-assessment/", ?refPeriod)) AS ?propSourceWB)
 
  	BIND (URI(CONCAT("http://transparency.270a.info/dataset/corruption-perceptions-index/", ?refPeriod, "/sources/world-economic-forum-executive-opinion-survey/", ?refPeriod, "/", ?reg)) AS ?observationWEF)
-    BIND (STRDT(REPLACE(?worldEconomicForumExecutiveOpinionSurvey, " +", ''), xsd:decimal) AS ?scoreWEF)
-    BIND (CONCAT("Corruption Perception Index ", ?refPeriod, " for ", ?rArea, " from World Economic Forum Executive Opinion Survey in "@en, ?refPeriod) AS ?labelWEF)
+    BIND (STRDT(REPLACE(?worldEconomicForumExecutiveOpinionSurvey, " +", ''), xsd:integer) AS ?scoreWEF)
+    BIND (STRLANG(CONCAT("Corruption Perception Index ", ?refPeriod, " for ", ?rArea, " from World Economic Forum Executive Opinion Survey in ", ?refPeriod),"en") AS ?labelWEF)
     BIND (URI(CONCAT("http://transparency.270a.info/classification/source/world-economic-forum-executive-opinion-survey/", ?refPeriod)) AS ?propSourceWEF)
 
  	BIND (URI(CONCAT("http://transparency.270a.info/dataset/corruption-perceptions-index/", ?refPeriod, "/sources/world-justice-project-rule-of-law-index/", ?refPeriod, "/", ?reg)) AS ?observationWJP)
-    BIND (STRDT(REPLACE(?worldJusticeProjectRuleOfLawIndex, " +", ''), xsd:decimal) AS ?scoreWJP)
-    BIND (CONCAT("Corruption Perception Index ", ?refPeriod, " for ", ?rArea, " from World Justice Project Rule of Law Index in "@en, ?refPeriod) AS ?labelWJP)
+    BIND (STRDT(REPLACE(?worldJusticeProjectRuleOfLawIndex, " +", ''), xsd:integer) AS ?scoreWJP)
+    BIND (STRLANG(CONCAT("Corruption Perception Index ", ?refPeriod, " for ", ?rArea, " from World Justice Project Rule of Law Index in ", ?refPeriod),"en") AS ?labelWJP)
     BIND (URI(CONCAT("http://transparency.270a.info/classification/source/world-justice-project-rule-of-law-index/", ?refPeriod)) AS ?propSourceWJP)
 
  	BIND (URI(CONCAT("http://transparency.270a.info/dataset/corruption-perceptions-index/", ?refPeriod, "/sources/political-and-economic-risk-consultancy-asian-intelligence/", ?refPeriod, "/", ?reg)) AS ?observationPERC)
-    BIND (STRDT(REPLACE(?politicalAndEconomicRiskConsultancyAsianIntelligence, " +", ''), xsd:decimal) AS ?scorePERC)
-    BIND (CONCAT("Corruption Perception Index ", ?refPeriod, " for ", ?rArea, " from Political and Economic Risk Consultancy Asian Intelligence in "@en, ?refPeriod) AS ?labelPERC)
+    BIND (STRDT(REPLACE(?politicalAndEconomicRiskConsultancyAsianIntelligence, " +", ''), xsd:integer) AS ?scorePERC)
+    BIND (STRLANG(CONCAT("Corruption Perception Index ", ?refPeriod, " for ", ?rArea, " from Political and Economic Risk Consultancy Asian Intelligence in ", ?refPeriod),"en") AS ?labelPERC)
     BIND (URI(CONCAT("http://transparency.270a.info/classification/source/political-and-economic-risk-consultancy-asian-intelligence/", ?refPeriod)) AS ?propSourcePERC)
 
     BIND (URI(CONCAT("http://transparency.270a.info/dataset/corruption-perceptions-index/", ?refPeriod, "/sources/transparency-international-bribe-payers-survey/", ?refPeriod, "/", ?reg)) AS ?observationTI)
-    BIND (STRDT(REPLACE(?transparencyInternationalBribePayersSurvey, " +", ''), xsd:decimal) AS ?scoreTI)
-    BIND (CONCAT("Corruption Perception Index ", ?refPeriod, " for ", ?rArea, " from Transparency International Bribe Payers Survey in "@en, ?refPeriod) AS ?labelTI)
+    BIND (STRDT(REPLACE(?transparencyInternationalBribePayersSurvey, " +", ''), xsd:integer) AS ?scoreTI)
+    BIND (STRLANG(CONCAT("Corruption Perception Index ", ?refPeriod, " for ", ?rArea, " from Transparency International Bribe Payers Survey in ", ?refPeriod),"en") AS ?labelTI)
     BIND (URI(CONCAT("http://transparency.270a.info/classification/source/transparency-international-bribe-payers-survey/", ?refPeriod)) AS ?propSourceTI)
 
 	BIND (URI(CONCAT("http://transparency.270a.info/dataset/corruption-perceptions-index/", ?refPeriod, "/sources/freedom-house-nations-in-transit/", ?refPeriod, "/", ?reg)) AS ?observationFH)
-    BIND (STRDT(REPLACE(?freedomHouseNationsInTransit, " +", ''), xsd:decimal) AS ?scoreFH)
-    BIND (CONCAT("Corruption Perception Index ", ?refPeriod, " for ", ?rArea, " from Freedom House Nations In Transit in "@en, ?refPeriod) AS ?labelFH)
+    BIND (STRDT(REPLACE(?freedomHouseNationsInTransit, " +", ''), xsd:integer) AS ?scoreFH)
+    BIND (STRLANG(CONCAT("Corruption Perception Index ", ?refPeriod, " for ", ?rArea, " from Freedom House Nations In Transit in ", ?refPeriod),"en") AS ?labelFH)
     BIND (URI(CONCAT("http://transparency.270a.info/classification/source/freedom-house-nations-in-transit/", ?refPeriod)) AS ?propSourceFH)
 }
 OFFSET 1

@@ -2,49 +2,60 @@
 %include configDrakeFile.d
 
 %wfSetup, $[wfDescMainProcess] <-
+ date=`date +%Y-%m-%d:%H:%M:%S`
  echo "@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> ." > $[wfDescMainProcess]
- echo "@prefix p-plan: <http://purl.org/net/p-plan#> ." >> $[wfDescMainProcess]
- echo "@prefix ao: <http://purl.org/ao/> ." >> $[wfDescMainProcess]
- echo "@prefix ore: <http://www.openarchives.org/ore/terms/> ." >> $[wfDescMainProcess]
- echo "@prefix dct: <http://purl.org/dc/terms/> ." >> $[wfDescMainProcess]
  echo "@prefix xsd: <http://www.w3.org/2001/XMLSchema#> ." >> $[wfDescMainProcess]
- echo "@prefix foaf: <http://xmlns.com/foaf/0.1/> ." >> $[wfDescMainProcess]
- echo "@prefix rdfg: <http://www.w3.org/2004/03/trix/rdfg-1/> ." >> $[wfDescMainProcess]
  echo "@prefix prov: <http://www.w3.org/ns/prov#> ." >> $[wfDescMainProcess]
+ echo "@prefix opmv: <http://purl.org/net/opmv/ns#> ." >> $[wfDescMainProcess]
+ echo "@prefix opmw: <http://www.opmw.org/ontology/> ." >> $[wfDescMainProcess]
  printf "\n" >> $[wfDescMainProcess]
- echo "<$[namespace]workflow/$[agency]> a p-plan:Plan;" >> $[wfDescMainProcess]
- echo 'rdfs:label "Workflow $[agencyLabel]".' >> $[wfDescMainProcess]
+ echo "<$[namespace]workflow/$[agency]> a opmw:WorkflowTemplate ;" >> $[wfDescMainProcess]
+ echo 'rdfs:label "Workflow $[agencyLabel]" ;' >> $[wfDescMainProcess]
+ echo 'dc:contributor <http://renatostauffer.ch> ;' >> $[wfDescMainProcess]
+ echo 'dc:creator <http://renatostauffer.ch> ;' >> $[wfDescMainProcess]
+ echo 'dc:contributor <http://renatostauffer.ch> ;' >> $[wfDescMainProcess]
+ echo 'dc:createdInWorkflowSystem <https://github.com/Factual/drake#clone-the-project> ;' >> $[wfDescMainProcess]
+ echo 'opmw:versionNumber "1"^^xsd:int .' >> $[wfDescMainProcess]
+ printf "\n" >> $[wfDescMainProcess]
 
 ;Inspection of the data to be captured
-%wfInspection, $[wfDescInspection] <-
+%wfInspection, $[wfDescInspection] <- %wfSetup
+ date=`date +%Y-%m-%d:%H:%M:%S`
  echo "Start inspecting data from $[agency]"
- echo "<$[namespace]workflow/$[agency]/inspection> a p-plan:MultiStep;" > $wfDescInspection
- echo "p-plan:isDecomposedAsPlan <$[namespace]workflow/$[agency]>." >> $wfDescInspection
-%call inspection/wfInspection.d
+ echo "<$[namespace]workflow/$[agency]/inspection> a opmw:WorkflowTemplateProcess;" > $wfDescInspection
+ echo "opmw:isStepOfTemplate <$[namespace]workflow/$[agency]>;" >> $wfDescInspection
+ echo "opmv:wasTriggeredBy <$[namespace]workflow/$[agency]>." >> $wfDescInspection
+%call wfInspection.d
 
 ;Extract data from the source
-%wfExtraction, $[wfDescExtraction] <-
+%wfExtraction, $[wfDescExtraction] <- %wfInspection
+ date=`date +%Y-%m-%d:%H:%M:%S`
  echo "Start extracting data from $[agency]"
- echo "<$[namespace]workflow/$[agency]/extraction> a p-plan:MultiStep;" > $wfDescExtraction
- echo "p-plan:isDecomposedAsPlan <$[namespace]workflow/$[agency]>." >> $wfDescExtraction
-%call extraction/wfExtraction.d
+ echo "<$[namespace]workflow/$[agency]/extraction> a opmw:WorkflowTemplateProcess;" > $wfDescExtraction
+ echo "opmw:isStepOfTemplate <$[namespace]workflow/$[agency]>;" >> $wfDescExtraction
+ echo "opmv:wasTriggeredBy <$[namespace]workflow/$[agency]/inspection>." >> $wfDescExtraction
+%call wfExtraction.d
 
 ;Preprecess retrieved data
-%wfPreprocessing, $[wfPreprocessingSteps] <-
+%wfPreprocessing, $[wfPreprocessingSteps] <- %wfExtraction
+ date=`date +%Y-%m-%d:%H:%M:%S`
  echo "Start preprocessing"
- echo "<$[namespace]workflow/$[agency]/preprocessing> a p-plan:MultiStep;" > $wfDescPreprocessing
- echo "p-plan:isDecomposedAsPlan <$[namespace]workflow/$[agency]>." >> $wfDescPreprocessing
-%call preprocessing/wfPreprocessing.d
+ echo "<$[namespace]workflow/$[agency]/preprocessing> a opmw:WorkflowTemplateProcess;" > $wfDescPreprocessing
+ echo "opmw:isStepOfTemplate <$[namespace]workflow/$[agency]>;" >> $wfDescPreprocessing
+ echo "opmv:wasTriggeredBy <$[namespace]workflow/$[agency]/extraction>." >> $wfDescPreprocessing
+%call wfPreprocessing.d
 
 ;Mapp preprocessed data
-%wfMapping, $[wfDescMapping] <-
+%wfMapping, $[wfDescMapping] <- %wfPreprocessing
+ date=`date +%Y-%m-%d:%H:%M:%S`
  echo "Start mapping"
- echo "<$[namespace]workflow/$[agency]/mapping> a p-plan:MultiStep;" > $wfDescMapping
- echo "p-plan:isDecomposedAsPlan <$[namespace]workflow/$[agency]>." >> $wfDescMapping
-%call mapping/wfMapping.d
+ echo "<$[namespace]workflow/$[agency]/mapping> a opmw:WorkflowTemplateProcess;" > $wfDescMapping
+ echo "opmw:isStepOfTemplate <$[namespace]workflow/$[agency]>;" >> $wfDescMapping
+ echo "opmv:wasTriggeredBy <$[namespace]workflow/$[agency]/preprocessing>." >> $wfDescMapping
+%call wfMapping.d
 
 ;Clean up
-%wfCleanup <-
+%wfCleanup <- %wfMapping
  cat $wfDescInspection >> $wfDescMainProcess
  printf "\n" >> $[wfDescMainProcess]
  cat $wfDescExtraction >> $wfDescMainProcess
@@ -52,4 +63,4 @@
  cat $wfDescPreprocessing >> $wfDescMainProcess
  printf "\n" >> $[wfDescMainProcess]
  cat $wfDescMapping >> $wfDescMainProcess
-%call cleanup/wfCleanup.d
+%call wfCleanup.d

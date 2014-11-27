@@ -48,6 +48,7 @@ property:percentile-90-lower ?low;
 property:percentile-90-upper ?up;
 property:score ?score;
 dcterms:source ?sources;
+sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2012>;
 property:surveys-used ?surveys.
 {
 SELECT ?sources{

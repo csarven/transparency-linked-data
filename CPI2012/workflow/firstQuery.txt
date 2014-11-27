@@ -31,14 +31,13 @@ sdmx-attribute:adjustment
                     <http://transparency.270a.info/classification/attribute/matching-percentiles> ;
       sdmx-dimension:refArea
                     <http://transparency.270a.info/classification/country/NA> ;
-      sdmx-dimension:refPeriod
-                    <http://reference.data.gov.uk/id/year/2012> ;
-
+      sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2012> ;
 property:source ?src;
 dcterms:source ?dcSrc.
 }WHERE{
 ?obs rdfs:label ?lab;
 dcterms:source ?dcSrc;
 property:source ?src;
+sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2012>;
 property:score ?score.
 }

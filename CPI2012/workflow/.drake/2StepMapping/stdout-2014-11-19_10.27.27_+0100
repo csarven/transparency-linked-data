@@ -1,0 +1,1 @@
+Create local store in Jena Fuseki Server and import turtleTransparency.ttl into the store for querying.
