@@ -1,0 +1,41 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbp: <http://dbpedia.org/property/>
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX sdmx: <http://purl.org/linked-data/sdmx#>
+PREFIX sdmx-concept: <http://purl.org/linked-data/sdmx/2009/concept#>
+PREFIX sdmx-attribute: <http://purl.org/linked-data/sdmx/2009/attribute#>
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX void: <http://rdfs.org/ns/void#>
+PREFIX xkos: <http://purl.org/linked-data/xkos#>
+PREFIX qudt: <http://qudt.org/1.1/schema/qudt#>
+PREFIX property: <http://transparency.270a.info/property/>
+
+CONSTRUCT{
+?obs a qb:Observation;
+rdfs:label ?lab;
+property:score ?score;
+qb:dataSet    <http://transparency.270a.info/dataset/corruption-perceptions-index/{year}/sources> ;
+sdmx-attribute:adjustment <http://transparency.270a.info/classification/attribute/matching-percentiles> ;
+sdmx-dimension:refArea ?areaRef;
+sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/{year}>;
+property:source ?src;
+dcterms:source ?dcSrc.
+}WHERE{
+?obs rdfs:label ?lab;
+dcterms:source ?dcSrc;
+property:source ?src;
+sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/{year}>;
+sdmx-dimension:refArea ?areaRef;
+property:score ?score.
+}
