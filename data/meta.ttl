@@ -76,6 +76,13 @@ transparency-dataset:corruption-perceptions-index
     dcterms:isPartOf transparency:dataset ;
     .
 
+<http://transparency.270a.info/classification/attribute/cpi-calculation-methodology>
+    skos:prefLabel "CPI Calculation Methology"@en ;
+    rdf:type skos:Concept;
+    skos:definition "This is the methology that Transparency International uses to calculate the CPI since 2012. the CPI is standardized by subtracting the mean of the sources and dividing by the standard deviation (z-scores) and the rescaled to have a mean 45 and standard deviation 20."@en ;
+    rdfs:IsDefinedBy <http://files.transparency.org/content/download/534/2217/file/JRC_Statistical_Assessment_CPI2012_FINAL.pdf> ;
+    skos:inScheme <http://transparency.270a.info/classification/attribute> ;
+    skos:topConceptOf <http://transparency.270a.info/classification/attribute> .
 
 <http://transparency.270a.info/dataset/CPI2009>
     a qb:DataSet ;
