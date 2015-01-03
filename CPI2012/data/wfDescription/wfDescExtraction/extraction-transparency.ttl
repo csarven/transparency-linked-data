@@ -1,7 +1,0 @@
-<http://transparency.270a.info/workflow/transparency/extraction> a opmw:WorkflowTemplateProcess;
-opmw:isStepOfTemplate <http://transparency.270a.info/workflow/transparency>;
-opmv:wasTriggeredBy <http://transparency.270a.info/workflow/transparency/inspection>.
-<http://transparency.270a.info/workflow/transparency/extraction/1StepExtraction> a opmv:Process, prov:Activity, opmw:WorkflowExecutionProcess;
-opmw:correspondsToTemplateProcess <http://transparency.270a.info/workflow/transparency/extraction>.
-<http://transparency.270a.info/workflow/transparency/extraction/2StepExtraction> a opmv:Process, prov:Activity, opmw:WorkflowExecutionProcess;
-opmw:correspondsToTemplateProcess <http://transparency.270a.info/workflow/transparency/extraction>.
