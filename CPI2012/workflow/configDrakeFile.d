@@ -5,14 +5,12 @@
 agency="transparency";
 agencyLabel="Transparency International";
 agencyURL="http://www.transparency.org/"
-agent="Renato Stauffer"
+agent="http://renatostauffer.ch";
 data="../data";
 namespace="http://$agency.270a.info/";
 year=2012;
-
-;Paths to description for workflows
-wfDesc="$[data]/wfDescription/";
-wfDescMainProcess="$[wfDesc]/$[agency].ttl";
+account="http://transparency.270a.info/account/$date";
+config="../data/config.rdf"
 
 ;Paths to data
 transparencyZIP="$[data]/transparency.zip";
@@ -26,7 +24,5 @@ rawTurtle="$[data]/raw.ttl";
 turtleTransparency="$[data]/transparency.ttl";
 
 ;Path to worflow description files
-workflowTemplate="$[namespace]workflow/";
-workflowAccount="$[namespace]account/";
 workflowExecutionDescription="$[data]/workflowExecutionDescription.ttl";
 abstractWorkflowDescription="$[data]/abstractWorkflowDescription.ttl";
