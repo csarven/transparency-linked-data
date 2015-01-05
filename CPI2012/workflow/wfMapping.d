@@ -3,8 +3,8 @@
 %include configDrakeFile.d
 
 %mappCSV2RDF, $[rawTurtle] <- $[refinedMergedCPI]
- tarql $[agency].tarql.txt > $[rawTurtle]
  sed "s/{year}/$[year]/g" template.tarql.txt > $[agency].tarql.txt
+ tarql $[agency].tarql.txt > $[rawTurtle]
  date=`date +%Y%m%dT%H%M%S%Z`;
  account=$(xpath -e "//rdf:Description[1]/opmo:account/text()" $config);
  artifact=$(xpath -e "//opmw:WorkflowExecutionArtifact[@name='refinedMergedCPI']/text()" $config);
